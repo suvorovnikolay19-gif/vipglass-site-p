@@ -1,0 +1,292 @@
+{
+  "method": "Built-in image_gen",
+  "usage": "Illustrative interior images, not photographs of completed commissions",
+  "selectedV2": [
+    "shower-niche",
+    "shower-corner",
+    "stairs-glass",
+    "door-swing",
+    "railing-landing"
+  ],
+  "prompts": [
+    {
+      "file": "architecture-assets.json",
+      "data": {
+        "tool": "built-in image_gen",
+        "assets": [
+          {
+            "id": "door-swing",
+            "prompt": "Use case: photorealistic-natural. Asset type: high-end glass architecture website photograph. Make one convincing real architectural interior photo, around 1024 square. Natural daylight, realistic camera perspective and construction, neutral limestone, warm white plaster and light oak, understated premium interior. The subject glass is CRYSTAL VISION low-iron glass: totally transparent and colorless, with subtle silver-white edges, NEVER green or aqua, realistic faint reflections. No text, no logos, no people, no diagrams, no exotic architectural flourishes. Single clear frameless full-height swing glass door in a light limestone interior doorway, brushed stainless steel vertical handle and realistic wall-mounted hinges, door partially open. Clearly show complete door and its hinges and handle in a modest contemporary home hallway, three-quarter architectural view.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-b974ce04-4423-42d0-8ff2-2dcb4f2f3bd3.png",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/door-swing.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/door-swing.webp",
+            "original_size": [
+              1254,
+              1254
+            ],
+            "webp_size": [
+              1254,
+              1254
+            ],
+            "webp_bytes": 87816
+          },
+          {
+            "id": "door-sliding",
+            "prompt": "Use case: photorealistic-natural. Asset type: high-end glass architecture website photograph. Make one convincing real architectural interior photo, around 1024 square. Natural daylight, realistic camera perspective and construction, neutral limestone, warm white plaster and light oak, understated premium interior. The subject glass is CRYSTAL VISION low-iron glass: totally transparent and colorless, with subtle silver-white edges, NEVER green or aqua, realistic faint reflections. No text, no logos, no people, no diagrams, no exotic architectural flourishes. A single clear glass sliding door across the entrance to a contemporary home office. Discreet but visibly credible overhead stainless steel track with small rollers, coherent sliding mechanism and door handle. Pale warm interior, light oak desk visible through colorless glass. Show the complete doorway and overhead track.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-4ce33fc0-f6fd-4c8a-b80b-23bad4ed1210.png",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/door-sliding.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/door-sliding.webp",
+            "original_size": [
+              1254,
+              1254
+            ],
+            "webp_size": [
+              1254,
+              1254
+            ],
+            "webp_bytes": 86718
+          },
+          {
+            "id": "stairs-glass",
+            "prompt": "Use case: photorealistic-natural. Asset type: high-end glass architecture website photograph. Make one convincing real architectural interior photo, around 1024 square. Natural daylight, realistic camera perspective and construction, neutral limestone, warm white plaster and light oak, understated premium interior. The subject glass is CRYSTAL VISION low-iron glass: totally transparent and colorless, with subtle silver-white edges, NEVER green or aqua, realistic faint reflections. No text, no logos, no people, no diagrams, no exotic architectural flourishes. Straight architectural staircase on a graphite metal central support spine with individual oak treads and a clear glass side balustrade. Show whole staircase from lower floor to upper landing so the glass stair guard is unmistakable, glass panels aligned along the incline and fixed with credible metal fittings. Airy double-height contemporary house, plaster walls, restrained interior, no impossible structures.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-ad23577a-4d82-4554-8e08-4e91166060a1.png",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/stairs-glass.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/stairs-glass.webp",
+            "original_size": [
+              1254,
+              1254
+            ],
+            "webp_size": [
+              1254,
+              1254
+            ],
+            "webp_bytes": 135570
+          },
+          {
+            "id": "railing-landing",
+            "prompt": "Use case: photorealistic-natural. Asset type: high-end glass architecture website photograph. Make one convincing real architectural interior photo, around 1024 square. Natural daylight, realistic camera perspective and construction, neutral limestone, warm white plaster and light oak, understated premium interior. The subject glass is CRYSTAL VISION low-iron glass: totally transparent and colorless, with subtle silver-white edges, NEVER green or aqua, realistic faint reflections. No text, no logos, no people, no diagrams, no exotic architectural flourishes. Interior upper-floor mezzanine edge protected by a continuous clear glass railing anchored in a concealed base channel, with a slim brushed steel top handrail. Continuous safe barrier along the entire visible exposed edge, about normal guardrail height. View from the landing looking obliquely along the railing across an airy double-height living space, natural daylight, light oak floor and pale plaster walls.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-0e633d76-d181-4de0-842c-871a05d9fda9.png",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/railing-landing.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/railing-landing.webp",
+            "original_size": [
+              1254,
+              1254
+            ],
+            "webp_size": [
+              1254,
+              1254
+            ],
+            "webp_bytes": 120074
+          }
+        ]
+      }
+    },
+    {
+      "file": "architecture-corrections.json",
+      "data": {
+        "tool": "built-in image_gen targeted color edit",
+        "assets": [
+          {
+            "id": "stairs-glass",
+            "prompt": "Use case: precise-object-edit. Edit the supplied interior photo with one very small exact correction only: remove ALL cyan, turquoise, blue-green, and green color from the glass edges, especially the nearest full-height vertical glass edge at right and all other glass panel seams. Glass must be completely colorless low-iron CRYSTAL VISION with neutral silver-white or neutral gray edge highlights. The existing colored edges must become achromatic, with zero cyan or green tint. Keep the exact existing scene, all geometry, glass panel shapes, hardware, wood, stone, architecture, camera framing, natural lighting and photograph quality unchanged. Do not recolor the outdoor landscape, sky, trees or reflections away from the glass edges. Do not add frames, text, labels, logos or people. Only neutralize the glass edge tint.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-e60b0e6f-09d7-4341-8add-09301a648b54.png",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/stairs-glass-v2.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/stairs-glass-v2.webp",
+            "original_size": [
+              1254,
+              1254
+            ],
+            "webp_size": [
+              1254,
+              1254
+            ],
+            "webp_bytes": 118160
+          },
+          {
+            "id": "door-swing",
+            "prompt": "Use case: precise-object-edit. Edit the supplied interior photo with one very small exact correction only: remove ALL cyan, turquoise, blue-green, and green color from the glass edges, especially the entire vertical leading edge near the center of the image, and the glass top and bottom edges. Glass must be completely colorless low-iron CRYSTAL VISION with neutral silver-white or neutral gray edge highlights. The existing colored edges must become achromatic, with zero cyan or green tint. Keep the exact existing scene, all geometry, glass panel shapes, hardware, wood, stone, architecture, camera framing, natural lighting and photograph quality unchanged. Do not recolor the outdoor landscape, sky, trees or reflections away from the glass edges. Do not add frames, text, labels, logos or people. Only neutralize the glass edge tint.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-d3d17aba-9788-42ca-a740-6d5bea70baf7.png",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/door-swing-v2.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/door-swing-v2.webp",
+            "original_size": [
+              1254,
+              1254
+            ],
+            "webp_size": [
+              1254,
+              1254
+            ],
+            "webp_bytes": 69310
+          },
+          {
+            "id": "railing-landing",
+            "prompt": "Use case: precise-object-edit. Edit the supplied interior photo with one very small exact correction only: remove ALL cyan, turquoise, blue-green, and green color from the glass edges, especially the nearest vertical glass panel seam in the lower-left/center foreground and all other glass panel seams. Glass must be completely colorless low-iron CRYSTAL VISION with neutral silver-white or neutral gray edge highlights. The existing colored edges must become achromatic, with zero cyan or green tint. Keep the exact existing scene, all geometry, glass panel shapes, hardware, wood, stone, architecture, camera framing, natural lighting and photograph quality unchanged. Do not recolor the outdoor landscape, sky, trees or reflections away from the glass edges. Do not add frames, text, labels, logos or people. Only neutralize the glass edge tint.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-bf987504-fb64-483e-8f0e-b6cc681d1a7c.png",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/railing-landing-v2.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/railing-landing-v2.webp",
+            "original_size": [
+              1254,
+              1254
+            ],
+            "webp_size": [
+              1254,
+              1254
+            ],
+            "webp_bytes": 113236
+          }
+        ]
+      }
+    },
+    {
+      "file": "interior-assets-v2.json",
+      "data": [
+        {
+          "name": "shower-corner-v2",
+          "prompt": "Use case: precise-object-edit. This is a targeted color correction of the supplied architectural photo. Preserve EXACTLY the current room, geometry, perspective, square framing, glass construction, stone walls, vanity, window, fixtures, hinges, handle, plants, outside view, lighting and every object's position. Change ONLY the green/cyan/blue tinted narrow glass edge lines to physically realistic neutral silver-gray or neutral white edge reflections. Particularly fix the long full-height vertical front corner edge in the middle-right and the diagonal bottom edge to its right. Also neutralize every other green/cyan glass outline, including top and left glass outlines. The glass is colorless ultra low-iron CRYSTAL VISION glass and its edges contain ZERO green, cyan, turquoise, teal or blue hue. Neutral achromatic gray and white edge lines, clear transparent panels. Do not add frames or enlarge the thin edges. Do not recolor room surfaces, sky, foliage or fixtures. Keep the architectural photo unchanged everywhere else. No text, logos, people, watermark.",
+          "tool": "built-in image_gen targeted edit",
+          "source_path": "/workspace/scratch/e030de584a13/generated_images/exec-10347298-b857-4ac7-85db-00e3f6b66f5f.png",
+          "path": "/workspace/scratch/e030de584a13/generated-site-images/shower-corner-v2.webp",
+          "png_path": "/workspace/scratch/e030de584a13/generated-site-images/shower-corner-v2.png"
+        },
+        {
+          "name": "shower-niche-v2",
+          "prompt": "Use case: precise-object-edit. Targeted tiny color correction of supplied architectural photo. Preserve EXACTLY all room geometry, open door angle, framing, stone textures, fixtures, hinges, handle, niche, lighting, perspective and every object. Change ONLY the narrow green/blue/cyan tinted glass edge lines to neutral silver-gray or neutral white edge reflections. Especially remove the dark green hue from the tall right edge of the open glass door near the center, from its top and bottom edges, and from any perimeter edge of the fixed panel. The glass is ultra low-iron CRYSTAL VISION, colorless transparent, with ZERO green, cyan, teal, turquoise, blue hue on glass outlines. Neutral achromatic gray/white edge lines of exactly the same thin width, no added frame. Keep all glass panels transparent and the warm room materials unchanged. No changes anywhere else. No text, logos, people.",
+          "tool": "built-in image_gen targeted edit",
+          "source_path": "/workspace/scratch/e030de584a13/generated_images/exec-f2415bf0-e3e9-4afd-8b65-334f54690099.png",
+          "path": "/workspace/scratch/e030de584a13/generated-site-images/shower-niche-v2.webp",
+          "png_path": "/workspace/scratch/e030de584a13/generated-site-images/shower-niche-v2.png"
+        }
+      ]
+    },
+    {
+      "file": "interior-assets.json",
+      "data": [
+        {
+          "name": "shower-niche",
+          "prompt": "Use case: photorealistic-natural. Asset type: premium architectural glazing website photograph. Style: believable high-end architectural interior photography, natural materials, realistic construction and camera perspective, roughly 1024 square clean composition. Every glass panel is CRYSTAL VISION low-iron optically colorless transparent glass, neutral silver edges, absolutely NO green, blue, aqua or cyan tint, clear unobstructed views through glass. Cream stone, warm plaster, oak details, soft daylight, understated refined calm interior. No drawings, no text, no logos, no people, no watermark. Subject: straight frameless clear-glass shower screen precisely fitted in a niche between two beige limestone side walls. One large swing shower door plus one narrower adjacent fixed glass section. Door slightly ajar to clarify the door geometry. Brushed stainless steel hinges physically attached to the left stone wall and glass door, subtle vertical handle, realistic tiny gaps and flush floor. Beautiful calm bathroom, entire enclosure visible from an eye-level slightly off-center front perspective.",
+          "tool": "built-in image_gen",
+          "source_path": "/workspace/scratch/e030de584a13/generated_images/exec-3df5ff46-d282-4fa3-ba41-c6b1129720fc.png",
+          "path": "/workspace/scratch/e030de584a13/generated-site-images/shower-niche.webp"
+        },
+        {
+          "name": "shower-corner",
+          "prompt": "Use case: photorealistic-natural. Asset type: premium architectural glazing website photograph. Style: believable high-end architectural interior photography, natural materials, realistic construction and camera perspective, roughly 1024 square clean composition. Every glass panel is CRYSTAL VISION low-iron optically colorless transparent glass, neutral silver edges, absolutely NO green, blue, aqua or cyan tint, clear unobstructed views through glass. Cream stone, warm plaster, oak details, soft daylight, understated refined calm interior. No drawings, no text, no logos, no people, no watermark. Subject: realistic freestanding corner shower enclosure in neutral limestone bathroom, showing exactly two perpendicular clear frameless glass sides meeting at a 90 degree corner, with hinged clear-glass door in the front side. Both transparent sides clearly visible through subtle reflections and continuous neutral silver glass edges. Solid limestone walls only behind the shower; no opaque wall masquerading as glass. Hinges and handle physically attached to glass and nearby support, clean practical construction. Eye-level three-quarter perspective that makes the two glass sides legible, entire enclosure visible.",
+          "tool": "built-in image_gen",
+          "source_path": "/workspace/scratch/e030de584a13/generated_images/exec-7510338d-c84e-4015-ab49-fb10be7dac78.png",
+          "path": "/workspace/scratch/e030de584a13/generated-site-images/shower-corner.webp"
+        },
+        {
+          "name": "partition-clear",
+          "prompt": "Use case: photorealistic-natural. Asset type: premium architectural glazing website photograph. Style: believable high-end architectural interior photography, natural materials, realistic construction and camera perspective, roughly 1024 square clean composition. Every glass panel is CRYSTAL VISION low-iron optically colorless transparent glass, neutral silver edges, absolutely NO green, blue, aqua or cyan tint, clear unobstructed views through glass. Cream stone, warm plaster, oak details, soft daylight, understated refined calm interior. No drawings, no text, no logos, no people, no watermark. Subject: tall floor-to-ceiling frameless clear glass partition dividing airy warm living room from home office. Entire transparent dividing wall clearly visible, straight vertical joints, realistic neat neutral-metal top and bottom fittings fixed to ceiling and floor, no floating attachments. Cream plaster walls, oak floor, linen sofa in foreground, simple oak desk visible behind glass. Eye-level slightly angled wide view showing the division of the two rooms and exceptional transparency.",
+          "tool": "built-in image_gen",
+          "source_path": "/workspace/scratch/e030de584a13/generated_images/exec-9317f2f3-ae03-4b9f-9091-eb18b46f2751.png",
+          "path": "/workspace/scratch/e030de584a13/generated-site-images/partition-clear.webp"
+        },
+        {
+          "name": "partition-framed",
+          "prompt": "Use case: photorealistic-natural. Asset type: premium architectural glazing website photograph. Style: believable high-end architectural interior photography, natural materials, realistic construction and camera perspective, roughly 1024 square clean composition. Every glass panel is CRYSTAL VISION low-iron optically colorless transparent glass, neutral silver edges, absolutely NO green, blue, aqua or cyan tint, clear unobstructed views through glass. Cream stone, warm plaster, oak details, soft daylight, understated refined calm interior. No drawings, no text, no logos, no people, no watermark. Subject: full-height slim dark metallic-frame glass partition separating a refined office meeting room from a corridor. Completely clear glass panels within a simple regular rectangular grid, straight aligned geometry, physically plausible slim dark metal perimeter and mullions. Cream plaster, warm oak, a simple meeting table and a few chairs visible through transparent glass. Quiet architectural photograph, eye-level three-quarter perspective, clean sparse composition. No frosting, no tinted glass.",
+          "tool": "built-in image_gen",
+          "source_path": "/workspace/scratch/e030de584a13/generated_images/exec-79cbb331-8e3b-4ad1-8179-83167fd4cad5.png",
+          "path": "/workspace/scratch/e030de584a13/generated-site-images/partition-framed.webp"
+        }
+      ]
+    },
+    {
+      "file": "mirror-a-assets.json",
+      "data": [
+        {
+          "name": "mirror-backlit-round",
+          "prompt": "Use case: photorealistic-natural. Asset type: premium glass and mirror website product photograph. Make a convincing real architectural interior photograph, not drawing, not render. Square 1024x1024 composition. Front-facing camera with straight level perspective. Product occupies about 70% of frame. Neutral premium stone, warm beige plaster, tasteful minimal furnishings. Daylight, realistic reflections and physically plausible construction. No people, photographer, logos, text, watermarks, green-tinted glass or greenery reflected in mirror. Mirror reflection must look like a real neutral room. Any transparent glass is Crystal Vision low-iron perfectly colorless, neutral/silver edges. Subject: one large circular frameless mirror with a subtle warm backlight halo, above a simple minimalist light stone basin and floating beige vanity. Mirror fully visible and prominent; quiet cream bathroom.",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-f097de3f-ac18-4333-9582-52827440fc3e.png",
+          "original": "/workspace/scratch/e030de584a13/generated-site-images/mirror-backlit-round.png",
+          "webp": "/workspace/scratch/e030de584a13/generated-site-images/mirror-backlit-round.webp",
+          "method": "built-in image_gen",
+          "inspected": true
+        },
+        {
+          "name": "mirror-backlit-rect",
+          "prompt": "Use case: photorealistic-natural. Asset type: premium glass and mirror website product photograph. Make a convincing real architectural interior photograph, not drawing, not render. Square 1024x1024 composition. Front-facing camera with straight level perspective. Product occupies about 70% of frame. Neutral premium stone, warm beige plaster, tasteful minimal furnishings. Daylight, realistic reflections and physically plausible construction. No people, photographer, logos, text, watermarks, green-tinted glass or greenery reflected in mirror. Mirror reflection must look like a real neutral room. Any transparent glass is Crystal Vision low-iron perfectly colorless, neutral/silver edges. Subject: one wide horizontal rectangular frameless mirror with a soft warm backlit perimeter, above a simple cream stone floating vanity in a minimalist cream bathroom. The mirror has crisp square corners and is fully visible. Close front view, mirror very prominent.",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-2da06a1d-ac2c-4f95-9396-376a5dc8713f.png",
+          "original": "/workspace/scratch/e030de584a13/generated-site-images/mirror-backlit-rect.png",
+          "webp": "/workspace/scratch/e030de584a13/generated-site-images/mirror-backlit-rect.webp",
+          "method": "built-in image_gen",
+          "inspected": true
+        },
+        {
+          "name": "mirror-brass-round",
+          "prompt": "Use case: photorealistic-natural. Asset type: premium glass and mirror website product photograph. Make a convincing real architectural interior photograph, not drawing, not render. Square 1024x1024 composition. Front-facing camera with straight level perspective. Product occupies about 70% of frame. Neutral premium stone, warm beige plaster, tasteful minimal furnishings. Daylight, realistic reflections and physically plausible construction. No people, photographer, logos, text, watermarks, green-tinted glass or greenery reflected in mirror. Mirror reflection must look like a real neutral room. Any transparent glass is Crystal Vision low-iron perfectly colorless, neutral/silver edges. Subject: one large circular mirror with a very slim brushed brass metal frame above a minimal travertine console. Front view, complete circular outline fully visible, understated beige interior, textured limestone floor. Brass frame thin and precise, natural mirror reflection.",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-2e6403aa-1fbf-4f0d-8d48-74d53081c617.png",
+          "original": "/workspace/scratch/e030de584a13/generated-site-images/mirror-brass-round.png",
+          "webp": "/workspace/scratch/e030de584a13/generated-site-images/mirror-brass-round.webp",
+          "method": "built-in image_gen",
+          "inspected": true
+        },
+        {
+          "name": "mirror-wood-arch",
+          "prompt": "Use case: photorealistic-natural. Asset type: premium glass and mirror website product photograph. Make a convincing real architectural interior photograph, not drawing, not render. Square 1024x1024 composition. Front-facing camera with straight level perspective. Product occupies about 70% of frame. Neutral premium stone, warm beige plaster, tasteful minimal furnishings. Daylight, realistic reflections and physically plausible construction. No people, photographer, logos, text, watermarks, green-tinted glass or greenery reflected in mirror. Mirror reflection must look like a real neutral room. Any transparent glass is Crystal Vision low-iron perfectly colorless, neutral/silver edges. Subject: one tall arched full-length mirror with a warm walnut timber frame leaning securely against a beige plaster wall in a stylish minimalist foyer. Front view, full arch and frame visible; natural walnut grain and realistic frame joinery. Calm stone floor, bright neutral reflected hallway, no furniture blocking mirror. Mirror dominant and tall in the square image.",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-753c96da-fba7-4e43-9536-2f5d3c1fb34a.png",
+          "original": "/workspace/scratch/e030de584a13/generated-site-images/mirror-wood-arch.png",
+          "webp": "/workspace/scratch/e030de584a13/generated-site-images/mirror-wood-arch.webp",
+          "method": "built-in image_gen",
+          "inspected": true
+        }
+      ]
+    },
+    {
+      "file": "mirror-b-assets.json",
+      "data": {
+        "assets": [
+          {
+            "slug": "mirror-frameless-arch",
+            "prompt": "Use case: photorealistic-natural. Website product category photo, square around 1024px. Real professional architectural interior photograph, not CGI or illustration. A single tall arched frameless silver mirror mounted vertically on cream plaster wall in a light contemporary dressing room, full mirror visible and prominent, front view with minimal perspective. Reflected softly lit neutral wardrobe and pale wall physically plausible, no camera visible. Colorless low-iron glass with neutral polished silver edges, absolutely no green cast. Warm off-white plaster, light stone and subtle walnut details, soft natural daylight, crisp realistic textures. No people, no letters, text, logos or watermark.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-080ec4b6-cef7-4eca-8998-e8a254c4ceb9.png",
+            "mode": "built-in image_gen",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/mirror-frameless-arch.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/mirror-frameless-arch.webp",
+            "inspection": "Accepted; photorealistic, prominent mirror, neutral/bronze intentional coloration, no text/people.",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 111324
+          },
+          {
+            "slug": "mirror-panel-bevel",
+            "prompt": "Use case: photorealistic-natural. Website product category photo, square around 1024px. Real professional architectural interior photograph, not a render or drawing. A beautiful floor-to-ceiling wall composition of rectangular silver mirrored panels with subtle polished bevels in a warm neutral contemporary living room. Repeating orderly geometric rectangular pattern must be clearly visible, panels occupy most of frame, nearly frontal safe flat perspective. Physically plausible reflections of a cream sofa and windows, minimal furnishing, no confusing reflections. Neutral silver mirror and colorless low-iron glass edges, no green glass tint. Pale stone, ivory plaster, walnut and daylight. No people, no letters, text, logos or watermark.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-4b21640a-c32a-4ec9-b5ad-39ba160bc35a.png",
+            "mode": "built-in image_gen",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/mirror-panel-bevel.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/mirror-panel-bevel.webp",
+            "inspection": "Accepted; photorealistic, prominent mirror, neutral/bronze intentional coloration, no text/people.",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 122218
+          },
+          {
+            "slug": "mirror-wall",
+            "prompt": "Use case: photorealistic-natural. Website product category photo, square around 1024px. Real architectural interior photograph of a full-height large rectangular silver mirrored wall in a modern airy entrance hall. Large mirror surfaces form most of the frame, clear very slim straight black vertical divisions, oak plank floor, off-white plaster walls. Slight natural frontal perspective, realistic reflection of opposite wall and doorway, light from a window, no camera reflection. Colorless neutral silver low-iron mirror edges, absolutely no green cast. Professionally photographed real materials and daylight, not illustration or CGI. No people, no letters, text, logos or watermark.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-32a64f96-1282-4bb9-ad55-c9066f590aac.png",
+            "mode": "built-in image_gen",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/mirror-wall.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/mirror-wall.webp",
+            "inspection": "Accepted; photorealistic, prominent mirror, neutral/bronze intentional coloration, no text/people.",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 116232
+          },
+          {
+            "slug": "mirror-decorative-bronze",
+            "prompt": "Use case: photorealistic-natural. Website product category photo, square around 1024px. Real professional architectural interior photograph, not CGI, not illustration. Large rectangular decorative antique bronze mirror wall panel mounted above a dark walnut console in a tasteful beige contemporary interior. Mirror is the prominent subject, entire rectangular panel visible, almost frontal view. Clearly deliberate antique bronze mirror surface with refined mottled warm bronze patina and softly reflected room; brown bronze and warm silver tones, not green glass, no green cast. Subtle cream stone and plaster texture, gentle natural daylight and believable mirror reflections. Minimal decoration, no people, no letters, text, logos or watermark.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-360f1ad9-e65c-4d66-b72f-25caf26e796c.png",
+            "mode": "built-in image_gen",
+            "original": "/workspace/scratch/e030de584a13/generated-site-images/mirror-decorative-bronze.png",
+            "webp": "/workspace/scratch/e030de584a13/generated-site-images/mirror-decorative-bronze.webp",
+            "inspection": "Accepted; photorealistic, prominent mirror, neutral/bronze intentional coloration, no text/people.",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 165862
+          }
+        ],
+        "failures": []
+      }
+    }
+  ]
+}

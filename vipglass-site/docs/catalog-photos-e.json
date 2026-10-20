@@ -1,0 +1,71 @@
+{
+  "created": "2026-10-16",
+  "tool": "builtin image_gen.imagegen",
+  "type": "AI-generated catalogue illustrations, not actual VIP Glass samples or projects",
+  "format": {
+    "full": "WebP quality82,1254square",
+    "thumbnail": "WebP quality78,480square"
+  },
+  "assets": [
+    {
+      "key": "material-painted-matte",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-0b2d1b7c-80ee-4bee-b124-f732024a9364.png",
+      "path": "dist/assets/production/material-painted-matte.webp",
+      "thumbnail": "dist/assets/production/material-painted-matte-480.webp",
+      "prompt": "Use case: product-mockup. Square catalog photograph for premium architectural glass materials. A close tabletop still life of three large thin rectangular 6 mm real low-iron glass sample tiles overlapping slightly on a warm pale limestone surface: warm beige, off-white and charcoal-black MATTE back-painted glass. Show front satin-matte nonreflective finish, fine diffuse highlights, crisp thin glass edges with neutral clear edge tone, subtle colored opaque backing. A single cropped stack edge makes the material visibly glass rather than ceramic or thick stone. The entire main sample faces must be beautifully soft MATTE, absolutely no mirror gloss or specular reflections. Photographic natural studio side lighting, warm white neutral backdrop, generous but useful framing. No writing, labels, brands, logos, diagrams, people, green tint, swatch chart, textures resembling tiles or fabric.",
+      "review": "Three beige/off-white/charcoal sample faces are matte, with neutral thin glass edges. Not glossy colored glass.",
+      "visualReview": "Inspected actual generated image; accepted.",
+      "width": 1254,
+      "height": 1254,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "bytes": 99704,
+      "thumbnailBytes": 15366
+    },
+    {
+      "key": "material-film-application",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-4239bcd0-ea67-42dd-be03-6bafd0d66714.png",
+      "path": "dist/assets/production/material-film-application.webp",
+      "thumbnail": "dist/assets/production/material-film-application-480.webp",
+      "prompt": "Use case: precise-object-edit. Keep this exact photograph, composition, gloved hand, squeegee, frosted adhesive film, lifted film corner and background unchanged. Change ONLY the visible vertical glass edge at the right from the current blue/teal dark greenish hue to a neutral colourless low-iron crystal-clear silver-grey edge. Also remove any green or turquoise chroma from the thin top edge. It must remain a real transparent glass panel, with a thin neutral light-grey edge, not a new metal frame. Keep every other detail and lighting. No text or logo.",
+      "review": "An applied flexible frosted film, lifted corner and squeegee are clearly shown; neutral glass edge corrected in one targeted edit.",
+      "visualReview": "Inspected actual generated image; accepted.",
+      "width": 1254,
+      "height": 1254,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "bytes": 69194,
+      "thumbnailBytes": 10848
+    },
+    {
+      "key": "railing-posts",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-d5cb4136-8631-4e2b-82b6-848cb5120af5.png",
+      "path": "dist/assets/interiors/railing-posts.webp",
+      "thumbnail": "dist/assets/interiors/railing-posts-480.webp",
+      "prompt": "Use case: precise-object-edit. Preserve this exact staircase photograph, proportions, framing, all vertical metal posts and all side clamps, handrail, glazing shapes, steps, architecture and lighting. Change ONLY the thin glass panel edges, currently teal/green-blue, into colour-neutral light silver-grey edges of premium ultra-clear low-iron Crystal Vision glass. Remove all green and cyan/teal pigment from the glass edges, keep glass physically transparent with realistic fine neutral reflections. Do not modify any fixing, add posts, remove posts, or change geometry. No text or logo.",
+      "review": "Glass infills are held between vertical brushed-metal posts with side clamps. Neutral glass edges corrected in one targeted edit.",
+      "visualReview": "Inspected actual generated image; accepted.",
+      "width": 1254,
+      "height": 1254,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "bytes": 60124,
+      "thumbnailBytes": 15042
+    },
+    {
+      "key": "railing-inclined-profile",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-314a9cfb-6e38-4d8c-8ca2-efb342eec4d7.png",
+      "path": "dist/assets/interiors/railing-inclined-profile.webp",
+      "thumbnail": "dist/assets/interiors/railing-inclined-profile-480.webp",
+      "prompt": "Use case: photorealistic-natural. Square architectural catalog photograph. Elegant straight indoor staircase with warm ivory stone treads, viewed medium-wide from its open side so the whole lower railing fixing is clearly visible. A frameless absolutely colourless low-iron clear GLASS balustrade follows the slope of the stair flight. The glass is fixed solely in ONE continuous solid brushed stainless steel base U-channel, a straight diagonal sloping rail mounted along the outside stringer, holding the bottom edges of all glass panels. The sloping U-channel must be prominent and unmistakable, run continuously from lower end toward landing, with a real metal profile cross section visible near the closest lower end. No vertical posts, no clamps sticking out, no round point fixing discs, no handrail over the glass. The top edge of glass follows the same consistent slope, clean separate panels with narrow straight vertical joints, real reflections, neutral colourless SILVER-GREY GLASS EDGES absolutely NO GREEN CYAN TEAL edges. Pale warm walls, soft daylight, quiet high quality real residence, coherent staircase geometry. No people, text, logo, watermark, diagrams.",
+      "review": "Clear glass follows the stair flight in a continuous inclined U-channel, visible at the lower end; no posts or point-fixing discs.",
+      "visualReview": "Inspected actual generated image; accepted.",
+      "width": 1254,
+      "height": 1254,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "bytes": 86278,
+      "thumbnailBytes": 16220
+    }
+  ]
+}

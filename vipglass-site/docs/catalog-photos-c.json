@@ -1,0 +1,63 @@
+{
+  "created": "2026-10-16",
+  "tool": "builtin image_gen.imagegen",
+  "type": "AI-generated catalogue illustrations, not actual VIP Glass samples or projects",
+  "format": {
+    "full": "WebP quality82,native1254square",
+    "thumbnail": "WebP quality78,480square"
+  },
+  "assets": [
+    {
+      "key": "service-rounded-corner",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-2fb7cade-f0d5-4b3c-8448-49ef25a9480a.png",
+      "path": "dist/assets/production/service-rounded-corner.webp",
+      "thumbnail": "dist/assets/production/service-rounded-corner-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square photographic material/process-result catalogue image for VIP Glass. A real product photograph of a rectangular thick ultra-clear glass tabletop sample with one highly visible large ROUNDED CORNER radius. The glass lies flat on a warm light beige matte tabletop, with the rounded corner nearest the camera in the lower foreground and the straight sides receding diagonally away. The nearest corner is a smooth continuous generous quarter-circle, not a tiny eased corner, not a chamfer. Smooth polished edges have only neutral pale gray reflections, not green or cyan. Minimal empty tabletop background, soft studio daylight, crisp material detail. Photograph the finished result, not a machine or technical illustration. Professional restrained premium product photography, 1254x1254 square composition, accurate physical geometry, warm neutral light, natural material shadows. Low-iron Crystal Vision glass, all clear areas and exposed edges completely colorless neutral gray, NO green, turquoise or cyan cast. No text, brands, logos, watermark, diagrams, arrows, rulers, dimension labels, people or hands.",
+      "review": "A generous smooth rounded corner is prominent, with polished neutral clear edge. No dimension or radius specification implied.",
+      "visualReview": "Passed; no extra generation iteration needed.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 89328,
+      "thumbnailBytes": 12580
+    },
+    {
+      "key": "service-laser-matting",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-09122e71-dd43-41ee-aff0-8b5494c6116a.png",
+      "path": "dist/assets/production/service-laser-matting.webp",
+      "thumbnail": "dist/assets/production/service-laser-matting-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square photographic material/process-result catalogue image for VIP Glass. A real product photograph of a clear rectangular low-iron glass plaque resting upright in a tiny neutral display support on warm beige stone. A refined fine botanical fern-leaf motif is LASER-ETCHED as delicate white frosted microdots onto the glass face, with fine raster shading and enough clear untouched glass around it to demonstrate transparency. The motif appears physically frosted on the glass surface, not a floating white drawing, not deep carved grooves, no V-cut channels, no beveled pattern. Crisp visible polished transparent neutral edges, shallow depth of field and a warm uncluttered stone studio background. Professional restrained premium product photography, 1254x1254 square composition, accurate physical geometry, warm neutral light, natural material shadows. Low-iron Crystal Vision glass, all clear areas and exposed edges completely colorless neutral gray, NO green, turquoise or cyan cast. No text, brands, logos, watermark, diagrams, arrows, rulers, dimension labels, people or hands.",
+      "review": "Fine white frosted botanical microdot motif visibly differs from deep V-cut engraving; glass remains transparent around motif. Illustrative desired result, not machine capability proof.",
+      "visualReview": "Passed; no extra generation iteration needed.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 145248,
+      "thumbnailBytes": 25344
+    },
+    {
+      "key": "material-printed-photo",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-d81b4644-8b8c-4934-b814-ec3af3dc5105.png",
+      "path": "dist/assets/production/material-printed-photo.webp",
+      "thumbnail": "dist/assets/production/material-printed-photo-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square photographic material/process-result catalogue image for VIP Glass. A real product photograph of a square low-iron glass material sample with a photographic PRINT on its rear face. The print is a realistic mountain and calm lake landscape photograph in natural muted blue-gray and warm sand colors, visibly printed onto a piece of glass. Show it leaning upright slightly backwards on a warm beige tabletop. Three quarter camera angle shows the actual thin glass slab, exposed clear polished side edge, a slim 15mm transparent clear perimeter strip and soft glossy reflections over the photographic image. No frame, no wall hanging, not a canvas or painted picture. The glass sample is the subject, not a landscape scene filling the entire photograph. Professional restrained premium product photography, 1254x1254 square composition, accurate physical geometry, warm neutral light, natural material shadows. Low-iron Crystal Vision glass, all clear areas and exposed edges completely colorless neutral gray, NO green, turquoise or cyan cast. No text, brands, logos, watermark, diagrams, arrows, rulers, dimension labels, people or hands.",
+      "review": "Photographic landscape print sits within a clearly visible polished glass slab with glossy reflections; not an empty pane or wall art.",
+      "visualReview": "Passed; no extra generation iteration needed.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 156992,
+      "thumbnailBytes": 27324
+    },
+    {
+      "key": "material-screenprint",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-7aa42569-311e-4c2e-894a-aeb8db9d1253.png",
+      "path": "dist/assets/production/material-screenprint.webp",
+      "thumbnail": "dist/assets/production/material-screenprint-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square photographic material/process-result catalogue image for VIP Glass. A real product photograph of a square low-iron glass sample with a ceramic SCREEN-PRINTED black dot matrix pattern. The panel stands in a tiny unobtrusive display support on a warm beige tabletop, viewed at a slight three-quarter angle. Its surface has precisely spaced repeating small round black opaque dots in a regular grid, with generous clear transparent glass between the dots so the softly lit beige background remains visible THROUGH the glass. Dots occupy about thirty percent of area, not a solid black panel, not smoked glass, not a drawn grid, no mesh fabric. Show the neutral polished transparent perimeter and slight real glass reflections. Professional restrained premium product photography, 1254x1254 square composition, accurate physical geometry, warm neutral light, natural material shadows. Low-iron Crystal Vision glass, all clear areas and exposed edges completely colorless neutral gray, NO green, turquoise or cyan cast. No text, brands, logos, watermark, diagrams, arrows, rulers, dimension labels, people or hands.",
+      "review": "Repeated opaque black dots on clear transparent substrate are visibly discrete and regular; not a uniformly painted panel.",
+      "visualReview": "Passed; no extra generation iteration needed.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 83440,
+      "thumbnailBytes": 19670
+    }
+  ]
+}

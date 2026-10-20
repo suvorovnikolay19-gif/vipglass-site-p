@@ -1,0 +1,5004 @@
+{
+  "catalog": [
+    {
+      "path": "/catalog/mirrors",
+      "id": "mirrors",
+      "title": "Зеркала",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light",
+      "id": "with-light",
+      "title": "Зеркала с подсветкой",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour",
+      "id": "contour",
+      "title": "Контурная подсветка",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rounded",
+      "id": "rounded",
+      "title": "Округлые формы",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rounded/round",
+      "id": "round",
+      "title": "Круглые",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rounded/round/frameless",
+      "id": "frameless",
+      "title": "Круглое зеркало с контурной подсветкой без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rounded/round/metal-frame",
+      "id": "metal-frame",
+      "title": "Круглое зеркало с контурной подсветкой в тонкой раме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rounded/oval",
+      "id": "oval",
+      "title": "Овальные",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rounded/oval/vertical",
+      "id": "vertical",
+      "title": "Вертикальное овальное зеркало с контурной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rounded/oval/horizontal",
+      "id": "horizontal",
+      "title": "Горизонтальное овальное зеркало с контурной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольные формы",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rectangular/portrait",
+      "id": "portrait",
+      "title": "Вертикальное прямоугольное зеркало с контурной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/contour/rectangular/landscape",
+      "id": "landscape",
+      "title": "Горизонтальное прямоугольное зеркало с контурной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/front",
+      "id": "front",
+      "title": "Фронтальная подсветка",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/front/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольные",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/front/rectangular/portrait",
+      "id": "portrait",
+      "title": "Вертикальное зеркало с фронтальной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/front/rectangular/landscape",
+      "id": "landscape",
+      "title": "Горизонтальное зеркало с фронтальной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/front/round",
+      "id": "round",
+      "title": "Круглые",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/front/round/single",
+      "id": "single",
+      "title": "Одиночное круглое зеркало с фронтальной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/front/round/pair",
+      "id": "pair",
+      "title": "Парная композиция круглых зеркал с фронтальной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/combined",
+      "id": "combined",
+      "title": "Комбинированная подсветка",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/combined/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольные",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/combined/rectangular/portrait",
+      "id": "portrait",
+      "title": "Вертикальное зеркало с комбинированной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/combined/rectangular/landscape",
+      "id": "landscape",
+      "title": "Горизонтальное зеркало с комбинированной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/combined/soft-outline",
+      "id": "soft-outline",
+      "title": "Плавный контур",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/combined/soft-outline/oval",
+      "id": "oval",
+      "title": "Овальное зеркало с комбинированной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/combined/soft-outline/arch",
+      "id": "arch",
+      "title": "Арочное зеркало с комбинированной подсветкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/dressing",
+      "id": "dressing",
+      "title": "Гримёрные зеркала",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/dressing/makeup-zone",
+      "id": "makeup-zone",
+      "title": "Для зоны макияжа",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/dressing/makeup-zone/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное гримёрное зеркало",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/dressing/makeup-zone/round",
+      "id": "round",
+      "title": "Круглое гримёрное зеркало",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/dressing/full-length",
+      "id": "full-length",
+      "title": "Гримёрные в полный рост",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/dressing/full-length/simple-frame",
+      "id": "simple-frame",
+      "title": "Ростовое гримёрное зеркало с лаконичным обрамлением",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/with-light/dressing/full-length/soft-frame",
+      "id": "soft-frame",
+      "title": "Ростовое гримёрное зеркало в мягком обрамлении",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed",
+      "id": "framed",
+      "title": "Зеркала в раме",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/metal",
+      "id": "metal",
+      "title": "Металлическая рама",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/metal/slim",
+      "id": "slim",
+      "title": "Тонкий профиль",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/metal/slim/round",
+      "id": "round",
+      "title": "Круглое зеркало в тонкой металлической раме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/metal/slim/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное зеркало в тонкой металлической раме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/metal/accent",
+      "id": "accent",
+      "title": "Выразительный профиль",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/metal/accent/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное зеркало с выразительной металлической рамой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/metal/accent/arch",
+      "id": "arch",
+      "title": "Арочное зеркало с выразительной металлической рамой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/aluminium",
+      "id": "aluminium",
+      "title": "Алюминиевая рама",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/aluminium/round",
+      "id": "round",
+      "title": "Круглое зеркало в алюминиевой раме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/aluminium/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное зеркало в алюминиевой раме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/brass",
+      "id": "brass",
+      "title": "Латунная рама",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/brass/round",
+      "id": "round",
+      "title": "Круглое зеркало в латунной раме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/brass/oval",
+      "id": "oval",
+      "title": "Овальное зеркало в латунной раме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/wood",
+      "id": "wood",
+      "title": "Деревянная рама",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/wood/grain",
+      "id": "grain",
+      "title": "С видимой фактурой дерева",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/wood/grain/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное зеркало в раме с фактурой дерева",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/wood/grain/oval",
+      "id": "oval",
+      "title": "Овальное зеркало в раме с фактурой дерева",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/wood/painted",
+      "id": "painted",
+      "title": "Окрашенная деревянная рама",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/wood/painted/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное зеркало в окрашенной деревянной раме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/wood/painted/arch",
+      "id": "arch",
+      "title": "Арочное зеркало в окрашенной деревянной раме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/baguette",
+      "id": "baguette",
+      "title": "Зеркала в багете",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/baguette/smooth",
+      "id": "smooth",
+      "title": "Лаконичный багет",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/baguette/smooth/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное зеркало в лаконичном багете",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/baguette/smooth/round",
+      "id": "round",
+      "title": "Круглое зеркало в лаконичном багете",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/baguette/relief",
+      "id": "relief",
+      "title": "Рельефный багет",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/baguette/relief/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное зеркало в рельефном багете",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/baguette/relief/oval",
+      "id": "oval",
+      "title": "Овальное зеркало в рельефном багете",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/soft",
+      "id": "soft",
+      "title": "Мягкое обрамление",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/soft/leather",
+      "id": "leather",
+      "title": "Кожа",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/soft/leather/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное зеркало в кожаном обрамлении",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/soft/leather/oval",
+      "id": "oval",
+      "title": "Овальное зеркало в кожаном обрамлении",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/soft/fabric",
+      "id": "fabric",
+      "title": "Ткань",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/soft/fabric/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное зеркало в тканевом обрамлении",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/framed/soft/fabric/round",
+      "id": "round",
+      "title": "Круглое зеркало в тканевом обрамлении",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless",
+      "id": "frameless",
+      "title": "Зеркала без рамы",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольные",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rectangular/polished-edge",
+      "id": "polished-edge",
+      "title": "С полированной кромкой",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rectangular/polished-edge/portrait",
+      "id": "portrait",
+      "title": "Вертикальное прямоугольное зеркало без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rectangular/polished-edge/landscape",
+      "id": "landscape",
+      "title": "Горизонтальное прямоугольное зеркало без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rectangular/bevel",
+      "id": "bevel",
+      "title": "С фацетом по краю",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rectangular/bevel/portrait",
+      "id": "portrait",
+      "title": "Вертикальное прямоугольное зеркало с фацетом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rectangular/bevel/landscape",
+      "id": "landscape",
+      "title": "Горизонтальное прямоугольное зеркало с фацетом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rounded",
+      "id": "rounded",
+      "title": "Круглые и овальные",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rounded/round",
+      "id": "round",
+      "title": "Круглые",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rounded/round/single",
+      "id": "single",
+      "title": "Одиночное круглое зеркало без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rounded/round/pair",
+      "id": "pair",
+      "title": "Пара круглых зеркал без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rounded/oval",
+      "id": "oval",
+      "title": "Овальные",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rounded/oval/single",
+      "id": "single",
+      "title": "Одиночное овальное зеркало без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/rounded/oval/pair",
+      "id": "pair",
+      "title": "Пара овальных зеркал без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/arched",
+      "id": "arched",
+      "title": "Арочные",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/arched/full-length",
+      "id": "full-length",
+      "title": "Ростовое арочное зеркало без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/arched/wide",
+      "id": "wide",
+      "title": "Широкое арочное зеркало без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/free-outline",
+      "id": "free-outline",
+      "title": "Свободная форма",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/free-outline/wave",
+      "id": "wave",
+      "title": "Зеркало с волнистым контуром без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/frameless/free-outline/asymmetric",
+      "id": "asymmetric",
+      "title": "Асимметричное зеркало без рамы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels",
+      "id": "panels",
+      "title": "Зеркальные панно",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/bevel",
+      "id": "bevel",
+      "title": "Панно с фацетом",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/bevel/diamonds",
+      "id": "diamonds",
+      "title": "Ромбовидная раскладка",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/bevel/diamonds/regular",
+      "id": "regular",
+      "title": "Панно с фацетом из равномерных ромбов",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/bevel/diamonds/elongated",
+      "id": "elongated",
+      "title": "Панно с фацетом из вытянутых ромбов",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/bevel/rectangles",
+      "id": "rectangles",
+      "title": "Прямоугольная раскладка",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/bevel/rectangles/aligned",
+      "id": "aligned",
+      "title": "Панно с фацетом и совмещёнными швами",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/bevel/rectangles/staggered",
+      "id": "staggered",
+      "title": "Панно с фацетом со смещением рядов",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric",
+      "id": "geometric",
+      "title": "Геометрические композиции",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/strips",
+      "id": "strips",
+      "title": "Зеркальные полосы",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/strips/vertical",
+      "id": "vertical",
+      "title": "Панно из вертикальных зеркальных полос",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/strips/horizontal",
+      "id": "horizontal",
+      "title": "Панно из горизонтальных зеркальных полос",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/grid",
+      "id": "grid",
+      "title": "Модульная сетка",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/grid/squares",
+      "id": "squares",
+      "title": "Панно из квадратных зеркальных модулей",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/grid/mixed",
+      "id": "mixed",
+      "title": "Панно из модулей разных пропорций",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/coloured",
+      "id": "coloured",
+      "title": "Цветные зеркальные панно",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/coloured/single-tone",
+      "id": "single-tone",
+      "title": "Один оттенок",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/coloured/single-tone/bronze",
+      "id": "bronze",
+      "title": "Панно из зеркальных элементов бронзового оттенка",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/coloured/single-tone/graphite",
+      "id": "graphite",
+      "title": "Панно из зеркальных элементов графитового оттенка",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/coloured/mixed-tones",
+      "id": "mixed-tones",
+      "title": "Сочетание оттенков",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/coloured/mixed-tones/alternating",
+      "id": "alternating",
+      "title": "Панно с чередованием зеркальных оттенков",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/panels/coloured/mixed-tones/accents",
+      "id": "accents",
+      "title": "Панно с цветными зеркальными акцентами",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture",
+      "id": "architecture",
+      "title": "Зеркала в архитектуре",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/walls",
+      "id": "walls",
+      "title": "Зеркальные стены",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/walls/single-panel",
+      "id": "single-panel",
+      "title": "Единое полотно",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/walls/single-panel/accent",
+      "id": "accent",
+      "title": "Локальная зеркальная поверхность на стене",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/walls/single-panel/full-height",
+      "id": "full-height",
+      "title": "Ростовая зеркальная поверхность на стене",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/walls/sectioned",
+      "id": "sectioned",
+      "title": "Секционная поверхность",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/walls/sectioned/vertical",
+      "id": "vertical",
+      "title": "Зеркальная стена с вертикальным делением",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/walls/sectioned/horizontal",
+      "id": "horizontal",
+      "title": "Зеркальная стена с горизонтальным делением",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/ceilings",
+      "id": "ceilings",
+      "title": "Зеркальные потолки",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/ceilings/square-grid",
+      "id": "square-grid",
+      "title": "Потолочная композиция из квадратных зеркальных элементов",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/ceilings/rectangular-grid",
+      "id": "rectangular-grid",
+      "title": "Потолочная композиция из прямоугольных зеркальных элементов",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/doors",
+      "id": "doors",
+      "title": "Зеркальные двери",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/doors/swing",
+      "id": "swing",
+      "title": "Распашная дверь с зеркальной поверхностью",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/architecture/doors/sliding",
+      "id": "sliding",
+      "title": "Раздвижная дверь с зеркальной поверхностью",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/pivot",
+      "id": "pivot",
+      "title": "Поворотные зеркала",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/pivot/wall",
+      "id": "wall",
+      "title": "У стены",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/pivot/wall/round",
+      "id": "round",
+      "title": "Круглое поворотное зеркало у стены",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/pivot/wall/rectangular",
+      "id": "rectangular",
+      "title": "Прямоугольное поворотное зеркало у стены",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/pivot/spatial",
+      "id": "spatial",
+      "title": "В пространстве",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/pivot/spatial/oval",
+      "id": "oval",
+      "title": "Ростовое овальное поворотное зеркало",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/pivot/spatial/rectangular",
+      "id": "rectangular",
+      "title": "Ростовое прямоугольное поворотное зеркало",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/smart",
+      "id": "smart",
+      "title": "Smart и интерактивные зеркала",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/smart/home",
+      "id": "home",
+      "title": "Для домашнего пространства",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/smart/home/rectangular",
+      "id": "rectangular",
+      "title": "Концепция прямоугольного smart-зеркала для дома",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/smart/home/oval",
+      "id": "oval",
+      "title": "Концепция овального smart-зеркала для дома",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/smart/professional",
+      "id": "professional",
+      "title": "Для салона или клиентского пространства",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/smart/professional/full-length",
+      "id": "full-length",
+      "title": "Концепция ростового smart-зеркала для клиентской зоны",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/smart/professional/arch",
+      "id": "arch",
+      "title": "Концепция арочного smart-зеркала для салона",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative",
+      "id": "decorative",
+      "title": "Декоративные зеркала",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/aged",
+      "id": "aged",
+      "title": "С эффектом состаривания",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/aged/single",
+      "id": "single",
+      "title": "Отдельное зеркало с эффектом состаривания",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/aged/panel",
+      "id": "panel",
+      "title": "Композиция из зеркал с эффектом состаривания",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/engraving",
+      "id": "engraving",
+      "title": "С гравировкой",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/engraving/border",
+      "id": "border",
+      "title": "Зеркало с гравированным рисунком по краю",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/engraving/accent",
+      "id": "accent",
+      "title": "Зеркало с локальным гравированным акцентом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/matting",
+      "id": "matting",
+      "title": "С матовыми участками",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/matting/border",
+      "id": "border",
+      "title": "Зеркало с матовым обрамлением на полотне",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/matting/geometry",
+      "id": "geometry",
+      "title": "Зеркало с геометрическими матовыми участками",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/tinted",
+      "id": "tinted",
+      "title": "Цветное зеркальное полотно",
+      "isLeaf": false,
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/tinted/bronze",
+      "id": "bronze",
+      "title": "Отдельное зеркало бронзового оттенка",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/mirrors/decorative/tinted/graphite",
+      "id": "graphite",
+      "title": "Отдельное зеркало графитового оттенка",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "mirrors"
+    },
+    {
+      "path": "/catalog/showers",
+      "id": "showers",
+      "title": "Душевые, шторки на ванну и остекление бань",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-open",
+      "id": "showers-open",
+      "title": "Открытая душевая · walk-in",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-open/showers-open-straight",
+      "id": "showers-open-straight",
+      "title": "Один стационарный экран",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-open/showers-open-return",
+      "id": "showers-open-return",
+      "title": "Экран с неподвижным возвратом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-open/showers-open-island",
+      "id": "showers-open-island",
+      "title": "Островной экран с двумя входами",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche",
+      "id": "showers-niche",
+      "title": "Душевые в нише",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-swing",
+      "id": "showers-niche-swing",
+      "title": "Распашные в нише",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-swing/showers-niche-swing-doors",
+      "id": "showers-niche-swing-doors",
+      "title": "Без неподвижных доборов",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-swing/showers-niche-swing-doors/showers-niche-swing-doors-single",
+      "id": "showers-niche-swing-doors-single",
+      "title": "Одна распашная дверь в нише",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-swing/showers-niche-swing-doors/showers-niche-swing-doors-pair",
+      "id": "showers-niche-swing-doors-pair",
+      "title": "Две распашные двери в нише",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-swing/showers-niche-swing-fixed",
+      "id": "showers-niche-swing-fixed",
+      "title": "Двери с неподвижными доборами",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-swing/showers-niche-swing-fixed/showers-niche-swing-fixed-side",
+      "id": "showers-niche-swing-fixed-side",
+      "title": "Дверь на стене и один добор",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-swing/showers-niche-swing-fixed/showers-niche-swing-fixed-side-glass",
+      "id": "showers-niche-swing-fixed-side-glass",
+      "title": "Дверь на неподвижном доборе",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-swing/showers-niche-swing-fixed/showers-niche-swing-fixed-between",
+      "id": "showers-niche-swing-fixed-between",
+      "title": "Дверь между двумя доборами",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-swing/showers-niche-swing-fixed/showers-niche-swing-fixed-pair-between",
+      "id": "showers-niche-swing-fixed-pair-between",
+      "title": "Парные двери между доборами",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-sliding",
+      "id": "showers-niche-sliding",
+      "title": "Раздвижные в нише",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-sliding/showers-niche-sliding-single",
+      "id": "showers-niche-sliding-single",
+      "title": "Боковой вход · 2 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-sliding/showers-niche-sliding-center",
+      "id": "showers-niche-sliding-center",
+      "title": "Центральная дверь · 3 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-sliding/showers-niche-sliding-pair",
+      "id": "showers-niche-sliding-pair",
+      "title": "Парный центральный вход · 4 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-folding",
+      "id": "showers-niche-folding",
+      "title": "Складные двери · книжка",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-folding/showers-niche-folding-double",
+      "id": "showers-niche-folding-double",
+      "title": "Двухсекционная книжка в нише",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-folding/showers-niche-folding-with-fixed",
+      "id": "showers-niche-folding-with-fixed",
+      "title": "Книжка с неподвижным добором",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-pivot-sliding",
+      "id": "showers-niche-pivot-sliding",
+      "title": "Поворотно-раздвижная дверь в нише",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner",
+      "id": "showers-corner",
+      "title": "Угловые душевые · Г-образные",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-door",
+      "id": "showers-corner-door",
+      "title": "Угловые распашные",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-door/showers-corner-door-two-sides",
+      "id": "showers-corner-door-two-sides",
+      "title": "Дверь на стене и боковое стекло",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-door/showers-corner-door-glass-hinged",
+      "id": "showers-corner-door-glass-hinged",
+      "title": "Дверь на боковом стекле",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-door/showers-corner-door-fixed-wall-hinged",
+      "id": "showers-corner-door-fixed-wall-hinged",
+      "title": "Дверь на стене, добор и боковина",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-door/showers-corner-door-fixed-glass-hinged",
+      "id": "showers-corner-door-fixed-glass-hinged",
+      "title": "Дверь на доборе и боковое стекло",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-door/showers-corner-door-corner-pair",
+      "id": "showers-corner-door-corner-pair",
+      "title": "Парный распашной вход на углу",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-sliding",
+      "id": "showers-corner-sliding",
+      "title": "Угловые раздвижные",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-sliding/showers-corner-sliding-three-glass",
+      "id": "showers-corner-sliding-three-glass",
+      "title": "Одна дверь · 3 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-sliding/showers-corner-sliding-corner-pair",
+      "id": "showers-corner-sliding-corner-pair",
+      "title": "Встречный угловой вход · 4 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-sliding/showers-corner-sliding-center-single",
+      "id": "showers-corner-sliding-center-single",
+      "title": "Центральная дверь и боковина · 4 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-corner/showers-corner-folding",
+      "id": "showers-corner-folding",
+      "title": "Угловая душевая с дверью-книжкой",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u",
+      "id": "showers-u",
+      "title": "П-образные душевые · три стороны",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-swing",
+      "id": "showers-u-swing",
+      "title": "П-образные распашные",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-swing/showers-u-swing-three-glass",
+      "id": "showers-u-swing-three-glass",
+      "title": "Дверь и две боковины · 3 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-swing/showers-u-swing-four-glass-single",
+      "id": "showers-u-swing-four-glass-single",
+      "title": "Дверь с добором · 4 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-swing/showers-u-swing-four-glass-pair",
+      "id": "showers-u-swing-four-glass-pair",
+      "title": "Парные двери · 4 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-swing/showers-u-swing-five-glass",
+      "id": "showers-u-swing-five-glass",
+      "title": "Дверь между доборами · 5 стекол",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-sliding",
+      "id": "showers-u-sliding",
+      "title": "П-образные раздвижные",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-sliding/showers-u-sliding-four-glass",
+      "id": "showers-u-sliding-four-glass",
+      "title": "Одна раздвижная дверь · 4 стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-sliding/showers-u-sliding-six-glass",
+      "id": "showers-u-sliding-six-glass",
+      "title": "Парный раздвижной вход · 6 стекол",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-open",
+      "id": "showers-u-open",
+      "title": "П-образный экран с открытым проходом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-trapezoid",
+      "id": "showers-trapezoid",
+      "title": "Трапеция и скошенный вход",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-trapezoid/showers-trapezoid-full",
+      "id": "showers-trapezoid-full",
+      "title": "Полная трапеция",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-trapezoid/showers-trapezoid-full/showers-trapezoid-full-single",
+      "id": "showers-trapezoid-full-single",
+      "title": "Трапеция с одной дверью",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-trapezoid/showers-trapezoid-full/showers-trapezoid-full-pair",
+      "id": "showers-trapezoid-full-pair",
+      "title": "Трапеция с парным входом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-trapezoid/showers-trapezoid-half",
+      "id": "showers-trapezoid-half",
+      "title": "Полутрапеция",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-trapezoid/showers-trapezoid-half/showers-trapezoid-half-single",
+      "id": "showers-trapezoid-half-single",
+      "title": "Полутрапеция с одной дверью",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-trapezoid/showers-trapezoid-half/showers-trapezoid-half-pair",
+      "id": "showers-trapezoid-half-pair",
+      "title": "Полутрапеция с двумя дверями",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub",
+      "id": "showers-tub",
+      "title": "Стеклянные шторки на ванну",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-fixed",
+      "id": "showers-tub-fixed",
+      "title": "Неподвижные экраны на ванну",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-fixed/showers-tub-fixed-single",
+      "id": "showers-tub-fixed-single",
+      "title": "Один неподвижный экран на ванну",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-fixed/showers-tub-fixed-pair",
+      "id": "showers-tub-fixed-pair",
+      "title": "Два экрана с проходом между ними",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-fixed/showers-tub-fixed-corner",
+      "id": "showers-tub-fixed-corner",
+      "title": "Экран с закрытием торца ванны",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-moving",
+      "id": "showers-tub-moving",
+      "title": "Шторки с подвижными секциями",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-moving/showers-tub-moving-pivot",
+      "id": "showers-tub-moving-pivot",
+      "title": "Односекционная поворотная шторка",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-moving/showers-tub-moving-fixed-pivot",
+      "id": "showers-tub-moving-fixed-pivot",
+      "title": "Неподвижный экран и поворотная секция",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-moving/showers-tub-moving-folding",
+      "id": "showers-tub-moving-folding",
+      "title": "Складная шторка-книжка на ванну",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-moving/showers-tub-moving-sliding",
+      "id": "showers-tub-moving-sliding",
+      "title": "Раздвижная шторка на ванну",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-custom",
+      "id": "showers-custom",
+      "title": "Душевые со сложной геометрией",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-custom/showers-custom-mansard",
+      "id": "showers-custom-mansard",
+      "title": "Ограждение под скосом потолка",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-custom/showers-custom-cutout",
+      "id": "showers-custom-cutout",
+      "title": "Экран с обходом выступа или скамьи",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-custom/showers-custom-curved",
+      "id": "showers-custom-curved",
+      "title": "Радиусный открытый экран",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-bath",
+      "id": "showers-bath",
+      "title": "Остекление бани, сауны и хаммама",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-bath/showers-bath-partition",
+      "id": "showers-bath-partition",
+      "title": "Перегородки для бани",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-bath/showers-bath-partition/showers-bath-partition-fixed",
+      "id": "showers-bath-partition-fixed",
+      "title": "Стационарная перегородка для бани",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-bath/showers-bath-partition/showers-bath-partition-with-door",
+      "id": "showers-bath-partition-with-door",
+      "title": "Дверь между боковыми панелями в бане",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-bath/showers-bath-entry",
+      "id": "showers-bath-entry",
+      "title": "Дверные зоны бани",
+      "isLeaf": false,
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-bath/showers-bath-entry/showers-bath-entry-door",
+      "id": "showers-bath-entry-door",
+      "title": "Стеклянная дверь в проёме бани",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/showers/showers-bath/showers-bath-entry/showers-bath-entry-glazed",
+      "id": "showers-bath-entry-glazed",
+      "title": "Дверь бани с одним боковым стеклом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "showers"
+    },
+    {
+      "path": "/catalog/partitions",
+      "id": "partitions",
+      "title": "Стеклянные перегородки",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home",
+      "id": "partitions-home",
+      "title": "Перегородки для дома",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-clear",
+      "id": "partitions-home-clear",
+      "title": "Цельностеклянные стационарные",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-clear/partitions-home-clear-straight",
+      "id": "partitions-home-clear-straight",
+      "title": "Прямая цельностеклянная перегородка",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-clear/partitions-home-clear-corner",
+      "id": "partitions-home-clear-corner",
+      "title": "Угловая цельностеклянная композиция",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-frame",
+      "id": "partitions-home-frame",
+      "title": "Каркасные перегородки для дома",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-frame/partitions-home-frame-fixed",
+      "id": "partitions-home-frame-fixed",
+      "title": "Стационарный каркас",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-frame/partitions-home-frame-fixed/partitions-home-frame-fixed-straight",
+      "id": "partitions-home-frame-fixed-straight",
+      "title": "Прямая каркасная перегородка",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-frame/partitions-home-frame-fixed/partitions-home-frame-fixed-corner",
+      "id": "partitions-home-frame-fixed-corner",
+      "title": "Угловая каркасная перегородка",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-frame/partitions-home-frame-door",
+      "id": "partitions-home-frame-door",
+      "title": "Каркас с дверью",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-frame/partitions-home-frame-door/partitions-home-frame-door-single",
+      "id": "partitions-home-frame-door-single",
+      "title": "Каркасная перегородка с одной дверью",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-frame/partitions-home-frame-door/partitions-home-frame-door-pair",
+      "id": "partitions-home-frame-door-pair",
+      "title": "Каркасная перегородка с парной дверью",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-sliding",
+      "id": "partitions-home-sliding",
+      "title": "Раздвижные межкомнатные",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-sliding/partitions-home-sliding-single",
+      "id": "partitions-home-sliding-single",
+      "title": "Одна подвижная стеклянная секция",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-home/partitions-home-sliding/partitions-home-sliding-multiple",
+      "id": "partitions-home-sliding-multiple",
+      "title": "Несколько подвижных стеклянных секций",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office",
+      "id": "partitions-office",
+      "title": "Офисные перегородки",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-clear",
+      "id": "partitions-office-clear",
+      "title": "Цельностеклянные офисные",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-clear/partitions-office-clear-meeting",
+      "id": "partitions-office-clear-meeting",
+      "title": "Для переговорной",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-clear/partitions-office-clear-meeting/partitions-office-clear-meeting-wall",
+      "id": "partitions-office-clear-meeting-wall",
+      "title": "Прямая стеклянная сторона переговорной",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-clear/partitions-office-clear-meeting/partitions-office-clear-meeting-corner",
+      "id": "partitions-office-clear-meeting-corner",
+      "title": "Угловое остекление переговорной",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-clear/partitions-office-clear-zones",
+      "id": "partitions-office-clear-zones",
+      "title": "Для рабочих зон",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-clear/partitions-office-clear-zones/partitions-office-clear-zones-line",
+      "id": "partitions-office-clear-zones-line",
+      "title": "Линейное разделение рабочих зон",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-clear/partitions-office-clear-zones/partitions-office-clear-zones-corner",
+      "id": "partitions-office-clear-zones-corner",
+      "title": "Угловое выделение рабочей зоны",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-frame",
+      "id": "partitions-office-frame",
+      "title": "Каркасные офисные",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-frame/partitions-office-frame-meeting",
+      "id": "partitions-office-frame-meeting",
+      "title": "Каркас переговорной",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-frame/partitions-office-frame-meeting/partitions-office-frame-meeting-wall",
+      "id": "partitions-office-frame-meeting-wall",
+      "title": "Прямая каркасная сторона переговорной",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-frame/partitions-office-frame-meeting/partitions-office-frame-meeting-corner",
+      "id": "partitions-office-frame-meeting-corner",
+      "title": "Угловая каркасная переговорная",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-frame/partitions-office-frame-zones",
+      "id": "partitions-office-frame-zones",
+      "title": "Каркасное зонирование офиса",
+      "isLeaf": false,
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-frame/partitions-office-frame-zones/partitions-office-frame-zones-fixed",
+      "id": "partitions-office-frame-zones-fixed",
+      "title": "Стационарное каркасное зонирование",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/partitions/partitions-office/partitions-office-frame/partitions-office-frame-zones/partitions-office-frame-zones-entry",
+      "id": "partitions-office-frame-zones-entry",
+      "title": "Каркасное зонирование с дверью",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "partitions"
+    },
+    {
+      "path": "/catalog/doors",
+      "id": "doors",
+      "title": "Стеклянные двери",
+      "isLeaf": false,
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing",
+      "id": "doors-swing",
+      "title": "Распашные стеклянные двери",
+      "isLeaf": false,
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-single",
+      "id": "doors-swing-single",
+      "title": "Одностворчатые распашные",
+      "isLeaf": false,
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-single/doors-swing-single-opening",
+      "id": "doors-swing-single-opening",
+      "title": "Одна распашная дверь в проёме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-single/doors-swing-single-side-glass",
+      "id": "doors-swing-single-side-glass",
+      "title": "Распашная дверь с боковым стеклом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-pair",
+      "id": "doors-swing-pair",
+      "title": "Двустворчатые распашные",
+      "isLeaf": false,
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-pair/doors-swing-pair-equal",
+      "id": "doors-swing-pair-equal",
+      "title": "Равные створки",
+      "isLeaf": false,
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-pair/doors-swing-pair-equal/doors-swing-pair-equal-opening",
+      "id": "doors-swing-pair-equal-opening",
+      "title": "Равная парная дверь в проёме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-pair/doors-swing-pair-equal/doors-swing-pair-equal-side-glass",
+      "id": "doors-swing-pair-equal-side-glass",
+      "title": "Равная парная дверь с боковым стеклом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-pair/doors-swing-pair-unequal",
+      "id": "doors-swing-pair-unequal",
+      "title": "Створки разной ширины",
+      "isLeaf": false,
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-pair/doors-swing-pair-unequal/doors-swing-pair-unequal-opening",
+      "id": "doors-swing-pair-unequal-opening",
+      "title": "Неравная парная дверь в проёме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-swing/doors-swing-pair/doors-swing-pair-unequal/doors-swing-pair-unequal-side-glass",
+      "id": "doors-swing-pair-unequal-side-glass",
+      "title": "Неравная парная дверь с боковым стеклом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-sliding",
+      "id": "doors-sliding",
+      "title": "Раздвижные стеклянные двери",
+      "isLeaf": false,
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-sliding/doors-sliding-single",
+      "id": "doors-sliding-single",
+      "title": "Однопольные раздвижные",
+      "isLeaf": false,
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-sliding/doors-sliding-single/doors-sliding-single-wall",
+      "id": "doors-sliding-single-wall",
+      "title": "Раздвижная дверь вдоль стены",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-sliding/doors-sliding-single/doors-sliding-single-glass",
+      "id": "doors-sliding-single-glass",
+      "title": "Раздвижная дверь вдоль стекла",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-sliding/doors-sliding-pair",
+      "id": "doors-sliding-pair",
+      "title": "Двупольные раздвижные",
+      "isLeaf": false,
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-sliding/doors-sliding-pair/doors-sliding-pair-opening",
+      "id": "doors-sliding-pair-opening",
+      "title": "Парная раздвижная дверь в проёме",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/doors/doors-sliding/doors-sliding-pair/doors-sliding-pair-side-glass",
+      "id": "doors-sliding-pair-side-glass",
+      "title": "Парная раздвижная дверь с боковым стеклом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "doors"
+    },
+    {
+      "path": "/catalog/stairs",
+      "id": "stairs",
+      "title": "Стеклянные лестницы и ограждения",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete",
+      "id": "stairs-complete",
+      "title": "Лестницы целиком",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete/stairs-complete-metal-rail",
+      "id": "stairs-complete-metal-rail",
+      "title": "Металлокаркас со стеклянным ограждением",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete/stairs-complete-metal-rail/stairs-complete-metal-rail-straight",
+      "id": "stairs-complete-metal-rail-straight",
+      "title": "Прямая лестница на металлокаркасе со стеклом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete/stairs-complete-metal-rail/stairs-complete-metal-rail-turning",
+      "id": "stairs-complete-metal-rail-turning",
+      "title": "Поворотная лестница на металлокаркасе со стеклом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete/stairs-complete-metal-steps",
+      "id": "stairs-complete-metal-steps",
+      "title": "Металлокаркас со стеклянными ступенями",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete/stairs-complete-metal-steps/stairs-complete-metal-steps-straight",
+      "id": "stairs-complete-metal-steps-straight",
+      "title": "Прямой марш со стеклянными ступенями",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete/stairs-complete-metal-steps/stairs-complete-metal-steps-turning",
+      "id": "stairs-complete-metal-steps-turning",
+      "title": "Поворотная лестница со стеклянными ступенями",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete/stairs-complete-floating",
+      "id": "stairs-complete-floating",
+      "title": "Парящие лестничные композиции",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete/stairs-complete-floating/stairs-complete-floating-glass-rail",
+      "id": "stairs-complete-floating-glass-rail",
+      "title": "Парящая лестница со стеклянным ограждением",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-complete/stairs-complete-floating/stairs-complete-floating-glass-steps",
+      "id": "stairs-complete-floating-glass-steps",
+      "title": "Парящая композиция со стеклянными ступенями",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings",
+      "id": "stairs-railings",
+      "title": "Стеклянные ограждения",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight",
+      "id": "stairs-railings-stair-flight",
+      "title": "Ограждения лестниц",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-points",
+      "id": "stairs-railings-stair-flight-points",
+      "title": "Точечное крепление",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-points/stairs-railings-stair-flight-points-with-handrail",
+      "id": "stairs-railings-stair-flight-points-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-points/stairs-railings-stair-flight-points-with-handrail/stairs-railings-stair-flight-points-with-handrail-metal",
+      "id": "stairs-railings-stair-flight-points-with-handrail-metal",
+      "title": "Ограждение лестницы — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-points/stairs-railings-stair-flight-points-with-handrail/stairs-railings-stair-flight-points-with-handrail-wood",
+      "id": "stairs-railings-stair-flight-points-with-handrail-wood",
+      "title": "Ограждение лестницы — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-points/stairs-railings-stair-flight-points-without-handrail",
+      "id": "stairs-railings-stair-flight-points-without-handrail",
+      "title": "Ограждение лестницы — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile",
+      "id": "stairs-railings-stair-flight-profile",
+      "title": "Зажимной профиль",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail",
+      "id": "stairs-railings-stair-flight-profile-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail/stairs-railings-stair-flight-profile-with-handrail-metal",
+      "id": "stairs-railings-stair-flight-profile-with-handrail-metal",
+      "title": "Ограждение лестницы — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail/stairs-railings-stair-flight-profile-with-handrail-wood",
+      "id": "stairs-railings-stair-flight-profile-with-handrail-wood",
+      "title": "Ограждение лестницы — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-without-handrail",
+      "id": "stairs-railings-stair-flight-profile-without-handrail",
+      "title": "Ограждение лестницы — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts",
+      "id": "stairs-railings-stair-flight-posts",
+      "title": "Стойки со стеклом",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts/stairs-railings-stair-flight-posts-with-handrail",
+      "id": "stairs-railings-stair-flight-posts-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts/stairs-railings-stair-flight-posts-with-handrail/stairs-railings-stair-flight-posts-with-handrail-metal",
+      "id": "stairs-railings-stair-flight-posts-with-handrail-metal",
+      "title": "Ограждение лестницы — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts/stairs-railings-stair-flight-posts-with-handrail/stairs-railings-stair-flight-posts-with-handrail-wood",
+      "id": "stairs-railings-stair-flight-posts-with-handrail-wood",
+      "title": "Ограждение лестницы — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts/stairs-railings-stair-flight-posts-without-handrail",
+      "id": "stairs-railings-stair-flight-posts-without-handrail",
+      "title": "Ограждение лестницы — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light",
+      "id": "stairs-railings-second-light",
+      "title": "Ограждения второго света",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-points",
+      "id": "stairs-railings-second-light-points",
+      "title": "Точечное крепление",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-points/stairs-railings-second-light-points-with-handrail",
+      "id": "stairs-railings-second-light-points-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-points/stairs-railings-second-light-points-with-handrail/stairs-railings-second-light-points-with-handrail-metal",
+      "id": "stairs-railings-second-light-points-with-handrail-metal",
+      "title": "Ограждение второго света — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-points/stairs-railings-second-light-points-with-handrail/stairs-railings-second-light-points-with-handrail-wood",
+      "id": "stairs-railings-second-light-points-with-handrail-wood",
+      "title": "Ограждение второго света — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-points/stairs-railings-second-light-points-without-handrail",
+      "id": "stairs-railings-second-light-points-without-handrail",
+      "title": "Ограждение второго света — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-profile",
+      "id": "stairs-railings-second-light-profile",
+      "title": "Зажимной профиль",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-profile/stairs-railings-second-light-profile-with-handrail",
+      "id": "stairs-railings-second-light-profile-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-profile/stairs-railings-second-light-profile-with-handrail/stairs-railings-second-light-profile-with-handrail-metal",
+      "id": "stairs-railings-second-light-profile-with-handrail-metal",
+      "title": "Ограждение второго света — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-profile/stairs-railings-second-light-profile-with-handrail/stairs-railings-second-light-profile-with-handrail-wood",
+      "id": "stairs-railings-second-light-profile-with-handrail-wood",
+      "title": "Ограждение второго света — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-profile/stairs-railings-second-light-profile-without-handrail",
+      "id": "stairs-railings-second-light-profile-without-handrail",
+      "title": "Ограждение второго света — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts",
+      "id": "stairs-railings-second-light-posts",
+      "title": "Стойки со стеклом",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts/stairs-railings-second-light-posts-with-handrail",
+      "id": "stairs-railings-second-light-posts-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts/stairs-railings-second-light-posts-with-handrail/stairs-railings-second-light-posts-with-handrail-metal",
+      "id": "stairs-railings-second-light-posts-with-handrail-metal",
+      "title": "Ограждение второго света — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts/stairs-railings-second-light-posts-with-handrail/stairs-railings-second-light-posts-with-handrail-wood",
+      "id": "stairs-railings-second-light-posts-with-handrail-wood",
+      "title": "Ограждение второго света — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts/stairs-railings-second-light-posts-without-handrail",
+      "id": "stairs-railings-second-light-posts-without-handrail",
+      "title": "Ограждение второго света — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine",
+      "id": "stairs-railings-mezzanine",
+      "title": "Ограждения антресолей и площадок",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-points",
+      "id": "stairs-railings-mezzanine-points",
+      "title": "Точечное крепление",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-points/stairs-railings-mezzanine-points-with-handrail",
+      "id": "stairs-railings-mezzanine-points-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-points/stairs-railings-mezzanine-points-with-handrail/stairs-railings-mezzanine-points-with-handrail-metal",
+      "id": "stairs-railings-mezzanine-points-with-handrail-metal",
+      "title": "Ограждение антресоли — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-points/stairs-railings-mezzanine-points-with-handrail/stairs-railings-mezzanine-points-with-handrail-wood",
+      "id": "stairs-railings-mezzanine-points-with-handrail-wood",
+      "title": "Ограждение антресоли — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-points/stairs-railings-mezzanine-points-without-handrail",
+      "id": "stairs-railings-mezzanine-points-without-handrail",
+      "title": "Ограждение антресоли — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-profile",
+      "id": "stairs-railings-mezzanine-profile",
+      "title": "Зажимной профиль",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-profile/stairs-railings-mezzanine-profile-with-handrail",
+      "id": "stairs-railings-mezzanine-profile-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-profile/stairs-railings-mezzanine-profile-with-handrail/stairs-railings-mezzanine-profile-with-handrail-metal",
+      "id": "stairs-railings-mezzanine-profile-with-handrail-metal",
+      "title": "Ограждение антресоли — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-profile/stairs-railings-mezzanine-profile-with-handrail/stairs-railings-mezzanine-profile-with-handrail-wood",
+      "id": "stairs-railings-mezzanine-profile-with-handrail-wood",
+      "title": "Ограждение антресоли — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-profile/stairs-railings-mezzanine-profile-without-handrail",
+      "id": "stairs-railings-mezzanine-profile-without-handrail",
+      "title": "Ограждение антресоли — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts",
+      "id": "stairs-railings-mezzanine-posts",
+      "title": "Стойки со стеклом",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts/stairs-railings-mezzanine-posts-with-handrail",
+      "id": "stairs-railings-mezzanine-posts-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts/stairs-railings-mezzanine-posts-with-handrail/stairs-railings-mezzanine-posts-with-handrail-metal",
+      "id": "stairs-railings-mezzanine-posts-with-handrail-metal",
+      "title": "Ограждение антресоли — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts/stairs-railings-mezzanine-posts-with-handrail/stairs-railings-mezzanine-posts-with-handrail-wood",
+      "id": "stairs-railings-mezzanine-posts-with-handrail-wood",
+      "title": "Ограждение антресоли — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts/stairs-railings-mezzanine-posts-without-handrail",
+      "id": "stairs-railings-mezzanine-posts-without-handrail",
+      "title": "Ограждение антресоли — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor",
+      "id": "stairs-railings-outdoor",
+      "title": "Ограждения балконов и террас",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-profile",
+      "id": "stairs-railings-outdoor-profile",
+      "title": "Зажимной профиль",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-profile/stairs-railings-outdoor-profile-with-handrail",
+      "id": "stairs-railings-outdoor-profile-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-profile/stairs-railings-outdoor-profile-with-handrail/stairs-railings-outdoor-profile-with-handrail-metal",
+      "id": "stairs-railings-outdoor-profile-with-handrail-metal",
+      "title": "Ограждение балкона или террасы — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-profile/stairs-railings-outdoor-profile-with-handrail/stairs-railings-outdoor-profile-with-handrail-wood",
+      "id": "stairs-railings-outdoor-profile-with-handrail-wood",
+      "title": "Ограждение балкона или террасы — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-profile/stairs-railings-outdoor-profile-without-handrail",
+      "id": "stairs-railings-outdoor-profile-without-handrail",
+      "title": "Ограждение балкона или террасы — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-mini-posts",
+      "id": "stairs-railings-outdoor-mini-posts",
+      "title": "Мини-стойки",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-mini-posts/stairs-railings-outdoor-mini-posts-with-handrail",
+      "id": "stairs-railings-outdoor-mini-posts-with-handrail",
+      "title": "С поручнем",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-mini-posts/stairs-railings-outdoor-mini-posts-with-handrail/stairs-railings-outdoor-mini-posts-with-handrail-metal",
+      "id": "stairs-railings-outdoor-mini-posts-with-handrail-metal",
+      "title": "Ограждение балкона или террасы — металлический поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-mini-posts/stairs-railings-outdoor-mini-posts-with-handrail/stairs-railings-outdoor-mini-posts-with-handrail-wood",
+      "id": "stairs-railings-outdoor-mini-posts-with-handrail-wood",
+      "title": "Ограждение балкона или террасы — деревянный поручень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-mini-posts/stairs-railings-outdoor-mini-posts-without-handrail",
+      "id": "stairs-railings-outdoor-mini-posts-without-handrail",
+      "title": "Ограждение балкона или террасы — вариант без поручня",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-glass-steps",
+      "id": "stairs-glass-steps",
+      "title": "Стеклянные ступени по ТЗ",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-glass-steps/stairs-glass-steps-individual",
+      "id": "stairs-glass-steps-individual",
+      "title": "Отдельные ступени",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-glass-steps/stairs-glass-steps-individual/stairs-glass-steps-individual-rectangular",
+      "id": "stairs-glass-steps-individual-rectangular",
+      "title": "Прямоугольная стеклянная ступень",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-glass-steps/stairs-glass-steps-individual/stairs-glass-steps-individual-shaped",
+      "id": "stairs-glass-steps-individual-shaped",
+      "title": "Стеклянная ступень по индивидуальному контуру",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-glass-steps/stairs-glass-steps-sets",
+      "id": "stairs-glass-steps-sets",
+      "title": "Комплекты ступеней",
+      "isLeaf": false,
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-glass-steps/stairs-glass-steps-sets/stairs-glass-steps-sets-straight",
+      "id": "stairs-glass-steps-sets-straight",
+      "title": "Комплект ступеней для прямого марша",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/stairs/stairs-glass-steps/stairs-glass-steps-sets/stairs-glass-steps-sets-turning",
+      "id": "stairs-glass-steps-sets-turning",
+      "title": "Комплект ступеней для поворотной лестницы",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "stairs"
+    },
+    {
+      "path": "/catalog/canopies",
+      "id": "canopies",
+      "title": "Стеклянные козырьки и навесы",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods",
+      "id": "canopies-rods",
+      "title": "Козырьки на тягах / вантах",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-single",
+      "id": "canopies-rods-single",
+      "title": "Одна стеклянная секция",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-single/canopies-rods-single-door",
+      "id": "canopies-rods-single-door",
+      "title": "Над отдельным входом",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-single/canopies-rods-single-door/canopies-rods-single-door-rectangular",
+      "id": "canopies-rods-single-door-rectangular",
+      "title": "Прямоугольный козырёк над входом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-single/canopies-rods-single-door/canopies-rods-single-door-contour",
+      "id": "canopies-rods-single-door-contour",
+      "title": "Козырёк над входом по индивидуальному контуру",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-single/canopies-rods-single-portal",
+      "id": "canopies-rods-single-portal",
+      "title": "Над входным порталом",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-single/canopies-rods-single-portal/canopies-rods-single-portal-door-width",
+      "id": "canopies-rods-single-portal-door-width",
+      "title": "Козырёк по ширине дверного проёма",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-single/canopies-rods-single-portal/canopies-rods-single-portal-portal-width",
+      "id": "canopies-rods-single-portal-portal-width",
+      "title": "Козырёк по композиции входного портала",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-multiple",
+      "id": "canopies-rods-multiple",
+      "title": "Несколько стеклянных секций",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-multiple/canopies-rods-multiple-facade",
+      "id": "canopies-rods-multiple-facade",
+      "title": "Вдоль фасада",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-multiple/canopies-rods-multiple-facade/canopies-rods-multiple-facade-equal",
+      "id": "canopies-rods-multiple-facade-equal",
+      "title": "Линия козырька из равных секций",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-multiple/canopies-rods-multiple-facade/canopies-rods-multiple-facade-varying",
+      "id": "canopies-rods-multiple-facade-varying",
+      "title": "Линия козырька из секций разной ширины",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-multiple/canopies-rods-multiple-entries",
+      "id": "canopies-rods-multiple-entries",
+      "title": "Над группой входов",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-multiple/canopies-rods-multiple-entries/canopies-rods-multiple-entries-continuous",
+      "id": "canopies-rods-multiple-entries-continuous",
+      "title": "Единая линия над несколькими входами",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-rods/canopies-rods-multiple/canopies-rods-multiple-entries/canopies-rods-multiple-entries-separate",
+      "id": "canopies-rods-multiple-entries-separate",
+      "title": "Отдельные модули над группой входов",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile",
+      "id": "canopies-profile",
+      "title": "Козырьки на зажимном профиле",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-single",
+      "id": "canopies-profile-single",
+      "title": "Одна стеклянная секция",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-single/canopies-profile-single-door",
+      "id": "canopies-profile-single-door",
+      "title": "Над отдельным входом",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-single/canopies-profile-single-door/canopies-profile-single-door-rectangular",
+      "id": "canopies-profile-single-door-rectangular",
+      "title": "Прямоугольный козырёк над входом",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-single/canopies-profile-single-door/canopies-profile-single-door-contour",
+      "id": "canopies-profile-single-door-contour",
+      "title": "Козырёк над входом по индивидуальному контуру",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-single/canopies-profile-single-portal",
+      "id": "canopies-profile-single-portal",
+      "title": "Над входным порталом",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-single/canopies-profile-single-portal/canopies-profile-single-portal-door-width",
+      "id": "canopies-profile-single-portal-door-width",
+      "title": "Козырёк по ширине дверного проёма",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-single/canopies-profile-single-portal/canopies-profile-single-portal-portal-width",
+      "id": "canopies-profile-single-portal-portal-width",
+      "title": "Козырёк по композиции входного портала",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-multiple",
+      "id": "canopies-profile-multiple",
+      "title": "Несколько стеклянных секций",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-multiple/canopies-profile-multiple-facade",
+      "id": "canopies-profile-multiple-facade",
+      "title": "Вдоль фасада",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-multiple/canopies-profile-multiple-facade/canopies-profile-multiple-facade-equal",
+      "id": "canopies-profile-multiple-facade-equal",
+      "title": "Линия козырька из равных секций",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-multiple/canopies-profile-multiple-facade/canopies-profile-multiple-facade-varying",
+      "id": "canopies-profile-multiple-facade-varying",
+      "title": "Линия козырька из секций разной ширины",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-multiple/canopies-profile-multiple-entries",
+      "id": "canopies-profile-multiple-entries",
+      "title": "Над группой входов",
+      "isLeaf": false,
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-multiple/canopies-profile-multiple-entries/canopies-profile-multiple-entries-continuous",
+      "id": "canopies-profile-multiple-entries-continuous",
+      "title": "Единая линия над несколькими входами",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    },
+    {
+      "path": "/catalog/canopies/canopies-profile/canopies-profile-multiple/canopies-profile-multiple-entries/canopies-profile-multiple-entries-separate",
+      "id": "canopies-profile-multiple-entries-separate",
+      "title": "Отдельные модули над группой входов",
+      "isLeaf": true,
+      "kind": "solution",
+      "category": "canopies"
+    }
+  ],
+  "resources": [
+    {
+      "path": "/production/cutting-machining/production-cutting/production-cutting-straight",
+      "id": "production-cutting-straight",
+      "title": "Прямолинейная резка",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cutting/production-cutting-shaped",
+      "id": "production-cutting-shaped",
+      "title": "Фигурная резка",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cutting/production-cutting-template",
+      "id": "production-cutting-template",
+      "title": "Резка по шаблону",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cutting",
+      "id": "production-cutting",
+      "title": "Резка по размеру и контуру",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-drilling/production-drilling-round",
+      "id": "production-drilling-round",
+      "title": "Круглые отверстия",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-drilling/production-drilling-countersink",
+      "id": "production-drilling-countersink",
+      "title": "Зенковка отверстий",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-drilling",
+      "id": "production-drilling",
+      "title": "Отверстия и зенковка",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cutouts/production-cutout-hardware",
+      "id": "production-cutout-hardware",
+      "title": "Вырезы под петли и замки",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cutouts/production-cutout-internal",
+      "id": "production-cutout-internal",
+      "title": "Внутренние вырезы",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cutouts/production-cutout-open",
+      "id": "production-cutout-open",
+      "title": "Открытые пазы и обходы",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cutouts",
+      "id": "production-cutouts",
+      "title": "Вырезы и пазы",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cnc/production-cnc-contour",
+      "id": "production-cnc-contour",
+      "title": "Обработка сложного контура",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cnc/production-cnc-combined",
+      "id": "production-cnc-combined",
+      "title": "Комплексная подготовка детали",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining/production-cnc",
+      "id": "production-cnc",
+      "title": "Обработка по цифровому чертежу",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/cutting-machining",
+      "id": "cutting-machining",
+      "title": "Резка, отверстия и вырезы",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-grinding/production-edge-arrising",
+      "id": "production-edge-arrising",
+      "title": "Притупление острых граней",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-grinding/production-edge-ground-straight",
+      "id": "production-edge-ground-straight",
+      "title": "Шлифовка прямой кромки",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-grinding/production-edge-ground-curved",
+      "id": "production-edge-ground-curved",
+      "title": "Шлифовка фигурной кромки",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-grinding",
+      "id": "production-grinding",
+      "title": "Шлифовка кромки",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-polishing/production-edge-polished-straight",
+      "id": "production-edge-polished-straight",
+      "title": "Полировка прямой кромки",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-polishing/production-edge-polished-curved",
+      "id": "production-edge-polished-curved",
+      "title": "Полировка фигурной кромки",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-polishing",
+      "id": "production-polishing",
+      "title": "Полировка кромки",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-bevel/production-bevel-straight",
+      "id": "production-bevel-straight",
+      "title": "Прямолинейный фацет",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-bevel/production-bevel-curved",
+      "id": "production-bevel-curved",
+      "title": "Криволинейный фацет",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-bevel",
+      "id": "production-bevel",
+      "title": "Декоративный фацет",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing/production-edge-mitre",
+      "id": "production-edge-mitre",
+      "title": "Кромка под угловое соединение",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/edge-finishing",
+      "id": "edge-finishing",
+      "title": "Кромка и фацет",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/thermal-forming/production-tempering/production-tempering-flat",
+      "id": "production-tempering-flat",
+      "title": "Закалка плоского стекла",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/thermal-forming/production-tempering/production-tempering-curved",
+      "id": "production-tempering-curved",
+      "title": "Гнутьё с закалкой",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/thermal-forming/production-tempering",
+      "id": "production-tempering",
+      "title": "Закалка",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/thermal-forming/production-bending/production-bending-radius",
+      "id": "production-bending-radius",
+      "title": "Моллирование по радиусу",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/thermal-forming/production-bending/production-bending-shaped",
+      "id": "production-bending-shaped",
+      "title": "Моллирование по сложному профилю",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/thermal-forming/production-bending",
+      "id": "production-bending",
+      "title": "Моллирование",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/thermal-forming",
+      "id": "thermal-forming",
+      "title": "Закалка и моллирование",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-base/production-lamination-clear",
+      "id": "production-lamination-clear",
+      "title": "Прозрачный триплекс",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-base/production-lamination-tempered",
+      "id": "production-lamination-tempered",
+      "title": "Триплекс из закалённых стёкол",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-base/production-lamination-tinted",
+      "id": "production-lamination-tinted",
+      "title": "Тонированный триплекс",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-base",
+      "id": "production-lamination-base",
+      "title": "Прозрачные и тонированные составы",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-colour/production-lamination-matte",
+      "id": "production-lamination-matte",
+      "title": "Триплекс с матовой прослойкой",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-colour/production-lamination-coloured",
+      "id": "production-lamination-coloured",
+      "title": "Триплекс с цветной прослойкой",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-colour",
+      "id": "production-lamination-colour",
+      "title": "Матовые и цветные прослойки",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-decor/production-lamination-textile",
+      "id": "production-lamination-textile",
+      "title": "Триплекс с тканью",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-decor/production-lamination-mesh",
+      "id": "production-lamination-mesh",
+      "title": "Триплекс с металлической сеткой",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-decor/production-lamination-image",
+      "id": "production-lamination-image",
+      "title": "Триплекс с изображением",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination/production-lamination-decor",
+      "id": "production-lamination-decor",
+      "title": "Декоративные вставки",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/lamination",
+      "id": "lamination",
+      "title": "Триплексование",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-sandblast/production-sandblast-full",
+      "id": "production-sandblast-full",
+      "title": "Сплошное матирование",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-sandblast/production-sandblast-pattern",
+      "id": "production-sandblast-pattern",
+      "title": "Матовое изображение и полосы",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-sandblast/production-sandblast-mirror-light",
+      "id": "production-sandblast-mirror-light",
+      "title": "Световые зоны на зеркале",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-sandblast",
+      "id": "production-sandblast",
+      "title": "Пескоструйная обработка",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-engraving/production-engraving-mechanical",
+      "id": "production-engraving-mechanical",
+      "title": "Механическая гравировка",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-engraving/production-engraving-laser",
+      "id": "production-engraving-laser",
+      "title": "Лазерная гравировка",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-engraving",
+      "id": "production-engraving",
+      "title": "Гравировка",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-painting/production-painting-lacquer",
+      "id": "production-painting-lacquer",
+      "title": "Обратная покраска стекла",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-painting/production-painting-enamel",
+      "id": "production-painting-enamel",
+      "title": "Керамическое эмалирование",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-painting",
+      "id": "production-painting",
+      "title": "Покраска и эмалирование",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-printing/production-printing-uv",
+      "id": "production-printing-uv",
+      "title": "УФ-печать",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-printing/production-printing-ceramic",
+      "id": "production-printing-ceramic",
+      "title": "Цифровая керамическая печать",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-printing/production-printing-screen",
+      "id": "production-printing-screen",
+      "title": "Шелкография",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-printing",
+      "id": "production-printing",
+      "title": "Печать на стекле",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-films/production-film-matte",
+      "id": "production-film-matte",
+      "title": "Матовая декоративная плёнка",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-films/production-film-tinted",
+      "id": "production-film-tinted",
+      "title": "Тонирующая декоративная плёнка",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-films/production-film-graphics",
+      "id": "production-film-graphics",
+      "title": "Цветная графика из плёнки",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration/production-films",
+      "id": "production-films",
+      "title": "Плёночное оформление",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/surface-decoration",
+      "id": "surface-decoration",
+      "title": "Декоративная обработка",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production/bonding/production-bonding-edge",
+      "id": "production-bonding-edge",
+      "title": "Склейка стекла торцом к поверхности",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/bonding/production-bonding-face",
+      "id": "production-bonding-face",
+      "title": "Склейка стекла по плоскости",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/bonding/production-bonding-metal",
+      "id": "production-bonding-metal",
+      "title": "Склейка стекла с металлом",
+      "isLeaf": true,
+      "kind": "service"
+    },
+    {
+      "path": "/production/bonding",
+      "id": "bonding",
+      "title": "УФ-склейка",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/production",
+      "id": "production",
+      "title": "Производство",
+      "isLeaf": false,
+      "kind": "service"
+    },
+    {
+      "path": "/materials/clear/clear-crystalvision",
+      "id": "clear-crystalvision",
+      "title": "CrystalVision",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/clear",
+      "id": "clear",
+      "title": "Прозрачное стекло",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/tinted/tinted-bronze",
+      "id": "tinted-bronze",
+      "title": "Бронза",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/tinted/tinted-graphite",
+      "id": "tinted-graphite",
+      "title": "Графит",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/tinted/tinted-dark",
+      "id": "tinted-dark",
+      "title": "Тёмное тонированное",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/tinted",
+      "id": "tinted",
+      "title": "Тонированное стекло",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/matte/matte-satin/matte-satin-crystalvision",
+      "id": "matte-satin-crystalvision",
+      "title": "Сатин на CrystalVision",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/matte/matte-satin/matte-satin-bronze",
+      "id": "matte-satin-bronze",
+      "title": "Сатин бронза",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/matte/matte-satin/matte-satin-graphite",
+      "id": "matte-satin-graphite",
+      "title": "Сатин графит",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/matte/matte-satin/matte-satin-dark",
+      "id": "matte-satin-dark",
+      "title": "Тёмный сатин",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/matte/matte-satin",
+      "id": "matte-satin",
+      "title": "Сатинированное",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/matte/matte-sandblasted/matte-sandblasted-full",
+      "id": "matte-sandblasted-full",
+      "title": "Сплошное матирование",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/matte/matte-sandblasted/matte-sandblasted-partial",
+      "id": "matte-sandblasted-partial",
+      "title": "Матовые зоны и полосы",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/matte/matte-sandblasted",
+      "id": "matte-sandblasted",
+      "title": "Пескоструйное матирование",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/matte",
+      "id": "matte",
+      "title": "Матовое стекло",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-fluted/textured-fluted-clear",
+      "id": "textured-fluted-clear",
+      "title": "Бесцветное рифлёное",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-fluted/textured-fluted-bronze",
+      "id": "textured-fluted-bronze",
+      "title": "Рифлёное бронза",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-fluted/textured-fluted-graphite",
+      "id": "textured-fluted-graphite",
+      "title": "Рифлёное графит",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-fluted",
+      "id": "textured-fluted",
+      "title": "Рифлёное",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-geometric",
+      "id": "textured-patterned-geometric",
+      "title": "Геометрический рельеф",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-organic",
+      "id": "textured-patterned-organic",
+      "title": "Свободный рельеф",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-grain",
+      "id": "textured-patterned-grain",
+      "title": "Мелкозернистый рельеф",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-bronze",
+      "id": "textured-patterned-bronze",
+      "title": "Узорчатое бронза",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-gold",
+      "id": "textured-patterned-gold",
+      "title": "Узорчатое золотистое",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured/textured-patterned",
+      "id": "textured-patterned",
+      "title": "Узорчатое",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/textured",
+      "id": "textured",
+      "title": "Рифлёное и узорчатое стекло",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/painted/painted-gloss",
+      "id": "painted-gloss",
+      "title": "Глянцевое окрашенное",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/painted/painted-matte",
+      "id": "painted-matte",
+      "title": "Матовое окрашенное",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/painted/painted-enamel",
+      "id": "painted-enamel",
+      "title": "Эмалированное стекло",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/painted",
+      "id": "painted",
+      "title": "Окрашенное стекло",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-neutral/mirrors-silver",
+      "id": "mirrors-silver",
+      "title": "Зеркало серебро",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-neutral/mirrors-crystalvision",
+      "id": "mirrors-crystalvision",
+      "title": "Зеркало на CrystalVision",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-neutral",
+      "id": "mirrors-neutral",
+      "title": "Нейтральное отражение",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-tinted/mirrors-bronze",
+      "id": "mirrors-bronze",
+      "title": "Зеркало бронза",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-tinted/mirrors-graphite",
+      "id": "mirrors-graphite",
+      "title": "Зеркало графит",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-tinted",
+      "id": "mirrors-tinted",
+      "title": "Тонированное отражение",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-antique",
+      "id": "mirrors-antique",
+      "title": "Состаренное зеркало",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted",
+      "id": "mirrors-matted",
+      "title": "Зеркало с матовым рисунком",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved",
+      "id": "mirrors-engraved",
+      "title": "Зеркало с гравировкой",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative",
+      "id": "mirrors-decorative",
+      "title": "Декоративная поверхность",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/mirrors",
+      "id": "mirrors",
+      "title": "Зеркальное полотно",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated/laminated-clear/laminated-crystalvision",
+      "id": "laminated-crystalvision",
+      "title": "Прозрачный триплекс CrystalVision",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated/laminated-clear/laminated-tempered",
+      "id": "laminated-tempered",
+      "title": "Триплекс из закалённых стёкол",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated/laminated-clear",
+      "id": "laminated-clear",
+      "title": "Прозрачный триплекс",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated/laminated-light-color/laminated-colour",
+      "id": "laminated-colour",
+      "title": "Цветной триплекс",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated/laminated-light-color/laminated-diffuse",
+      "id": "laminated-diffuse",
+      "title": "Светорассеивающий триплекс",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated/laminated-light-color",
+      "id": "laminated-light-color",
+      "title": "Цвет и светорассеивание",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated/laminated-inserts/laminated-textile",
+      "id": "laminated-textile",
+      "title": "Триплекс с тканью",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated/laminated-inserts/laminated-mesh",
+      "id": "laminated-mesh",
+      "title": "Триплекс с металлической сеткой",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated/laminated-inserts",
+      "id": "laminated-inserts",
+      "title": "Декоративные включения",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/laminated",
+      "id": "laminated",
+      "title": "Многослойное стекло — триплекс",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/tempered/tempered-crystalvision",
+      "id": "tempered-crystalvision",
+      "title": "Закалённое CrystalVision",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/tempered/tempered-tinted",
+      "id": "tempered-tinted",
+      "title": "Закалённое тонированное",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/tempered/tempered-satin",
+      "id": "tempered-satin",
+      "title": "Закалённое матовое",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/tempered",
+      "id": "tempered",
+      "title": "Закалённое стекло",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/curved/curved-crystalvision",
+      "id": "curved-crystalvision",
+      "title": "Гнутое CrystalVision",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/curved/curved-tinted",
+      "id": "curved-tinted",
+      "title": "Гнутое тонированное",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/curved/curved-laminated",
+      "id": "curved-laminated",
+      "title": "Гнутый триплекс",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/curved",
+      "id": "curved",
+      "title": "Гнутое стекло",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-photo",
+      "id": "printed-photo",
+      "title": "Фотографическое изображение",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-graphics",
+      "id": "printed-graphics",
+      "title": "Графика и логотипы",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/printed/printed-artwork",
+      "id": "printed-artwork",
+      "title": "Изображения и графика",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/printed/printed-surfaces/printed-stone",
+      "id": "printed-stone",
+      "title": "Рисунок камня",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/printed/printed-surfaces/printed-gradient",
+      "id": "printed-gradient",
+      "title": "Градиент и переходы",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/printed/printed-surfaces",
+      "id": "printed-surfaces",
+      "title": "Декоративный рисунок",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/printed",
+      "id": "printed",
+      "title": "Стекло с печатью",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/films/films-appearance/films-matte",
+      "id": "films-matte",
+      "title": "Матовая плёнка",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/films/films-appearance/films-tinted",
+      "id": "films-tinted",
+      "title": "Тонирующая плёнка",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/films/films-appearance/films-reflective",
+      "id": "films-reflective",
+      "title": "Зеркальная плёнка",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/films/films-appearance/films-decorative",
+      "id": "films-decorative",
+      "title": "Декоративная плёнка",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/films/films-appearance",
+      "id": "films-appearance",
+      "title": "Внешний вид",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/films/films-retention",
+      "id": "films-retention",
+      "title": "Защитная плёнка",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/films",
+      "id": "films",
+      "title": "Стекло с плёнкой",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/special/special-optical/special-reflective",
+      "id": "special-reflective",
+      "title": "Светоотражающее стекло",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/special/special-optical/special-antireflective",
+      "id": "special-antireflective",
+      "title": "Антибликовое и музейное стекло",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/special/special-optical",
+      "id": "special-optical",
+      "title": "Оптические свойства",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/special/special-wired",
+      "id": "special-wired",
+      "title": "Армированное стекло",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/special/special-smart",
+      "id": "special-smart",
+      "title": "Переключаемое стекло",
+      "isLeaf": true,
+      "kind": "material"
+    },
+    {
+      "path": "/materials/special",
+      "id": "special",
+      "title": "Специальные материалы",
+      "isLeaf": false,
+      "kind": "material"
+    },
+    {
+      "path": "/materials",
+      "id": "materials",
+      "title": "Материалы",
+      "isLeaf": false,
+      "kind": "material"
+    }
+  ],
+  "hardware": [
+    {
+      "id": "wall-glass-hinge",
+      "type": "hinge",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "antique-bronze",
+          "label": "Античная бронза",
+          "hex": "#806249",
+          "effect": "antique"
+        }
+      ]
+    },
+    {
+      "id": "corner-glass-hinge",
+      "type": "hinge",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "gunmetal",
+          "label": "Gun Metal",
+          "hex": "#666b70",
+          "effect": "matte"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "white",
+          "label": "Белый",
+          "hex": "#f3f2ed",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "antique-bronze",
+          "label": "Античная бронза",
+          "hex": "#806249",
+          "effect": "antique"
+        },
+        {
+          "id": "rose-gold",
+          "label": "Полированное розовое золото",
+          "hex": "#c99984",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-rose-gold",
+          "label": "Брашированное розовое золото",
+          "hex": "#bc9583",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "inline-glass-hinge",
+      "type": "hinge",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        }
+      ]
+    },
+    {
+      "id": "hydraulic-wall-hinge",
+      "type": "hinge",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        }
+      ]
+    },
+    {
+      "id": "pauli-magnetic-wall-hinge",
+      "type": "hinge",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "steel-effect",
+          "label": "Эффект нержавеющей стали",
+          "hex": "#b0b6b8",
+          "effect": "satin"
+        }
+      ]
+    },
+    {
+      "id": "pauli-magnetic-glass-hinge",
+      "type": "hinge",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "steel-effect",
+          "label": "Эффект нержавеющей стали",
+          "hex": "#b0b6b8",
+          "effect": "satin"
+        }
+      ]
+    },
+    {
+      "id": "door-knob",
+      "type": "handle",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "antique-bronze",
+          "label": "Античная бронза",
+          "hex": "#806249",
+          "effect": "antique"
+        }
+      ]
+    },
+    {
+      "id": "pull-handle",
+      "type": "handle",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "gunmetal",
+          "label": "Gun Metal",
+          "hex": "#666b70",
+          "effect": "matte"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "white",
+          "label": "Белый",
+          "hex": "#f3f2ed",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "antique-bronze",
+          "label": "Античная бронза",
+          "hex": "#806249",
+          "effect": "antique"
+        },
+        {
+          "id": "rose-gold",
+          "label": "Полированное розовое золото",
+          "hex": "#c99984",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-rose-gold",
+          "label": "Брашированное розовое золото",
+          "hex": "#bc9583",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "pull-with-knob",
+      "type": "handle",
+      "finishes": [
+        {
+          "id": "stainless-polished",
+          "label": "Полированная нержавеющая сталь",
+          "hex": "#d5dadd",
+          "effect": "polished"
+        },
+        {
+          "id": "stainless-brushed",
+          "label": "Шлифованная нержавеющая сталь",
+          "hex": "#a5afb3",
+          "effect": "brushed"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "white",
+          "label": "Белый",
+          "hex": "#f3f2ed",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "antique-bronze",
+          "label": "Античная бронза",
+          "hex": "#806249",
+          "effect": "antique"
+        }
+      ]
+    },
+    {
+      "id": "sliding-door-handle",
+      "type": "handle",
+      "finishes": [
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        }
+      ]
+    },
+    {
+      "id": "wall-glass-connector",
+      "type": "clamp",
+      "finishes": [
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-chrome",
+          "label": "Брашированный хром",
+          "hex": "#aeb6ba",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "corner-glass-connector",
+      "type": "clamp",
+      "finishes": [
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-chrome",
+          "label": "Брашированный хром",
+          "hex": "#aeb6ba",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "inline-glass-connector",
+      "type": "clamp",
+      "finishes": [
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-chrome",
+          "label": "Брашированный хром",
+          "hex": "#aeb6ba",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "no-drill-glass-clamp",
+      "type": "clamp",
+      "finishes": [
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-bronze",
+          "label": "Брашированная бронза",
+          "hex": "#977761",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-chrome",
+          "label": "Брашированный хром",
+          "hex": "#aeb6ba",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "shower-support-bar",
+      "type": "clamp",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "gunmetal",
+          "label": "Gun Metal",
+          "hex": "#666b70",
+          "effect": "matte"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "white",
+          "label": "Белый",
+          "hex": "#f3f2ed",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "antique-bronze",
+          "label": "Античная бронза",
+          "hex": "#806249",
+          "effect": "antique"
+        },
+        {
+          "id": "rose-gold",
+          "label": "Полированное розовое золото",
+          "hex": "#c99984",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-rose-gold",
+          "label": "Брашированное розовое золото",
+          "hex": "#bc9583",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "corner-shower-slider",
+      "type": "slider",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "gunmetal",
+          "label": "Gun Metal",
+          "hex": "#666b70",
+          "effect": "matte"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-bronze",
+          "label": "Брашированная бронза",
+          "hex": "#977761",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "double-shower-slider",
+      "type": "slider",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "gunmetal",
+          "label": "Gun Metal",
+          "hex": "#666b70",
+          "effect": "matte"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-bronze",
+          "label": "Брашированная бронза",
+          "hex": "#977761",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "door-slider-fixed-panel",
+      "type": "slider",
+      "finishes": [
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "gunmetal",
+          "label": "Gun Metal",
+          "hex": "#666b70",
+          "effect": "matte"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-bronze",
+          "label": "Брашированная бронза",
+          "hex": "#977761",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "telescopic-door-slider",
+      "type": "slider",
+      "finishes": [
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        }
+      ]
+    },
+    {
+      "id": "glass-u-profile",
+      "type": "profile",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "gunmetal",
+          "label": "Gun Metal",
+          "hex": "#666b70",
+          "effect": "matte"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "white",
+          "label": "Белый",
+          "hex": "#f3f2ed",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-bronze",
+          "label": "Брашированная бронза",
+          "hex": "#977761",
+          "effect": "brushed"
+        },
+        {
+          "id": "rose-gold",
+          "label": "Полированное розовое золото",
+          "hex": "#c99984",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-rose-gold",
+          "label": "Брашированное розовое золото",
+          "hex": "#bc9583",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "two-part-glass-profile",
+      "type": "profile",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "satin",
+          "label": "Матовый хром",
+          "hex": "#adb5b8",
+          "effect": "satin"
+        },
+        {
+          "id": "gunmetal",
+          "label": "Gun Metal",
+          "hex": "#666b70",
+          "effect": "matte"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-bronze",
+          "label": "Брашированная бронза",
+          "hex": "#977761",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "mirror-frame-profile",
+      "type": "profile",
+      "finishes": [
+        {
+          "id": "chrome",
+          "label": "Полированный хром",
+          "hex": "#dce1e3",
+          "effect": "polished"
+        },
+        {
+          "id": "anodized",
+          "label": "Анодированный алюминий",
+          "hex": "#bfc7c9",
+          "effect": "satin"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "brushed-gold",
+          "label": "Брашированное золото",
+          "hex": "#bca26a",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-bronze",
+          "label": "Брашированная бронза",
+          "hex": "#977761",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-rose-gold",
+          "label": "Брашированное розовое золото",
+          "hex": "#bc9583",
+          "effect": "brushed"
+        },
+        {
+          "id": "brushed-chrome",
+          "label": "Брашированный хром",
+          "hex": "#aeb6ba",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "mirror-light-profile",
+      "type": "profile",
+      "finishes": [
+        {
+          "id": "anodized",
+          "label": "Анодированный алюминий",
+          "hex": "#bfc7c9",
+          "effect": "satin"
+        }
+      ]
+    },
+    {
+      "id": "round-mirror-frame",
+      "type": "profile",
+      "finishes": [
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        },
+        {
+          "id": "gold",
+          "label": "Глянцевое золото",
+          "hex": "#d2b263",
+          "effect": "polished"
+        },
+        {
+          "id": "antique-bronze",
+          "label": "Античная бронза",
+          "hex": "#806249",
+          "effect": "antique"
+        }
+      ]
+    },
+    {
+      "id": "floor-glass-clamp",
+      "type": "clamp",
+      "finishes": [
+        {
+          "id": "stainless-polished",
+          "label": "Полированная нержавеющая сталь",
+          "hex": "#d5dadd",
+          "effect": "polished"
+        },
+        {
+          "id": "stainless-brushed",
+          "label": "Шлифованная нержавеющая сталь",
+          "hex": "#a5afb3",
+          "effect": "brushed"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        }
+      ]
+    },
+    {
+      "id": "railing-standoff",
+      "type": "standoff",
+      "finishes": [
+        {
+          "id": "stainless-polished",
+          "label": "Полированная нержавеющая сталь",
+          "hex": "#d5dadd",
+          "effect": "polished"
+        },
+        {
+          "id": "stainless-brushed",
+          "label": "Шлифованная нержавеющая сталь",
+          "hex": "#a5afb3",
+          "effect": "brushed"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        }
+      ]
+    },
+    {
+      "id": "pauli-standoff",
+      "type": "standoff",
+      "finishes": [
+        {
+          "id": "stainless-brushed",
+          "label": "Шлифованная нержавеющая сталь",
+          "hex": "#a5afb3",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "wood-glass-handrail",
+      "type": "handrail",
+      "finishes": [
+        {
+          "id": "walnut",
+          "label": "Орех",
+          "hex": "#72503a",
+          "effect": "wood"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#242322",
+          "effect": "wood"
+        },
+        {
+          "id": "white",
+          "label": "Белый",
+          "hex": "#eeeae1",
+          "effect": "wood"
+        },
+        {
+          "id": "ash",
+          "label": "Ясень",
+          "hex": "#c9b08a",
+          "effect": "wood"
+        }
+      ]
+    },
+    {
+      "id": "glass-edge-seal",
+      "type": "seal",
+      "finishes": [
+        {
+          "id": "transparent",
+          "label": "Прозрачный",
+          "hex": "#e9f0ed",
+          "effect": "transparent"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        }
+      ]
+    },
+    {
+      "id": "profile-insert-seal",
+      "type": "seal",
+      "finishes": [
+        {
+          "id": "transparent",
+          "label": "Прозрачный",
+          "hex": "#e9f0ed",
+          "effect": "transparent"
+        },
+        {
+          "id": "black",
+          "label": "Чёрный",
+          "hex": "#222426",
+          "effect": "matte"
+        }
+      ]
+    },
+    {
+      "id": "canopy-wall-glass-mount",
+      "type": "canopy",
+      "finishes": [
+        {
+          "id": "stainless-brushed",
+          "label": "Шлифованная нержавеющая сталь",
+          "hex": "#a5afb3",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "canopy-rod-glass-mount",
+      "type": "canopy",
+      "finishes": [
+        {
+          "id": "stainless-brushed",
+          "label": "Шлифованная нержавеющая сталь",
+          "hex": "#a5afb3",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "canopy-rod-wall-mount",
+      "type": "canopy",
+      "finishes": [
+        {
+          "id": "stainless-brushed",
+          "label": "Шлифованная нержавеющая сталь",
+          "hex": "#a5afb3",
+          "effect": "brushed"
+        }
+      ]
+    },
+    {
+      "id": "canopy-support-rod",
+      "type": "canopy",
+      "finishes": [
+        {
+          "id": "stainless-brushed",
+          "label": "Шлифованная нержавеющая сталь",
+          "hex": "#a5afb3",
+          "effect": "brushed"
+        }
+      ]
+    }
+  ]
+}

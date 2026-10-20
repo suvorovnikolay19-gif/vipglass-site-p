@@ -1,0 +1,2469 @@
+{
+  "date": "2026-10-16",
+  "baseline": "HEAD:dist/catalog-media.mjs",
+  "scope": "Catalogue resolver only; resource/hardware changes are documented separately",
+  "catalogueNodes": 908,
+  "changedNodes": 346,
+  "byCategory": {
+    "mirrors": 7,
+    "showers": 10,
+    "partitions": 293,
+    "stairs": 36
+  },
+  "semanticAssertions": {
+    "allNodesWithRegisteredSources": 908,
+    "glassOptionsAsSamples": 50,
+    "mechanismAndDoubleFixtures": 68,
+    "frameOptionsNotGlassSamples": true,
+    "woodHandrailsCorrect": true,
+    "thumbnailAndGalleryKeysConsistent": true
+  },
+  "reviewedNewPhotos": "Contact sheets new-a.jpg and new-b.jpg under image-audit; folding full repaired by its author with atomic replace and verified decodable.",
+  "unresolved": [
+    {
+      "scope": "Mirror shape/frame combinations",
+      "note": "Existing image illustrates the named lighting or frame family; exact uncommon shape, aspect ratio and frame/shape combination remain in selected parameters."
+    },
+    {
+      "scope": "SMART bronze/grey and vertical/zonal segmentation",
+      "note": "Neutral SMART sample demonstrates switchable interlayer; tint remains specified in parameters. Segmentation photo shows a horizontal zone and is explicitly described as that example."
+    },
+    {
+      "scope": "Framed double sliding; loft telescopic; paired doors",
+      "note": "Photos show selected glass system or motion family, not every independent door arrangement. Caption states the applicable illustration scope."
+    },
+    {
+      "scope": "Loft frame finish/grid and external blinds",
+      "note": "Existing context photo shows a frame/grid or blinds family. Specific finish, grid and external blind placement remain selected parameters."
+    },
+    {
+      "scope": "Secondary shower/railing/canopy geometries",
+      "note": "Photo shows relevant opening/support family; no claim to match every panel count, outline or mounting position."
+    }
+  ],
+  "changes": [
+    {
+      "path": "/catalog/mirrors/panels/geometric",
+      "oldKey": "mirror-panel-geometric",
+      "newKey": "mirror-panel-bevel",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/strips",
+      "oldKey": "mirror-panel-geometric",
+      "newKey": "mirror-panel-bevel",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/strips/vertical",
+      "oldKey": "mirror-panel-geometric",
+      "newKey": "mirror-panel-bevel",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/strips/horizontal",
+      "oldKey": "mirror-panel-geometric",
+      "newKey": "mirror-panel-bevel",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/grid",
+      "oldKey": "mirror-panel-geometric",
+      "newKey": "mirror-panel-bevel",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/grid/squares",
+      "oldKey": "mirror-panel-geometric",
+      "newKey": "mirror-panel-bevel",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/mirrors/panels/geometric/grid/mixed",
+      "oldKey": "mirror-panel-geometric",
+      "newKey": "mirror-panel-bevel",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/showers/showers-niche/showers-niche-pivot-sliding",
+      "oldKey": "shower-niche",
+      "newKey": "shower-telescopic",
+      "kind": "interior",
+      "caption": "Пример раздвижного дверного узла; геометрия и число полотен указаны в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-sliding",
+      "oldKey": "shower-u-shape",
+      "newKey": "shower-telescopic",
+      "kind": "interior",
+      "caption": "Пример раздвижного дверного узла; геометрия и число полотен указаны в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-sliding/showers-u-sliding-four-glass",
+      "oldKey": "shower-u-shape",
+      "newKey": "shower-telescopic",
+      "kind": "interior",
+      "caption": "Пример раздвижного дверного узла; геометрия и число полотен указаны в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/showers/showers-u/showers-u-sliding/showers-u-sliding-six-glass",
+      "oldKey": "shower-u-shape",
+      "newKey": "shower-telescopic",
+      "kind": "interior",
+      "caption": "Пример раздвижного дверного узла; геометрия и число полотен указаны в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-moving/showers-tub-moving-folding",
+      "oldKey": "shower-tub-screen",
+      "newKey": "shower-folding",
+      "kind": "interior",
+      "caption": "Пример складного дверного узла; форма ограждения указана в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/showers/showers-tub/showers-tub-moving/showers-tub-moving-sliding",
+      "oldKey": "shower-tub-screen",
+      "newKey": "shower-telescopic",
+      "kind": "interior",
+      "caption": "Пример раздвижного дверного узла; геометрия и число полотен указаны в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/showers/showers-custom/showers-custom-cutout",
+      "oldKey": "shower-sloped",
+      "newKey": "shower-open",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/showers/showers-custom/showers-custom-cutout/showers-custom-cutout-wall-projection",
+      "oldKey": "shower-sloped",
+      "newKey": "shower-open",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/showers/showers-custom/showers-custom-cutout/showers-custom-cutout-bench",
+      "oldKey": "shower-sloped",
+      "newKey": "shower-open",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/showers/showers-custom/showers-custom-curved",
+      "oldKey": "shower-sloped",
+      "newKey": "service-bending",
+      "kind": "sample",
+      "caption": "Образец гнутого стекла; размеры и форма душевого экрана выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/swing",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/swing/side",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/swing/central",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/swing/pair",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/sliding",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/sliding/slide",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/sliding/slide-pair",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/sliding/telescopic",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-telescopic",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/folding",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/folding/book",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/home/folding/book-fixed",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/swing",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/swing/single",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/swing/pair",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/swing/swing-transom",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/pendulum",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/pendulum/pendulum",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/pendulum/pendulum-pair",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/sliding",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/sliding/slide",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/office/sliding/slide-central",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/meeting/straight/single",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/meeting/straight/slide",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/meeting/straight/pendulum",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/meeting/corner/corner-swing",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/meeting/corner/corner-slide",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/meeting/corner/corner-pendulum",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/fixed",
+      "oldKey": "partition-clear",
+      "newKey": "partition-shop",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/swing",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/swing/single",
+      "oldKey": "partition-shop",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/swing/pair",
+      "oldKey": "partition-shop",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/pendulum",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/pendulum/pendulum",
+      "oldKey": "partition-shop",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/pendulum/pendulum-pair",
+      "oldKey": "partition-shop",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/sliding",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/sliding/slide",
+      "oldKey": "partition-shop",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/retail/sliding/slide-pair",
+      "oldKey": "partition-shop",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/mall/fixed",
+      "oldKey": "partition-clear",
+      "newKey": "partition-shop",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/mall/entry",
+      "oldKey": "partition-clear",
+      "newKey": "partition-shop",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/mall/entry/pendulum-pair",
+      "oldKey": "partition-shop",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/mall/entry/slide-pair",
+      "oldKey": "partition-shop",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/mall/entry/parking",
+      "oldKey": "partition-shop",
+      "newKey": "partition-allglass-stacking",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/cafe/entry/single",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/cafe/entry/slide",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/cafe/folding",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/cafe/folding/book",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/cafe/folding/accordion",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/wardrobe/sliding",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/wardrobe/sliding/slide",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/wardrobe/sliding/slide-wall",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/wardrobe/sliding/slide-pair",
+      "oldKey": "partition-clear",
+      "newKey": "door-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/wardrobe/entry/side",
+      "oldKey": "partition-clear",
+      "newKey": "door-swing",
+      "kind": "interior",
+      "caption": "Пример открытого стеклянного дверного полотна; число створок и схема перегородки указаны в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/transformable/folding",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/transformable/folding/book",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/transformable/folding/accordion",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/transformable/folding/book-fixed",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/transformable/parking",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-stacking",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/transformable/parking/parking",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-stacking",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/transformable/parking/parking-corner",
+      "oldKey": "partition-clear",
+      "newKey": "partition-allglass-stacking",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass",
+      "oldKey": "partition-clear",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/tempered",
+      "oldKey": "partition-clear",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/tempered/t8",
+      "oldKey": "partition-clear",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/tempered/t10",
+      "oldKey": "partition-clear",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/tempered/t12",
+      "oldKey": "partition-clear",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/tempered/custom",
+      "oldKey": "partition-clear",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/laminated",
+      "oldKey": "partition-clear",
+      "newKey": "service-lamination",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/laminated/clear",
+      "oldKey": "partition-clear",
+      "newKey": "service-lamination",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/laminated/tempered",
+      "oldKey": "partition-clear",
+      "newKey": "service-lamination",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/color",
+      "oldKey": "partition-clear",
+      "newKey": "material-tinted",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/color/clear",
+      "oldKey": "partition-clear",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/color/grey",
+      "oldKey": "partition-clear",
+      "newKey": "material-graphite",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/color/bronze",
+      "oldKey": "partition-clear",
+      "newKey": "material-bronze",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/surface",
+      "oldKey": "partition-clear",
+      "newKey": "material-fluted",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/surface/satin",
+      "oldKey": "partition-clear",
+      "newKey": "material-satin",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/surface/sandblast",
+      "oldKey": "partition-clear",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/surface/ribbed-clear",
+      "oldKey": "partition-clear",
+      "newKey": "material-fluted",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/surface/ribbed-grey",
+      "oldKey": "partition-clear",
+      "newKey": "material-fluted-graphite",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/glass/surface/ribbed-bronze",
+      "oldKey": "partition-clear",
+      "newKey": "material-fluted-bronze",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/all-glass/decor",
+      "oldKey": "partition-clear",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/decor/bands",
+      "oldKey": "partition-clear",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/decor/lower-matte",
+      "oldKey": "partition-clear",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/decor/clear-transom",
+      "oldKey": "partition-clear",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/decor/side-privacy",
+      "oldKey": "partition-clear",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/decor/logo",
+      "oldKey": "partition-clear",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/decor/pattern",
+      "oldKey": "partition-clear",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/decor/print",
+      "oldKey": "partition-clear",
+      "newKey": "material-printed-photo",
+      "kind": "sample",
+      "caption": "Пример печати на стекле; рисунок выбранного изделия согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/all-glass/decor/decorative-film",
+      "oldKey": "partition-clear",
+      "newKey": "material-film-application",
+      "kind": "sample",
+      "caption": "Пример нанесения декоративной плёнки; рисунок выбранного изделия согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/framed/single/office/entry/slide",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/office/sliding",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/office/sliding/slide-wall",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/office/sliding/suspended",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/office/sliding/slide-pair",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/meeting/straight/slide",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/meeting/corner/corner-slide",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/home/single-door/slide",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/home/pair-door/slide-pair",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/home/sliding",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/home/sliding/slide-wall",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/home/sliding/suspended",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/retail",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/retail/fixed/line",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/retail/fixed/corner",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/retail/swing/single",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/retail/swing/pair",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/retail/sliding",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/retail/sliding/slide",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/retail/sliding/slide-pair",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/mall",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/mall/fixed/line",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/mall/fixed/corner",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/mall/entry/pair",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/mall/entry/slide-pair",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/single/cafe/entry/slide",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/fixed",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/fixed/line",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/fixed/corner",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/fixed/transom",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/swing",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/swing/single",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/swing/pair",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/swing/swing-transom",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/sliding",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": "Пример двух рядов стекла; отдельный раздвижной вход указан в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/sliding/slide",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": "Пример двух рядов стекла; отдельный раздвижной вход указан в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/framed/double/office/sliding/slide-wall",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": "Пример двух рядов стекла; отдельный раздвижной вход указан в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/straight",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/straight/single",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/straight/pair",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/straight/swing-transom",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/corner",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/corner/corner-swing",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/corner/corner-slide",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": "Пример двух рядов стекла; отдельный раздвижной вход указан в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/fixed",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/fixed/line",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/fixed/corner",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/meeting/fixed/transom",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/home",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/home/fixed",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/home/fixed/line",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/home/fixed/corner",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/home/entry",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/home/entry/single",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/home/entry/slide",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": "Пример двух рядов стекла; отдельный раздвижной вход указан в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/framed/double/retail",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/retail/fixed",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/retail/fixed/line",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/retail/fixed/corner",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/retail/entry",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/retail/entry/single",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/double/retail/entry/pair",
+      "oldKey": "partition-shop",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/clamped-double",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/clamped-double/line",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/clamped-double/corner",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/clamped-double/single",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/clamped-double/pair",
+      "oldKey": "partition-framed",
+      "newKey": "partition-framed-double-clear",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/annealed",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/annealed/t5",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/annealed/t6",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/annealed/custom",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/tempered",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/tempered/t5",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/tempered/t6",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/tempered/t8",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/tempered/t10",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/tempered/t12",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/tempered/custom",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/laminated",
+      "oldKey": "partition-framed",
+      "newKey": "service-lamination",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/laminated/clear",
+      "oldKey": "partition-framed",
+      "newKey": "service-lamination",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/laminated/tempered",
+      "oldKey": "partition-framed",
+      "newKey": "service-lamination",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/color",
+      "oldKey": "partition-framed",
+      "newKey": "material-tinted",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/color/clear",
+      "oldKey": "partition-framed",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/color/grey",
+      "oldKey": "partition-framed",
+      "newKey": "material-graphite",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/color/bronze",
+      "oldKey": "partition-framed",
+      "newKey": "material-bronze",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/surface",
+      "oldKey": "partition-framed",
+      "newKey": "material-fluted",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/surface/satin",
+      "oldKey": "partition-framed",
+      "newKey": "material-satin",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/surface/sandblast",
+      "oldKey": "partition-framed",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/surface/ribbed-clear",
+      "oldKey": "partition-framed",
+      "newKey": "material-fluted",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/surface/ribbed-grey",
+      "oldKey": "partition-framed",
+      "newKey": "material-fluted-graphite",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/glass/surface/ribbed-bronze",
+      "oldKey": "partition-framed",
+      "newKey": "material-fluted-bronze",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/blinds",
+      "oldKey": "partition-framed",
+      "newKey": "partition-double-blinds",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/framed/blinds/external-single",
+      "oldKey": "partition-framed",
+      "newKey": "partition-double-blinds",
+      "kind": "interior",
+      "caption": "Пример жалюзи в составе перегородки; наружное размещение выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/framed/decor",
+      "oldKey": "partition-framed",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/framed/decor/bands",
+      "oldKey": "partition-framed",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/framed/decor/lower-matte",
+      "oldKey": "partition-framed",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/framed/decor/clear-transom",
+      "oldKey": "partition-framed",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/framed/decor/side-privacy",
+      "oldKey": "partition-framed",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/framed/decor/logo",
+      "oldKey": "partition-framed",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/framed/decor/pattern",
+      "oldKey": "partition-framed",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/framed/decor/print",
+      "oldKey": "partition-framed",
+      "newKey": "material-printed-photo",
+      "kind": "sample",
+      "caption": "Пример печати на стекле; рисунок выбранного изделия согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/framed/decor/decorative-film",
+      "oldKey": "partition-framed",
+      "newKey": "material-film-application",
+      "kind": "sample",
+      "caption": "Пример нанесения декоративной плёнки; рисунок выбранного изделия согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/loft/home/sliding",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/home/sliding/slide",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/home/sliding/slide-pair",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/home/sliding/pocket",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/home/folding",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/home/folding/book",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/home/folding/accordion",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/kitchen/sliding",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/kitchen/sliding/slide",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/kitchen/sliding/slide-pair",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/kitchen/sliding/pocket",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/kitchen/transformable/cascade",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": "Пример рамных раздвижных полотен; каскадная схема согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/loft/kitchen/transformable/book",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/kitchen/transformable/accordion",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/living/sliding",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/living/sliding/slide",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/living/sliding/slide-pair",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/living/transformable/cascade",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": "Пример рамных раздвижных полотен; каскадная схема согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/loft/living/transformable/pivot",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-pivot",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/wardrobe/sliding",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/wardrobe/sliding/slide",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/wardrobe/sliding/slide-pair",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/wardrobe/folding",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/wardrobe/folding/book",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/wardrobe/folding/accordion",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/office/sliding",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/office/sliding/slide",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/office/sliding/corner-slide",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/office/sliding/cascade",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": "Пример рамных раздвижных полотен; каскадная схема согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/loft/retail",
+      "oldKey": "partition-shop",
+      "newKey": "partition-loft",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/retail/fixed/line",
+      "oldKey": "partition-shop",
+      "newKey": "partition-loft",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/retail/fixed/corner",
+      "oldKey": "partition-shop",
+      "newKey": "partition-loft",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/retail/swing/single",
+      "oldKey": "partition-shop",
+      "newKey": "partition-loft",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/retail/swing/pair",
+      "oldKey": "partition-shop",
+      "newKey": "partition-loft",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/retail/sliding",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/retail/sliding/slide",
+      "oldKey": "partition-shop",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/retail/sliding/slide-pair",
+      "oldKey": "partition-shop",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/cafe/entry/slide",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/cafe/transformable/cascade",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": "Пример рамных раздвижных полотен; каскадная схема согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/loft/cafe/transformable/accordion",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/mechanisms/sliding-support/suspended",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/mechanisms/sliding-support/supported",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/mechanisms/collection/cascade",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": "Пример рамных раздвижных полотен; каскадная схема согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/loft/mechanisms/collection/book",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/mechanisms/collection/accordion",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-folding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/mechanisms/special/pocket",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-sliding",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/mechanisms/special/pivot",
+      "oldKey": "partition-loft",
+      "newKey": "partition-loft-pivot",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass",
+      "oldKey": "partition-loft",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/tempered",
+      "oldKey": "partition-loft",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/tempered/t6",
+      "oldKey": "partition-loft",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/tempered/t8",
+      "oldKey": "partition-loft",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/tempered/t10",
+      "oldKey": "partition-loft",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/tempered/custom",
+      "oldKey": "partition-loft",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/laminated",
+      "oldKey": "partition-loft",
+      "newKey": "service-lamination",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/laminated/clear",
+      "oldKey": "partition-loft",
+      "newKey": "service-lamination",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/laminated/tempered",
+      "oldKey": "partition-loft",
+      "newKey": "service-lamination",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/color",
+      "oldKey": "partition-loft",
+      "newKey": "material-tinted",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/color/clear",
+      "oldKey": "partition-loft",
+      "newKey": "material-clear",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/color/grey",
+      "oldKey": "partition-loft",
+      "newKey": "material-graphite",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/color/bronze",
+      "oldKey": "partition-loft",
+      "newKey": "material-bronze",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/surface",
+      "oldKey": "partition-loft",
+      "newKey": "material-fluted",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/surface/satin",
+      "oldKey": "partition-loft",
+      "newKey": "material-satin",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/surface/sandblast",
+      "oldKey": "partition-loft",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/surface/ribbed-clear",
+      "oldKey": "partition-loft",
+      "newKey": "material-fluted",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/surface/ribbed-grey",
+      "oldKey": "partition-loft",
+      "newKey": "material-fluted-graphite",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/glass/surface/ribbed-bronze",
+      "oldKey": "partition-loft",
+      "newKey": "material-fluted-bronze",
+      "kind": "sample",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/loft/decor",
+      "oldKey": "partition-loft",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/loft/decor/bands",
+      "oldKey": "partition-loft",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/loft/decor/lower-matte",
+      "oldKey": "partition-loft",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/loft/decor/clear-transom",
+      "oldKey": "partition-loft",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/loft/decor/side-privacy",
+      "oldKey": "partition-loft",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/loft/decor/logo",
+      "oldKey": "partition-loft",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/loft/decor/pattern",
+      "oldKey": "partition-loft",
+      "newKey": "service-sandblast",
+      "kind": "sample",
+      "caption": "Пример частичного матирования; расположение прозрачных и матовых зон указано в выбранном исполнении."
+    },
+    {
+      "path": "/catalog/partitions/loft/decor/print",
+      "oldKey": "partition-loft",
+      "newKey": "material-printed-photo",
+      "kind": "sample",
+      "caption": "Пример печати на стекле; рисунок выбранного изделия согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/loft/decor/decorative-film",
+      "oldKey": "partition-loft",
+      "newKey": "material-film-application",
+      "kind": "sample",
+      "caption": "Пример нанесения декоративной плёнки; рисунок выбранного изделия согласуется отдельно."
+    },
+    {
+      "path": "/catalog/partitions/smart/public/consultation",
+      "oldKey": "partition-shop",
+      "newKey": "partition-smart",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/partitions/smart/construction",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/construction/all-glass",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/construction/framed",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/construction/loft",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/construction/swing",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/construction/sliding",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/construction/telescopic",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/control",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/control/wall",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/control/sensor",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/control/remote",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/control/automation",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/control-zones",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/control-zones/together",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/control-zones/independent",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/control-zones/groups",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример двух состояний внутреннего SMART-слоя; способ управления выбирается в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/glass",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Образец внутреннего переключаемого слоя SMART-триплекса"
+    },
+    {
+      "path": "/catalog/partitions/smart/glass/clear",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Образец внутреннего переключаемого слоя SMART-триплекса"
+    },
+    {
+      "path": "/catalog/partitions/smart/glass/grey",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример переключаемого слоя SMART-триплекса; выбранный оттенок основы указан в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/glass/bronze",
+      "oldKey": "partition-smart",
+      "newKey": "material-smart",
+      "kind": "sample",
+      "caption": "Пример переключаемого слоя SMART-триплекса; выбранный оттенок основы указан в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/segmented",
+      "oldKey": "partition-smart",
+      "newKey": "partition-smart-segmented",
+      "kind": "interior",
+      "caption": "Пример сегментированного SMART-стекла с горизонтальной зоной; выбранная раскладка указана в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/segmented/horizontal",
+      "oldKey": "partition-smart",
+      "newKey": "partition-smart-segmented",
+      "kind": "interior",
+      "caption": "Пример горизонтальной переключаемой зоны SMART-стекла"
+    },
+    {
+      "path": "/catalog/partitions/smart/segmented/vertical",
+      "oldKey": "partition-smart",
+      "newKey": "partition-smart-segmented",
+      "kind": "interior",
+      "caption": "Пример сегментированного SMART-стекла с горизонтальной зоной; выбранная раскладка указана в параметрах."
+    },
+    {
+      "path": "/catalog/partitions/smart/segmented/zones",
+      "oldKey": "partition-smart",
+      "newKey": "partition-smart-segmented",
+      "kind": "interior",
+      "caption": "Пример сегментированного SMART-стекла с горизонтальной зоной; выбранная раскладка указана в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-points/stairs-railings-stair-flight-points-with-handrail/stairs-railings-stair-flight-points-with-handrail-wood",
+      "oldKey": "stairs-glass",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-inclined-profile",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-inclined-profile",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail/stairs-railings-stair-flight-profile-with-handrail-metal",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-inclined-profile",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail/stairs-railings-stair-flight-profile-with-handrail-metal/stairs-railings-stair-flight-profile-with-handrail-metal-top-mount",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-inclined-profile",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail/stairs-railings-stair-flight-profile-with-handrail-metal/stairs-railings-stair-flight-profile-with-handrail-metal-side-mount",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-inclined-profile",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail/stairs-railings-stair-flight-profile-with-handrail-wood",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-inclined-profile",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail/stairs-railings-stair-flight-profile-with-handrail-wood/stairs-railings-stair-flight-profile-with-handrail-wood-top-mount",
+      "oldKey": "stairs-glass",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-with-handrail/stairs-railings-stair-flight-profile-with-handrail-wood/stairs-railings-stair-flight-profile-with-handrail-wood-side-mount",
+      "oldKey": "stairs-glass",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-without-handrail",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-inclined-profile",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-without-handrail/stairs-railings-stair-flight-profile-without-handrail-top-mount",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-inclined-profile",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-profile/stairs-railings-stair-flight-profile-without-handrail/stairs-railings-stair-flight-profile-without-handrail-side-mount",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-inclined-profile",
+      "kind": "interior",
+      "caption": ""
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts/stairs-railings-stair-flight-posts-with-handrail",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts/stairs-railings-stair-flight-posts-with-handrail/stairs-railings-stair-flight-posts-with-handrail-metal",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts/stairs-railings-stair-flight-posts-with-handrail/stairs-railings-stair-flight-posts-with-handrail-wood",
+      "oldKey": "stairs-glass",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-stair-flight/stairs-railings-stair-flight-posts/stairs-railings-stair-flight-posts-without-handrail",
+      "oldKey": "stairs-glass",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-points/stairs-railings-second-light-points-with-handrail/stairs-railings-second-light-points-with-handrail-wood",
+      "oldKey": "railing-landing",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-profile/stairs-railings-second-light-profile-with-handrail/stairs-railings-second-light-profile-with-handrail-wood/stairs-railings-second-light-profile-with-handrail-wood-top-mount",
+      "oldKey": "railing-landing",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-profile/stairs-railings-second-light-profile-with-handrail/stairs-railings-second-light-profile-with-handrail-wood/stairs-railings-second-light-profile-with-handrail-wood-side-mount",
+      "oldKey": "railing-landing",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts",
+      "oldKey": "railing-landing",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts/stairs-railings-second-light-posts-with-handrail",
+      "oldKey": "railing-landing",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts/stairs-railings-second-light-posts-with-handrail/stairs-railings-second-light-posts-with-handrail-metal",
+      "oldKey": "railing-landing",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts/stairs-railings-second-light-posts-with-handrail/stairs-railings-second-light-posts-with-handrail-wood",
+      "oldKey": "railing-landing",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-second-light/stairs-railings-second-light-posts/stairs-railings-second-light-posts-without-handrail",
+      "oldKey": "railing-landing",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-points/stairs-railings-mezzanine-points-with-handrail/stairs-railings-mezzanine-points-with-handrail-wood",
+      "oldKey": "railing-landing",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-profile/stairs-railings-mezzanine-profile-with-handrail/stairs-railings-mezzanine-profile-with-handrail-wood/stairs-railings-mezzanine-profile-with-handrail-wood-top-mount",
+      "oldKey": "railing-landing",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-profile/stairs-railings-mezzanine-profile-with-handrail/stairs-railings-mezzanine-profile-with-handrail-wood/stairs-railings-mezzanine-profile-with-handrail-wood-side-mount",
+      "oldKey": "railing-landing",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts",
+      "oldKey": "railing-landing",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts/stairs-railings-mezzanine-posts-with-handrail",
+      "oldKey": "railing-landing",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts/stairs-railings-mezzanine-posts-with-handrail/stairs-railings-mezzanine-posts-with-handrail-metal",
+      "oldKey": "railing-landing",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts/stairs-railings-mezzanine-posts-with-handrail/stairs-railings-mezzanine-posts-with-handrail-wood",
+      "oldKey": "railing-landing",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-mezzanine/stairs-railings-mezzanine-posts/stairs-railings-mezzanine-posts-without-handrail",
+      "oldKey": "railing-landing",
+      "newKey": "railing-posts",
+      "kind": "interior",
+      "caption": "Пример крепления стекла на стойках; геометрия ограждения и поручень выбираются в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-profile/stairs-railings-outdoor-profile-with-handrail/stairs-railings-outdoor-profile-with-handrail-wood/stairs-railings-outdoor-profile-with-handrail-wood-top-mount",
+      "oldKey": "railing-outdoor",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-profile/stairs-railings-outdoor-profile-with-handrail/stairs-railings-outdoor-profile-with-handrail-wood/stairs-railings-outdoor-profile-with-handrail-wood-side-mount",
+      "oldKey": "railing-outdoor",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    },
+    {
+      "path": "/catalog/stairs/stairs-railings/stairs-railings-outdoor/stairs-railings-outdoor-mini-posts/stairs-railings-outdoor-mini-posts-with-handrail/stairs-railings-outdoor-mini-posts-with-handrail-wood",
+      "oldKey": "railing-outdoor",
+      "newKey": "hardware-wood-handrail",
+      "kind": "detail",
+      "caption": "Пример деревянного поручня на стекле; форма ограждения и его опоры указаны в параметрах."
+    }
+  ],
+  "baselineCommit": "eb336e5147373596469815dbe8cf0bef1fefff71"
+}

@@ -1,0 +1,753 @@
+/*
+  VIP Glass — визуальный слой варианта P «Витрина» (20.10.2026).
+  Подключается последним в src/shell.html. Меняет только оформление:
+  цвета, шрифт, отступы, сетку, скругления, состояния наведения.
+  Тексты, разметка и поведение исходного сайта не затрагиваются.
+*/
+
+/* ---------- Шрифт Manrope (OFL, assets/manrope/OFL.txt), локально ---------- */
+@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:200 800;src:url('./assets/manrope/manrope-cyrillic-ext-wght-normal.woff2') format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:200 800;src:url('./assets/manrope/manrope-cyrillic-wght-normal.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:200 800;src:url('./assets/manrope/manrope-latin-ext-wght-normal.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:200 800;src:url('./assets/manrope/manrope-latin-wght-normal.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+
+/* ---------- Токены ---------- */
+:root{
+  --serif:Manrope,system-ui,-apple-system,'Segoe UI',sans-serif;
+  --sans:Manrope,system-ui,-apple-system,'Segoe UI',sans-serif;
+  --ink:#1B1B19;--muted:#4E4D47;--accent:#1B1B19;--paper:#fff;--line:#E6E5E1;
+  --p-ink:#1B1B19;--p-2:#4E4D47;--p-3:#67665F;--p-line:#E6E5E1;--p-field:#D8D7D2;--p-surface:#F4F3F0;--p-surface-2:#ECEBE6;
+  --p-radius:22px;--p-pill:999px;
+  --p-glass:rgba(255,255,255,.74);
+  --header:72px;--gutter:clamp(16px,2.8vw,40px);
+}
+
+/* ---------- База ---------- */
+html{scroll-padding-top:96px}
+body{background:#fff;color:#1B1B19;font-family:var(--sans);font-size:15px;line-height:1.5;text-rendering:optimizeLegibility}
+h1,h2,h3,h4{font-family:var(--sans);font-weight:600!important;overflow-wrap:break-word}
+h1,h2{letter-spacing:-.045em;line-height:1}
+h3{letter-spacing:-.03em;line-height:1.2}
+em{font-family:inherit;font-weight:inherit;font-style:normal}
+.serif{font-family:var(--sans)}
+::selection{background:#1B1B19;color:#fff}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid #1B1B19;outline-offset:4px}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;line-height:1.5;color:#67665F}
+.muted{color:#67665F}
+.interior-image{background:#ECEBE6}
+hr,.quiet-line{background:#E6E5E1}
+
+/* ---------- Кнопки и ссылки ---------- */
+.btn{min-height:52px;padding:12px 26px;gap:14px;border:1px solid #1B1B19;border-radius:999px;background:#fff;color:#1B1B19;font-size:15px;font-weight:600;line-height:1.2;transition:background .2s,color .2s,border-color .2s,transform .2s}
+.btn:hover{background:#F4F3F0}
+.btn.primary{background:#1B1B19;color:#fff;border-color:#1B1B19}
+.btn.primary:hover{background:#33332F}
+.btn.light{background:#fff;color:#1B1B19;border-color:#fff}
+.btn.light:hover{background:#F4F3F0;border-color:#F4F3F0}
+.btn.clear{background:transparent;color:inherit;border-color:currentColor}
+.btn.clear:hover{background:rgba(27,27,25,.06)}
+.btn.small{min-height:42px;padding:8px 18px;font-size:13px}
+.btn:active{transform:scale(.98)}
+.text-button{padding:0 0 2px;gap:8px;border-bottom:1.5px solid currentColor;font-size:15px;font-weight:600}
+.text-button:hover{opacity:.7}
+.round-link{border-color:#E6E5E1;background:#fff;font-size:18px;transition:background .2s,color .2s}
+a:hover>.round-link,.round-link:hover{background:#1B1B19;color:#fff;border-color:#1B1B19}
+.button-row{gap:14px 24px;align-items:center}
+
+/* ---------- Шапка магазина: логотип, меню по центру, тёмная пилюля проекта ---------- */
+.header{position:sticky;top:0;z-index:40;height:var(--header);margin:0;padding:0 max(28px,calc(var(--gutter) - 12px));gap:20px;border:0;border-bottom:1px solid transparent;background:rgba(255,255,255,.92);-webkit-backdrop-filter:blur(24px) saturate(160%);backdrop-filter:blur(24px) saturate(160%);color:#1B1B19;transition:border-color .2s}
+.identity{gap:12px}
+.identity img{width:42px;height:42px;border-radius:11px;background:#fff;border:1px solid #E6E5E1;padding:2px}
+.identity span{font-size:12px;font-weight:600;line-height:1.25;letter-spacing:0;color:inherit}
+.desktop-nav{gap:clamp(18px,2.4vw,34px);font-size:14px;font-weight:500}
+.desktop-nav button,.desktop-nav a{font-size:14px;font-weight:500;padding:10px 0;transition:opacity .2s}
+.desktop-nav button:hover,.desktop-nav a:hover{opacity:.65}
+.plus{font-size:16px;margin-left:2px}
+.header-actions{gap:4px}
+.header .icon-btn{width:44px;height:44px;border-radius:999px;transition:background .2s}
+.header .icon-btn:hover{background:rgba(27,27,25,.06)}
+.header .icon-btn svg{width:20px;height:20px;stroke-width:1.8}
+.project-count{border:0;background:#1B1B19;color:#fff;font-weight:700;border-radius:999px}
+.project-link{display:inline-flex;align-items:center;gap:10px;height:42px;margin-left:8px;padding:0 6px 0 20px;border-radius:999px;background:#1B1B19;color:#fff;font-size:13px;font-weight:600;transition:background .2s}
+.project-link:hover{background:#33332F}
+.project-link .project-count{width:30px;height:30px;min-width:30px;margin:0;background:#fff;color:#1B1B19;font-size:11px}
+
+/* Главная: шапка лежит поверх фото-баннера, при прокрутке становится белой */
+body:has(#main>.hero) .header{top:8px;margin:20px 20px -92px;padding:0 28px;border-radius:28px 28px 0 0;background:transparent;-webkit-backdrop-filter:none;backdrop-filter:none;color:#fff}
+body:has(#main>.hero) .identity img{border-color:transparent}
+body:has(#main>.hero) .project-link{background:#fff;color:#1B1B19;box-shadow:inset 0 0 0 1px rgba(27,27,25,.12)}
+body:has(#main>.hero) .project-link .project-count{background:#1B1B19;color:#fff}
+@supports (animation-timeline:scroll()){
+  body:has(#main>.hero) .header{animation:p-header-solid linear both;animation-timeline:scroll(root);animation-range:0 60vh}
+}
+@keyframes p-header-solid{
+  0%,70%{background:transparent;color:#fff;border-radius:28px 28px 0 0;box-shadow:none}
+  100%{background:rgba(255,255,255,.94);color:#1B1B19;border-radius:22px;box-shadow:0 12px 34px rgba(18,18,16,.08)}
+}
+
+/* ---------- Первый экран главной: фото-баннер со скруглением, текст по центру ---------- */
+.hero{display:flex;flex-direction:column;justify-content:center;height:calc(100svh - 40px);min-height:640px;max-height:900px;margin:20px 20px 0;border-radius:28px;background:#1B1B19}
+.hero-img{object-position:center 60%}
+.hero:after{background:linear-gradient(180deg,rgba(18,18,16,.55) 0%,rgba(18,18,16,.38) 40%,rgba(18,18,16,.5) 100%)}
+.hero-copy{display:flex;flex-direction:column;align-items:center;max-width:none;margin:0 auto;padding:110px 24px 150px;text-align:center}
+.hero-copy .eyebrow{color:rgba(255,255,255,.9);opacity:1;margin-bottom:22px;letter-spacing:.16em}
+.hero h1{font-family:var(--sans);font-size:clamp(56px,6.2vw,92px);font-weight:500!important;line-height:1;letter-spacing:-.04em;text-shadow:none}
+.hero-copy p{max-width:540px;margin-top:22px;font-size:18px;font-weight:400;line-height:1.5;color:rgba(255,255,255,.92)}
+.hero .button-row{justify-content:center;gap:14px 26px;margin-top:28px}
+.hero .button-row .btn.light{min-height:48px;padding:0 26px;font-size:14px}
+.hero-copy .text-button{font-size:14px;border-bottom:1px solid currentColor;color:#fff}
+.hero-bottom{position:absolute;left:28px;right:28px;bottom:28px;padding:0;align-items:flex-end;gap:16px}
+.hero-links{max-width:none;gap:6px;padding:0;border:0;background:none}
+.hero-links a{min-height:36px;padding:0 14px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.18);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);font-size:12px;font-weight:600;gap:6px;transition:background .2s,color .2s}
+.hero-links a:hover{background:#fff;color:#1B1B19}
+.hero-bottom .eyebrow{display:inline-flex;align-items:center;min-height:36px;padding:4px 14px;border:1px solid rgba(255,255,255,.35);border-radius:18px;background:rgba(255,255,255,.18);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);font-size:11px;letter-spacing:.08em;color:#fff;opacity:1;line-height:1.35}
+
+/* ---------- Секции ---------- */
+.section{padding-top:clamp(56px,7vw,100px);padding-bottom:clamp(8px,1.2vw,16px)}
+.section-top{gap:16px 48px;margin-bottom:clamp(28px,3vw,36px)}
+.section-top h2{margin-top:12px;font-size:clamp(32px,3.1vw,44px);letter-spacing:-.03em;line-height:1.1}
+.section-top p{color:#67665F;font-size:16px}
+.section-head h2{font-size:clamp(32px,3.1vw,44px);letter-spacing:-.03em;line-height:1.1}
+h2{font-size:clamp(30px,3vw,44px);letter-spacing:-.03em;line-height:1.1}
+/* На главной заголовки секций по центру, как в витрине */
+#main>.section>.section-top{flex-direction:column;align-items:center;justify-content:center;text-align:center}
+#main>.section>.section-top p{max-width:560px}
+
+/* Манифест */
+.intro-statement{border-bottom:0;gap:clamp(24px,5vw,64px);padding-bottom:0}
+.intro-statement h2{font-size:clamp(34px,4vw,56px);line-height:1.05;letter-spacing:-.04em;max-width:1000px}
+.intro-statement p{margin-top:24px;font-size:clamp(16px,1.3vw,18px);line-height:1.5;color:#67665F;max-width:600px}
+
+/* Шесть направлений: подборка комнат-плиток (крупная слева, две справа, три снизу) */
+.category-grid{gap:16px}
+.category-grid>.choice-card{position:relative;isolation:isolate;overflow:hidden;justify-content:flex-end;min-height:300px;border:0;border-radius:24px;background:#1B1B19;color:#fff;padding:0}
+.category-grid>.choice-card:hover{background:#1B1B19}
+.category-grid>.choice-card .choice-photo{position:absolute;inset:0;z-index:-2;aspect-ratio:auto;border-radius:0}
+.category-grid>.choice-card .choice-number{top:20px;left:20px;z-index:1}
+.category-grid>.choice-card::after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:rgba(18,18,16,.12)}
+.category-grid>.choice-card .choice-copy{flex:0 0 auto;padding:72px 24px 24px;background:linear-gradient(0deg,rgba(18,18,16,.8) 0%,rgba(18,18,16,.66) 62%,rgba(18,18,16,0) 100%)}
+.category-grid>.choice-card .choice-copy h3{font-size:28px;font-weight:600!important;color:#fff}
+.category-grid>.choice-card:first-child .choice-copy h3{font-size:36px}
+.category-grid>.choice-card .choice-copy>p{margin:8px 0 14px;font-size:14px;line-height:1.5;color:rgba(255,255,255,.88);max-width:52ch}
+.category-grid .card-subtypes{margin-bottom:16px;gap:6px}
+.category-grid .card-subtypes>span{border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.18);color:#fff;font-size:12px;font-weight:600;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.category-grid>.choice-card .choice-bottom{align-self:flex-start;display:inline-flex;gap:10px;min-height:40px;margin:0;padding:0 7px 0 16px;border:0;border-radius:999px;background:#fff;color:#1B1B19;font-size:13px;font-weight:600}
+.category-grid>.choice-card .choice-arrow{width:26px;height:26px;border:0;border-radius:999px;background:#F4F3F0;color:#1B1B19;font-size:14px}
+.category-grid>.choice-card:hover .choice-arrow{background:#1B1B19;color:#fff;transform:none}
+
+/* Карточки выбора как товар: светлая подложка, фото со скруглением, стрелка-кнопка */
+.choice-card{padding:14px;border:0;border-radius:22px;background:#F4F3F0;transition:background .2s}
+.choice-card:hover{border-color:transparent;box-shadow:none;transform:none;background:#ECEBE6}
+.choice-card:focus-visible{outline:2px solid #1B1B19;outline-offset:4px}
+.choice-photo{border-radius:16px;background:#E6E5E1}
+.choice-photo .interior-image{transition:transform .7s}
+.choice-card:hover .choice-photo .interior-image{transform:scale(1.04)}
+.choice-number{top:12px;left:12px;min-width:30px;height:30px;padding:0 12px;border:0;border-radius:999px;background:#fff;color:#1B1B19;font-size:12px;font-weight:600;letter-spacing:0}
+.choice-copy{padding:16px 4px 0}
+.choice-copy h3{font-size:clamp(17px,1.4vw,20px);font-weight:600!important;letter-spacing:-.01em;line-height:1.25}
+.choice-copy>p{color:#67665F;font-size:13px;line-height:1.55}
+.choice-bottom{min-height:56px;border-top:1px solid #E0DFDA;color:#1B1B19;font-weight:600;font-size:13px}
+.choice-arrow{display:inline-grid;place-items:center;width:42px;height:42px;border:1px solid #E6E5E1;border-radius:12px;background:#fff;color:#1B1B19;font-size:16px;transition:background .2s,color .2s,border-color .2s}
+.choice-card:hover .choice-arrow{background:#1B1B19;color:#fff;border-color:#1B1B19;transform:none}
+.choice-differences dt{color:#67665F}
+.choice-differences dd{color:#1B1B19;font-weight:500}
+.card-subtypes>span{border:0;border-radius:999px;background:#fff;color:#1B1B19;font-weight:600;font-size:12px;padding:5px 12px}
+.choice-card:not(:has(.choice-photo)){background:#F4F3F0;transition:background .2s}
+.choice-card:not(:has(.choice-photo)):hover{background:#ECEBE6}
+.choice-card:not(:has(.choice-photo)) .choice-copy{padding-left:12px;padding-right:12px}
+.choice-option .option-number{color:#67665F}
+.choice-reference>.interior-image{border-radius:22px}
+.choice-reference figcaption,.choice-reference>p{color:#67665F}
+.choice-help{border:0;border-radius:22px;background:#F4F3F0}
+.selection-step{border-radius:999px;background:#1B1B19;color:#fff;font-weight:600;padding:5px 12px}
+
+/* «Выберите стекло. Задайте ему форму.»: две карточки-витрины */
+.resource-home-grid{gap:16px}
+.resource-portal{display:flex;flex-direction:column;gap:0;padding:14px;border:0;border-radius:22px;background:#F4F3F0;color:#1B1B19;transition:background .2s}
+.resource-portal>div{aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#E6E5E1}
+.resource-portal>div img{transition:transform .7s}
+.resource-portal:hover{background:#ECEBE6}
+.resource-portal:hover img{transform:scale(1.04)}
+.resource-portal>section{padding:20px 8px 6px}
+.resource-portal .eyebrow{display:inline-flex;width:max-content;max-width:100%;align-items:center;height:30px;padding:0 12px;border-radius:999px;background:#fff;color:#1B1B19;font-size:11px;letter-spacing:.08em}
+.resource-portal h2{margin:14px 0 8px;font-size:clamp(28px,2.6vw,40px);line-height:1.05;letter-spacing:-.03em;color:#1B1B19}
+.resource-portal p{color:#67665F;font-size:15px}
+.portal-action{justify-content:space-between;gap:12px;width:max-content;max-width:100%;margin-top:20px;padding:0 5px 0 22px;min-height:48px;border:0;border-radius:999px;background:#1B1B19;color:#fff;font-size:14px;font-weight:600}
+.portal-action>span{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:999px;background:#fff;color:#1B1B19;font-size:15px}
+.production-material-entry .resource-portal{display:flex}
+.production-material-entry .resource-portal>div{aspect-ratio:16/9}
+
+/* Редакционный блок */
+.editorial img{border-radius:24px}
+.editorial figcaption{font-size:12px;color:#67665F}
+.editorial h2{font-size:clamp(32px,3.1vw,44px)}
+.editorial p{font-size:16px;color:#67665F}
+
+/* Этапы: карточки с номером */
+.process{gap:16px}
+.process article{padding:22px;border:1px solid #E6E5E1;border-radius:22px;background:#fff}
+.process .step-number{display:inline-flex;align-items:center;height:30px;padding:0 12px;border-radius:999px;background:#1B1B19;color:#fff;font-size:11px;font-weight:700;letter-spacing:.08em}
+.process h3{margin-top:18px;font-size:clamp(18px,1.5vw,20px);letter-spacing:-.01em}
+.process p{color:#4E4D47;font-size:14px}
+
+/* Призыв: тёмный баннер со скруглением */
+.cta-section{flex-direction:column;justify-content:center;align-items:center;gap:22px;min-height:400px;margin:clamp(64px,7.6vw,110px) 20px 0;padding:clamp(56px,7vw,96px) 24px;border-radius:28px;background:#1B1B19;color:#fff;text-align:center}
+.cta-section .eyebrow{color:rgba(255,255,255,.9);letter-spacing:.16em}
+.cta-section h2{font-size:clamp(38px,4vw,56px);font-weight:500!important;letter-spacing:-.04em}
+.cta-section .btn.primary{background:#fff;color:#1B1B19;border-color:#fff;min-height:48px;padding:0 26px;font-size:14px}
+.cta-section .btn.primary:hover{background:#F4F3F0}
+.two-paths{background:#1B1B19}
+.path-visual-label{color:#fff}
+
+/* ---------- Подвал: тёмная карточка ---------- */
+.footer{margin:40px 20px 20px;padding:48px 40px 24px;border:0;border-radius:28px;background:#141413;color:#fff}
+.footer-top{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:40px}
+.footer-top img{width:56px;height:56px;border-radius:12px;background:#fff;padding:3px}
+.footer-top p{margin-top:16px;font-size:22px;font-weight:500;letter-spacing:-.02em;line-height:1.25;color:#fff}
+#footer-categories{gap:12px;font-size:14px;font-weight:500;color:#BDBCB6}
+#footer-categories>a,.footer-side>a{transition:color .2s}
+#footer-categories>a:hover,.footer-side>a:hover{color:#fff;opacity:1}
+.footer-side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;align-content:start;font-size:14px;color:#BDBCB6}
+.footer-bottom{align-items:center;padding-top:20px;border-top:1px solid #33332F;font-size:12px;letter-spacing:.02em;color:#A8A7A0}
+.footer-bottom>a{display:inline-flex;align-items:center;height:36px;padding:0 14px;border:1px solid #44443F;border-radius:999px;color:#E6E5E1}
+.footer-bottom>a:hover{background:#262624}
+
+/* ---------- Внутренние страницы: навигация ---------- */
+.catalog-direction-nav{position:relative;top:auto;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:4px;width:max-content;max-width:calc(100% - 2 * var(--gutter));margin:20px auto 0;padding:4px;border:0;border-radius:28px;background:#F4F3F0}
+.catalog-direction-nav a,.catalog-direction-nav a:first-child{min-height:42px;padding:6px 18px;border:0;border-radius:999px;background:transparent;color:#1B1B19;font-size:14px;font-weight:500;gap:6px;line-height:1.25;transition:background .2s,color .2s}
+.catalog-direction-nav a span{font-size:12px;opacity:.45}
+.catalog-direction-nav a:hover{background:#E6E5E1;color:#1B1B19;border-color:transparent}
+.catalog-direction-nav a[aria-current]{background:#1B1B19;color:#fff;border-color:transparent}
+.breadcrumbs{color:#67665F;font-size:13px}
+.breadcrumbs>span,.breadcrumbs span{color:#A8A7A0}
+.breadcrumbs [aria-current]{color:#1B1B19;font-weight:600}
+.breadcrumbs>span:last-child{color:#1B1B19;font-weight:600}
+.breadcrumbs a:hover{text-decoration:none;color:#1B1B19}
+.selection-back{min-height:42px;padding:8px 18px;border:1px solid #1B1B19;border-radius:999px;background:#fff;font-size:14px;font-weight:600;transition:background .2s,color .2s}
+.selection-back:hover{background:#1B1B19;color:#fff}
+.selection-map{color:#1B1B19;font-weight:600;border-bottom:1px solid currentColor}
+.selection-map:hover{color:#1B1B19;opacity:.7;text-decoration:none}
+/* Баннер раздела: светлая плашка со скруглением, текст по центру */
+.selection-heading{display:flex;flex-direction:column;align-items:center;max-width:none;margin-left:auto;margin-right:auto;padding:clamp(40px,5vw,64px) 24px;border-radius:28px;background:#F4F3F0;text-align:center}
+.selection-heading h1{max-width:20ch;font-size:clamp(36px,4.4vw,64px);font-weight:500!important;line-height:1.02;letter-spacing:-.04em}
+.selection-heading>p{max-width:640px;margin-left:auto;margin-right:auto;color:#67665F;font-size:clamp(15px,1.2vw,17px);line-height:1.5}
+.leaf-back{color:#4E4D47}
+.partition-system-nav{gap:4px}
+.partition-system-nav>a{min-height:40px;padding:6px 16px;border:0;border-radius:999px;background:#F4F3F0;color:#1B1B19;font-size:13px;font-weight:600;transition:background .2s}
+.partition-system-nav>a:hover{background:#E6E5E1}
+.partition-system-nav>a[aria-current]{background:#1B1B19;color:#fff;border-color:#1B1B19}
+.partition-system-nav .partition-filter-link{background:#fff;border:1px solid #1B1B19}
+.journal-nav{border-bottom-color:#E6E5E1}
+.journal-nav a{font-weight:500}
+.journal-nav a[aria-current],.journal-nav a:hover{border-bottom:1.5px solid currentColor}
+.story-tabs a,.content-nav>a,.hardware-application-links a,.search-chips button{border:0;border-radius:999px;background:#F4F3F0;font-weight:600;transition:background .2s}
+.story-tabs a:hover:not([aria-current]),.content-nav>a:hover,.hardware-application-links a:hover,.search-chips button:hover{background:#E6E5E1}
+.story-tabs a[aria-current]{background:#1B1B19;color:#fff;border-color:#1B1B19}
+.branch-jumps a{border:0;border-radius:999px;background:#F4F3F0;font-size:12px;font-weight:600}
+.branch-jumps a:hover{background:#E6E5E1;border-color:transparent}
+.tag{border:0;border-radius:999px;background:#F4F3F0;color:#1B1B19;font-weight:600;padding:4px 10px}
+
+/* ---------- Хаб перегородок: четыре системы как карточки-товары ---------- */
+.partition-entry-grid{gap:16px}
+.partition-entry-card{display:flex;flex-direction:column;padding:14px;border:0;border-radius:22px;background:#F4F3F0;color:#1B1B19;transition:background .2s}
+.partition-entry-card:hover{transform:none;border-color:transparent;background:#ECEBE6}
+.partition-entry-card:focus-visible{outline:2px solid #1B1B19;outline-offset:4px}
+.partition-entry-photo{order:-1;aspect-ratio:1.25;border-radius:16px;background:#E6E5E1}
+.partition-entry-photo img{transition:transform .7s}
+.partition-entry-card:hover .partition-entry-photo img{transform:scale(1.04)}
+.partition-entry-heading{min-height:0;padding:16px 4px 0;align-items:center}
+.partition-entry-heading h2{font-size:clamp(17px,1.5vw,20px);letter-spacing:-.01em;line-height:1.25}
+.partition-entry-heading>span{display:inline-grid;place-items:center;width:42px;height:42px;border:1px solid #E6E5E1;border-radius:12px;background:#fff;color:#1B1B19;font-size:16px;transition:background .2s,color .2s}
+.partition-entry-card:hover .partition-entry-heading>span{background:#1B1B19;color:#fff;border-color:#1B1B19}
+.partition-entry-card>p{min-height:0;padding:2px 4px 4px;font-size:13px;color:#67665F}
+.partition-entry-smart,.partition-entry-smart:hover{background:#1B1B19;color:#fff;border-color:transparent}
+.partition-entry-smart>p{color:#BDBCB6}
+.partition-entry-smart .partition-entry-heading>span{border-color:#fff}
+.partition-directory>h2{font-size:clamp(28px,2.8vw,40px);letter-spacing:-.03em}
+.partition-directory>p{color:#67665F;font-size:15px}
+.partition-directory-sections{gap:10px}
+.partition-directory-section{border:1px solid #E6E5E1;border-radius:22px;background:#fff;overflow:hidden}
+.partition-directory-section>summary{padding:18px 22px;min-height:0}
+.partition-directory-section>summary h3{font-family:var(--sans);font-size:clamp(20px,1.8vw,24px);letter-spacing:-.02em}
+.partition-directory-section>summary>span{display:inline-flex;align-items:center;height:30px;padding:0 12px;border-radius:999px;background:#F4F3F0;font-size:12px;font-weight:600;color:#1B1B19}
+.partition-directory-section>summary>b{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:999px;background:#F4F3F0;font-size:18px;font-weight:500}
+.partition-directory-section[open]>summary>b{background:#1B1B19;color:#fff}
+.partition-directory-section[open]>summary{border-bottom:1px solid #E6E5E1}
+.partition-directory-smart>summary{background:transparent}
+.partition-directory .partition-system-subcards{padding:14px;gap:12px}
+.partition-directory .partition-system-subcards a,.partition-directory .partition-system-subcards a:hover{grid-template-columns:72px minmax(0,1fr);gap:14px;align-items:center;min-height:0;padding:10px;border:0;border-radius:16px;background:#F4F3F0;color:#1B1B19;transition:background .2s}
+.partition-directory .partition-system-subcards a:hover{background:#ECEBE6}
+.partition-subcard-photo{width:72px;height:72px;aspect-ratio:1;border-radius:12px;background:#E6E5E1}
+.partition-subcard-copy{gap:2px}
+.partition-subcard-copy strong{font-size:15px;font-weight:600}
+.partition-system-subcards span{color:#67665F;font-size:13px}
+.partition-system-subcards a{border:0;border-radius:16px;background:#F4F3F0;color:#1B1B19}
+.partition-system-subcards a:hover{background:#ECEBE6}
+.partition-system-subcards strong{font-weight:600}
+/* Подбор по параметрам: панель фильтров */
+.partition-hub .partition-find,.partition-find{padding:24px;border-radius:22px;background:#F4F3F0}
+.partition-find .section-top{flex-direction:column;align-items:flex-start;gap:8px;margin-bottom:20px}
+.partition-hub .partition-find .section-top h2,.partition-find .section-top h2{margin-top:6px;font-size:22px;letter-spacing:-.02em}
+.partition-find .section-top p{font-size:13px;max-width:none}
+.partition-filter-form{border:0;border-radius:22px;background:#F4F3F0;padding:24px}
+.partition-find .partition-filter-form{margin:0;padding:0;background:transparent}
+.partition-extra-filters{border-top-color:#E0DFDA}
+.partition-extra-filters>summary{font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.partition-extra-filters>summary>span{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:999px;background:#fff;font-size:18px}
+.partition-filter-actions>p{color:#67665F}
+.partition-system-card{border:0;border-radius:22px;background:#F4F3F0;overflow:hidden}
+.partition-system-card:hover{transform:none}
+.partition-system-topics>span{border:0;border-radius:999px;background:#fff;color:#1B1B19;font-weight:600}
+.partition-enter{border-top-color:#E0DFDA;font-weight:600}
+.partition-smart-entry{border-radius:28px;overflow:hidden;background:#1B1B19}
+.partition-links{gap:16px}
+.partition-links>a{border:0;border-radius:22px;background:#F4F3F0;transition:background .2s}
+.partition-links>a:hover{background:#ECEBE6}
+.partition-links span{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#67665F}
+.partition-links strong{font-family:var(--sans);font-weight:600;letter-spacing:-.02em}
+.partition-glass-note{border-left:0;border-radius:16px;background:#F4F3F0;color:#4E4D47}
+.partition-spec-fields{border:0;border-radius:22px;background:#fff}
+.partition-spec-fields legend{font-family:var(--sans);font-weight:700;font-size:16px;letter-spacing:-.01em}
+.partition-glazing-note{border-top-color:#E6E5E1}
+.partition-glazing-note p{color:#67665F}
+
+/* ---------- Каталог: структура и главы ---------- */
+.catalog-outline{border-right-color:#E6E5E1}
+.outline-top>a{font-family:var(--sans);font-weight:600;letter-spacing:-.03em}
+.visible-tree a:hover{color:#1B1B19;text-decoration-thickness:1.5px}
+.visible-tree .visible-tree{border-left-color:#E6E5E1}
+.tree-current>a{border-radius:8px;background:#F4F3F0!important;color:#1B1B19!important}
+.cluster-intro h1{font-size:clamp(36px,4.6vw,72px);line-height:1;letter-spacing:-.045em}
+.cluster-intro p{color:#4E4D47}
+.cluster-intro-art{border-radius:22px}
+.cluster-intro-art>span,.image-caption{border-radius:999px;background:rgba(255,255,255,.88);color:#1B1B19;padding:5px 10px}
+.branch-chapter{border:0;border-radius:28px;background:#F4F3F0;overflow:hidden}
+.branch-descendants{border-top-color:#E6E5E1}
+.chapter-enter{border-bottom:1.5px solid currentColor;font-weight:600}
+.chapter-enter:hover{color:#1B1B19;opacity:.7}
+.final-entry{color:#1B1B19;font-weight:600}
+.directory-photo{border-radius:22px}
+.directory-category{border-top-color:#E6E5E1}
+.directory-branches>section{border-top-color:#E6E5E1}
+.catalog-directory{gap:24px}
+.directory-group{border:0;border-radius:28px;background:#F4F3F0;overflow:hidden}
+.directory-group-heading{border-bottom:1px solid #E6E5E1}
+.directory-group-heading:hover{background:#ECEBE6}
+.directory-group-image{border-radius:14px}
+.directory-group-heading h2{font-size:clamp(28px,3vw,44px);letter-spacing:-.04em}
+.directory-group-heading p{color:#4E4D47}
+.directory-enter{font-weight:600}
+.directory-enter>span{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:999px;background:#1B1B19;color:#fff;font-size:16px}
+.directory-group .choice-card:not(:has(.choice-photo)){background:#fff}
+.directory-group .choice-card:not(:has(.choice-photo)):hover{background:#fff;box-shadow:0 10px 30px rgba(18,18,16,.06)}
+.directory-group .card-subtypes>span{background:#fff}
+.family-directory{border-top-color:#E6E5E1}
+.terminal-grid .diagram,.diagram,.deep-leaf .leaf-visual .diagram{border-radius:22px;background:#F4F3F0;color:#4E4D47}
+.solution-photo{border-radius:22px}
+.solution-card{border-bottom-color:#E6E5E1}
+.context-panel,.map-intro,.empty,.shower-empty{border-radius:22px;background:#F4F3F0}
+.leaf-all-options{background:#F4F3F0;border-top:0}
+.sibling-branch{border-radius:22px}
+.decision-guide,.consideration-grid article{border-top-color:#E6E5E1}
+.consideration-grid article>span{color:#67665F}
+
+/* ---------- Карточка исполнения как товар: галерея слева, описание и заказ справа ---------- */
+.leaf-layout{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(32px,3.4vw,48px)}
+.leaf-visual{top:calc(var(--header) + 20px)}
+.gallery-open{border-radius:24px;background:#F4F3F0}
+.gallery-expand{width:auto;min-width:44px;height:40px;padding:0 16px;border:0;border-radius:999px;background:#fff;color:#1B1B19;font-size:14px;font-weight:600}
+.product-gallery figcaption{font-size:12px;color:#67665F}
+.product-gallery>p{font-size:12px;color:#67665F}
+.leaf-details>.eyebrow{display:inline-flex;align-items:center;height:32px;padding:0 14px;border-radius:999px;background:#F4F3F0;color:#1B1B19;font-size:11px}
+.leaf-details h1,.selected-product .leaf-details h1,.deep-leaf .leaf-details h1{margin:18px 0 16px;font-size:clamp(32px,3.3vw,48px);line-height:1.05;letter-spacing:-.035em}
+.leaf-details>p,.selected-product .leaf-details>p{font-size:16px;line-height:1.55;color:#4E4D47}
+/* Характеристики плитками */
+.selected-specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;border-top:0}
+.selected-specs>div,.selected-specs>div:last-child{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border:0;border-radius:16px;background:#F4F3F0}
+.selected-specs dt,.selected-product .selected-specs dt{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#67665F}
+.selected-specs dd{margin:0;color:#1B1B19;font-size:14px;font-weight:600;line-height:1.4}
+.selected-route a[aria-current]{color:#1B1B19}
+/* Форма заказа */
+.config-form{padding:24px;border:0;border-radius:22px;background:#F4F3F0}
+.config-form>.eyebrow{display:block;margin-bottom:6px;color:#1B1B19;font-size:13px;letter-spacing:.06em}
+.field{color:#1B1B19}
+.field label{color:#4E4D47;font-weight:600;font-size:13px}
+.mode-picker{gap:10px}
+.mode-picker label{border:1px solid #D8D7D2;border-radius:16px;background:#fff;font-weight:600;transition:border-color .2s}
+.mode-picker label:hover{border-color:#A8A7A0}
+.mode-picker label:has(input:checked){border-color:#1B1B19;background:#fff}
+.mode-picker input{accent-color:#1B1B19}
+.mode-picker small{font-weight:400;color:#67665F}
+.form-note{color:#67665F}
+.config-form .btn{justify-content:space-between}
+.config-form .btn.primary{min-height:56px;padding:0 8px 0 26px;font-size:15px}
+.config-form .btn.primary>span{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:999px;background:#fff;color:#1B1B19}
+.hardware-picker{border:0;border-radius:22px;background:#fff}
+.config-form .hardware-picker,.config-form .partition-spec-fields{padding:0;margin:22px 0;background:transparent;border-radius:0}
+.hardware-picker legend{font-family:var(--sans);font-weight:700;font-size:16px;letter-spacing:-.01em;padding:0}
+.hardware-catalog-link{color:#1B1B19;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;min-height:0;padding-bottom:1px;margin-top:12px}
+.added-confirmation{border-left:0;border-radius:16px;background:#fff}
+.added-confirmation a{border-bottom:1px solid currentColor}
+summary{font-weight:600}
+/* Вопросы: карточки-аккордеоны */
+.product-questions{border-top-color:#E6E5E1}
+.product-questions h2,.selected-alternatives h2,.alternatives-heading h2,.family-directory h2{font-size:clamp(28px,2.6vw,40px);letter-spacing:-.03em}
+.product-questions>details{margin-top:10px;padding:0 22px;border:1px solid #E6E5E1;border-radius:18px;background:#fff}
+.product-questions summary{font-size:16px;letter-spacing:-.01em}
+.product-questions details p{color:#4E4D47;font-size:14px}
+.selected-alternatives{border-top-color:#E6E5E1}
+
+/* ---------- Формы ---------- */
+:is(main,dialog) :is(select,textarea,input:not([type=radio],[type=checkbox],[type=range],[type=file],[type=hidden],[type=submit],[type=button])):not(.global-search){min-height:50px;padding:12px 16px;border:1px solid #D8D7D2;border-radius:12px;background:#fff;color:#1B1B19;transition:border-color .2s}
+:is(main,dialog) :is(select,textarea,input):not(.global-search):hover{border-color:#A8A7A0}
+:is(main,dialog) :is(select,textarea,input):focus{border-color:#1B1B19}
+:is(main,dialog) :is(select,textarea,input)[readonly]{background:#F4F3F0;color:#4E4D47}
+input[type=radio],input[type=checkbox],input[type=range]{accent-color:#1B1B19}
+.filter-form label,.resource-filter-form label,.partition-filter-form label,.portfolio-filters label>span{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#67665F}
+.resource-filter-form{border:0;border-radius:22px;background:#F4F3F0}
+.filter-clear,.filter-reset,.portfolio-reset,.journal-search-reset{color:#1B1B19;font-weight:600}
+.resource-result-count,.result-count,.journal-result-count,.portfolio-results{color:#67665F}
+.catalog-tools{border-color:#E6E5E1}
+.resource-result{border-left:0;border-radius:14px;background:#F4F3F0}
+.resource-request .resource-order{border:0;border-radius:22px;background:#F4F3F0}
+.finish-choice{border:1.5px solid #D8D7D2;border-radius:12px;background:#fff;font-weight:500}
+.finish-choice:has(input:checked){border-color:#1B1B19;outline:0;background:#fff}
+.finish-swatch.is-selected{outline-color:#1B1B19}
+.hardware-brand{border-radius:999px;background:rgba(255,255,255,.88);color:#1B1B19;font-size:12px;font-weight:600}
+.attachment-box{border:1.5px dashed #D8D7D2;border-radius:14px;background:#fff}
+
+/* ---------- Производство, материалы, фурнитура ---------- */
+.manufacturing-hero h1{font-size:clamp(40px,6vw,96px);line-height:.95;letter-spacing:-.05em}
+.manufacturing-hero p{color:#4E4D47;font-size:clamp(16px,1.4vw,20px);line-height:1.45}
+.manufacturing-hero figure img{border-radius:22px}
+.manufacturing-hero figcaption{color:#67665F;font-size:13px}
+.production-hero{background:#1B1B19}
+.material-guidance,.resource-specification{border-color:#E6E5E1}
+.material-guidance h2,.resource-specification h2{letter-spacing:-.04em}
+.material-guidance p,.resource-specification p,.resource-specification li{color:#4E4D47}
+.hardware-context{border-top-color:#E6E5E1}
+.hardware-context>a{border-radius:22px}
+.hardware-context p{color:#4E4D47}
+.hardware-card .choice-photo{background:#F4F3F0}
+.project-hardware{border-top-color:#E6E5E1}
+.project-hardware article{border-bottom-color:#E6E5E1}
+.project-hardware strong{font-weight:600}
+.service-list article{border-top-color:#E6E5E1}
+
+/* ---------- Мой проект ---------- */
+.project-summary{border-radius:22px;background:#F4F3F0}
+.project-item{border-top-color:#E6E5E1}
+.project-item-photo{border-radius:12px}
+.remove-button{color:#4E4D47}
+.live-save{color:#4E4D47}
+.file-list li{border-top-color:#E6E5E1}
+
+/* ---------- Портфолио ---------- */
+.portfolio-home{background:#fff}
+.portfolio-section-top h2,.portfolio-heading h1,.portfolio-project-heading h1,.portfolio-products h2,.portfolio-stage-heading h2,.portfolio-empty h2{font-family:var(--sans);letter-spacing:-.045em;line-height:1}
+.portfolio-section-top h2{font-size:clamp(34px,4.4vw,64px)}
+.portfolio-heading h1,.portfolio-project-heading h1{font-size:clamp(40px,6.4vw,96px);line-height:.95}
+.portfolio-section-top>a:not(.btn){font-weight:600;text-decoration:none;border-bottom:1.5px solid currentColor}
+.portfolio-home-intro,.portfolio-heading>p,.portfolio-project-heading>p{color:#4E4D47}
+.portfolio-demo{border:0;border-radius:14px;background:#F4F3F0}
+.portfolio-demo>span{color:#1B1B19;letter-spacing:.08em;font-size:12px}
+.portfolio-demo p{color:#4E4D47}
+.portfolio-filters{border-color:#E6E5E1}
+.portfolio-grid{gap:clamp(28px,3vw,40px) 16px}
+.portfolio-card-visual{aspect-ratio:4/5;border-radius:22px;background:#ECEBE6}
+.portfolio-card-visual>img{transition:transform .7s}
+.portfolio-card:hover .portfolio-card-visual>img{transform:scale(1.04)}
+.portfolio-card-badges>span{border-radius:999px;background:rgba(255,255,255,.88);color:#1B1B19;font-size:12px;font-weight:600;letter-spacing:.01em;text-transform:none;padding:6px 10px}
+.portfolio-card-arrow{background:#fff;color:#1B1B19}
+.portfolio-card h3{font-family:var(--sans);font-size:clamp(20px,1.6vw,24px);letter-spacing:-.03em;margin:4px 0 4px}
+.portfolio-card-copy{padding-top:14px}
+.portfolio-card-copy>p{color:#67665F;font-size:14px}
+.portfolio-kicker{color:#67665F;font-weight:600}
+.portfolio-tags span{border-color:#D8D7D2;border-radius:999px;color:#4E4D47}
+.portfolio-stage-heading{border-top-color:#E6E5E1}
+.portfolio-photo-button{border-radius:22px;overflow:hidden;background:#F4F3F0}
+.portfolio-media video{border-radius:22px;background:#1B1B19}
+.portfolio-review-text{border-radius:22px;background:#F4F3F0}
+.portfolio-review-text blockquote p{font-family:var(--sans);font-weight:500;letter-spacing:-.03em}
+.portfolio-characteristics,.portfolio-characteristics dl>div,.portfolio-products nav a,.portfolio-products nav a:first-child,.portfolio-related{border-color:#E6E5E1}
+.portfolio-card-placeholder{font-family:var(--sans);background:#F4F3F0}
+
+/* ---------- Журнал, истории, Reels ---------- */
+.journal-homepage{background:#fff;border-top:0}
+.journal-heading h1,.journal-article-heading h1{font-size:clamp(40px,6.4vw,96px);line-height:.95;letter-spacing:-.05em}
+.journal-heading>p,.journal-article-heading>p:not(.journal-demo-note){color:#4E4D47}
+.journal-section-heading h2{font-size:clamp(34px,4.4vw,64px);letter-spacing:-.045em;line-height:1}
+.journal-text-link{border-bottom:1.5px solid currentColor;font-weight:600;min-height:0;padding-bottom:2px}
+.journal-demo-note{border-left:0;border-radius:12px;background:#F4F3F0;padding:10px 14px;color:#4E4D47}
+.journal-demo-badge{border-radius:999px;background:rgba(255,255,255,.88);color:#1B1B19;font-weight:600;font-size:11px}
+.journal-feature{border:0;border-radius:28px;background:#F4F3F0;overflow:hidden}
+.journal-feature-copy h2{font-family:var(--sans);letter-spacing:-.045em;line-height:1}
+.journal-feature-copy>p{color:#4E4D47}
+.journal-image-caption{border-radius:999px;background:rgba(255,255,255,.88);color:#1B1B19}
+.journal-grid{gap:clamp(28px,3vw,40px) 16px}
+.journal-card{border-bottom:0}
+.journal-card-image{border-radius:22px;background:#ECEBE6}
+.journal-card-image>img{transition:transform .7s}
+.journal-card:hover .journal-card-image>img{transform:scale(1.04)}
+.journal-card-copy{padding-top:16px}
+.journal-card h3{font-size:clamp(20px,1.7vw,26px);letter-spacing:-.03em}
+.journal-card-copy>p{color:#4E4D47}
+.journal-meta,.journal-card-bottom{color:#67665F}
+.journal-card-bottom{border-top:1px solid #E6E5E1;min-height:48px}
+.journal-home-social{border-top-color:#E6E5E1}
+.journal-home-story-list>a>span{border:1.5px solid #1B1B19}
+.journal-home-story-list strong{font-weight:600;font-size:12px}
+.journal-home-social-links>a{border-bottom:1.5px solid #1B1B19;font-weight:600}
+.journal-home-demo{color:#67665F;font-size:12px}
+.journal-search{border:0;border-radius:22px;background:#F4F3F0}
+.journal-empty{border-radius:22px;background:#F4F3F0}
+.journal-article-cover>img{border-radius:22px}
+.journal-contents nav,.journal-contents a{border-color:#E6E5E1}
+.journal-prose p{color:#4E4D47}
+.journal-checklist{border-radius:22px;background:#F4F3F0}
+.journal-checklist li{border-top-color:#D8D7D2;color:#4E4D47}
+.journal-related{border-color:#E6E5E1}
+.story-card-image,.reel-card-image{border-radius:22px}
+.story-card-type{border-radius:999px;background:rgba(27,27,25,.7);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+.story-card-caption h3,.reel-card-caption h2,.story-viewer-title h1,.story-viewer-copy h1,.story-viewer-copy h2{font-family:var(--sans);letter-spacing:-.04em;line-height:1}
+.story-collection>header>img{border-color:#1B1B19}
+.story-viewer-page{background:#1B1B19}
+.story-viewer-frame{border-radius:22px;border-color:#33332F}
+.story-close{border-radius:999px;border-color:#33332F}
+.reel-open-mark{border-radius:999px;background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.3);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+.journal-video-error{border-radius:14px}
+
+/* ---------- Как нас найти (3D-миниатюра) ---------- */
+.location-home{background:#fff}
+.location-layout{gap:16px;border:0}
+.location-experience{border-radius:22px;background:#F4F3F0}
+.location-scene-caption{border:0;border-radius:999px;background:rgba(255,255,255,.75);-webkit-backdrop-filter:blur(30px) saturate(180%);backdrop-filter:blur(30px) saturate(180%);color:#1B1B19;font-size:13px;font-weight:500;letter-spacing:0}
+.location-live-dot{background:#2EBD59;box-shadow:0 0 0 5px rgba(46,189,89,.15)}
+.location-scene-tools button{border:1px solid rgba(27,27,25,.08);border-radius:999px;background:rgba(255,255,255,.75);-webkit-backdrop-filter:blur(30px) saturate(180%);backdrop-filter:blur(30px) saturate(180%);color:#1B1B19;font-weight:500}
+.location-scene-tools button:hover{background:#fff}
+.location-scene-tools button:focus-visible{outline-color:#1B1B19}
+.location-scene-footer{background:rgba(255,255,255,.6);border-top-color:#E6E5E1}
+.location-scene-footer>span,.location-scene-footer label{color:#4E4D47}
+.location-address{border:0;border-radius:22px;background:#F4F3F0}
+.location-address>.eyebrow{color:#67665F}
+.location-address>strong{font-family:var(--sans);font-weight:600;letter-spacing:-.03em;color:#1B1B19}
+.location-address>p{color:#1B1B19}
+.location-address-actions .btn{font-size:15px;border-radius:999px}
+.location-map-link{color:#1B1B19;font-weight:600;border-bottom:1.5px solid currentColor;min-height:0;padding-bottom:2px}
+.location-map-link:hover{text-decoration:none;opacity:.7}
+.location-bottom>p{color:#67665F;font-size:13px}
+.location-page .selection-heading h1{font-size:clamp(38px,6.4vw,96px)}
+
+/* ---------- Карта проектов ---------- */
+.pm-viewport{border-radius:22px;border-color:#E6E5E1}
+.pm-pin{background:#1B1B19}
+.pm-pin.is-active{background:#1B1B19;box-shadow:0 0 0 15px rgba(27,27,25,.1),0 0 0 28px rgba(27,27,25,.05)}
+.pm-object{border-radius:14px;overflow:hidden;background:#fff}
+.pm-object-info strong{font-family:var(--sans);font-weight:600;letter-spacing:-.03em}
+.pm-controls{border-radius:14px;overflow:hidden}
+.pm-controls button{background:#fff;border-color:#E6E5E1}
+.pm-project-list{border:0;border-radius:22px;background:#F4F3F0}
+.pm-project-list>button>img{border-radius:10px}
+.pm-project-list strong{font-weight:600}
+.pm-project-list [aria-pressed=true]{background:#fff;outline-color:#fff;border-radius:6px}
+
+/* ---------- Редактор прототипа ---------- */
+.ce-notice{border:0;border-radius:14px;background:#F4F3F0}
+.ce-notice span{color:#4E4D47}
+.ce-button,.ce-remove{border:1px solid #D8D7D2;border-radius:999px;padding:10px 18px;font-weight:600;background:#fff}
+.ce-button:hover,.ce-remove:hover{background:#F4F3F0}
+.ce-primary{background:#1B1B19;color:#fff;border-color:#1B1B19}
+.ce-primary:hover{background:#33332F}
+.ce-section,.ce-stage{border-color:#E6E5E1;border-radius:22px}
+.ce-section>legend,.ce-stage>legend{font-weight:600}
+.ce-media-row{border-radius:14px;background:#F4F3F0}
+.ce-status,.ce-confirm{border-radius:14px}
+.ce-preview{border-color:#E6E5E1;border-radius:22px}
+.ce-preview-tags>span{border-radius:999px}
+.ce-preview-project img,.ce-preview-project video{border-radius:12px;background:#F4F3F0}
+.ce-field>span{font-weight:600;color:#4E4D47}
+
+/* ---------- Диалоги: меню, поиск, просмотр ---------- */
+dialog{border-radius:28px;background:#fff;color:#1B1B19;box-shadow:0 30px 100px rgba(18,18,16,.25)}
+dialog::backdrop{background:rgba(27,27,25,.35);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.dialog-top .icon-btn{border-radius:999px;background:#F4F3F0;font-size:26px}
+.dialog-top .icon-btn:hover{background:#E6E5E1}
+.menu-heading h2{font-size:clamp(28px,3.3vw,48px);letter-spacing:-.045em;line-height:1}
+.menu-resources a{border:0;border-radius:14px;background:#F4F3F0;font-weight:600}
+.menu-resources a:hover{background:#ECEBE6}
+.menu-direction{border:0;border-radius:16px;background:#F4F3F0}
+.menu-direction:hover{background:#ECEBE6;border-color:transparent}
+.menu-direction .interior-image{border-radius:12px}
+.menu-direction strong{font-weight:600;letter-spacing:-.03em}
+.menu-direction small{color:#67665F}
+.menu-bottom{border-top-color:#E6E5E1;font-weight:600}
+.mega-category{border-top-color:#E6E5E1}
+.global-search{border-bottom:1.5px solid #1B1B19;font-weight:500}
+.search-result{border-bottom-color:#E6E5E1}
+.search-result:hover p{text-decoration:underline;text-underline-offset:4px}
+.image-dialog{border-radius:22px;background:#fff}
+.image-dialog img{border-radius:12px}
+.image-dialog::backdrop{background:rgba(18,18,16,.8)}
+.image-close{border:0;border-radius:999px;background:#fff;color:#1B1B19}
+.toast{border-radius:999px;background:#1B1B19;color:#fff;font-weight:500;box-shadow:0 10px 30px rgba(18,18,16,.2)}
+
+/* =================== Раскладки витрины =================== */
+h1 em,h2 em,h3 em,.portfolio-section-top em,.portfolio-heading em,.portfolio-products em{font-weight:inherit!important}
+.location-address{justify-content:flex-end}
+/* У этих summary уже есть собственный знак «+» в разметке: второй, общий, скрываем */
+.partition-directory-section>summary:after,.partition-extra-filters>summary:after,.portfolio-characteristics summary:after{content:none}
+
+@media(min-width:1001px){
+  /* Подборка направлений: крупная плитка слева, две справа, три снизу */
+  .category-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .category-grid>.choice-card:nth-child(1){grid-column:1 / 4;grid-row:1 / 3}
+  .category-grid>.choice-card:nth-child(2){grid-column:4 / 7;grid-row:1}
+  .category-grid>.choice-card:nth-child(3){grid-column:4 / 7;grid-row:2}
+  .category-grid>.choice-card:nth-child(n+4){grid-column:span 2;min-height:340px}
+
+  /* Хаб перегородок: фильтры слева (липкая колонка), разделы справа */
+  .partition-hub{display:grid;grid-template-columns:minmax(280px,320px) minmax(0,1fr);gap:0 32px;grid-auto-flow:row dense;align-items:start}
+  .partition-hub>*{grid-column:1 / -1}
+  .partition-hub>.partition-directory{grid-column:2;margin-top:8px}
+  .partition-hub>.partition-find{grid-column:1;position:sticky;top:calc(var(--header) + 16px);max-height:calc(100vh - var(--header) - 32px);overflow:auto;margin-top:8px;margin-bottom:48px;overscroll-behavior:contain}
+  .partition-hub .partition-filter-primary,.partition-hub .partition-extra-filters>div{grid-template-columns:1fr;gap:14px}
+  .partition-hub .partition-filter-actions{flex-direction:column;align-items:stretch;gap:12px}
+  .partition-hub .partition-filter-actions>.btn{justify-content:space-between}
+  .partition-hub .partition-filter-actions>p{margin:0;max-width:none}
+  .partition-hub .partition-filter-actions .filter-clear{align-self:center}
+  .partition-hub .partition-system-subcards{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+  /* Каталог с фильтрами слева: подбор перегородок и материалы */
+  .partition-results,.selection-page:has(>.resource-filter-form){display:grid;grid-template-columns:minmax(260px,300px) minmax(0,1fr);gap:0 32px;align-items:start}
+  .partition-results>*,.selection-page:has(>.resource-filter-form)>*{grid-column:2;min-width:0}
+  .partition-results>.partition-system-nav,.partition-results>.selection-heading,
+  .selection-page:has(>.resource-filter-form)>.selection-toolbar,.selection-page:has(>.resource-filter-form)>.selection-heading,.selection-page:has(>.resource-filter-form)>.material-guidance{grid-column:1 / -1}
+  .partition-results>.partition-filter-form,.selection-page:has(>.resource-filter-form)>.resource-filter-form{grid-column:1;grid-row:3 / span 12;position:sticky;top:calc(var(--header) + 16px);max-height:calc(100vh - var(--header) - 32px);overflow:auto;margin:0 0 40px;overscroll-behavior:contain}
+  .partition-results .partition-filter-primary,.partition-results .partition-extra-filters>div{grid-template-columns:1fr;gap:14px}
+  .partition-results .partition-filter-actions{flex-direction:column;align-items:stretch;gap:12px}
+  .partition-results .partition-filter-actions>p{margin:0;max-width:none}
+  .partition-results .partition-filter-actions .filter-clear{align-self:center}
+  .partition-results-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .selection-page:has(>.resource-filter-form)>.resource-filter-form{grid-template-columns:1fr;gap:14px;padding:24px}
+  .selection-page:has(>.resource-filter-form)>.resource-filter-form .btn{justify-content:space-between}
+  .selection-page:has(>.resource-filter-form)>.resource-filter-form .filter-clear{justify-self:center}
+}
+@media(min-width:1001px) and (max-width:1250px){
+  .partition-results-grid{grid-template-columns:1fr 1fr}
+  .partition-hub .partition-system-subcards{grid-template-columns:1fr}
+}
+@media(min-width:801px){
+  .product-questions{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:0 64px;max-width:none;align-items:start}
+  .product-questions>h2{grid-column:1;grid-row:1 / span 40}
+  .product-questions>details{grid-column:2}
+}
+@media(max-width:1000px){
+  .category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .category-grid>.choice-card{min-height:380px}
+  .footer-top{grid-template-columns:1fr 1fr}
+  .footer-top>div:first-child{grid-column:1 / -1;grid-row:auto}
+  .footer-side{grid-column:auto}
+}
+@media(max-width:850px){
+  .partition-entry-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:800px){
+  :root{--header:64px}
+  .header{padding:0 12px;gap:8px;background:#fff}
+  .identity img{width:40px;height:40px;border-radius:10px}
+  .header .icon-btn{width:40px;height:40px}
+  .project-link{height:40px;margin-left:4px;padding:0 4px 0 14px;font-size:12px;gap:6px}
+  .project-link .project-count{width:32px;height:32px;min-width:32px}
+  /* На телефоне шапка над баннером, как в макете P-Phone */
+  body:has(#main>.hero) .header{top:0;margin:0;padding:0 12px;border-radius:0;background:#fff;color:#1B1B19;animation:none}
+  body:has(#main>.hero) .identity img{border-color:#E6E5E1}
+  body:has(#main>.hero) .project-link{background:#1B1B19;color:#fff;animation:none}
+  body:has(#main>.hero) .project-link .project-count{background:#fff;color:#1B1B19;animation:none}
+  .hero{height:auto;min-height:0;max-height:none;margin:8px 12px 0;border-radius:24px}
+  .hero-copy{padding:56px 20px 28px}
+  .hero-bottom{position:relative;left:auto;right:auto;bottom:auto;flex-direction:column;align-items:center;padding:0 16px 22px;gap:12px}
+  .hero-links{justify-content:center}
+  .hero-bottom>.eyebrow{display:none}
+  .catalog-direction-nav{margin-top:12px}
+  .cta-section{margin-left:12px;margin-right:12px;border-radius:24px}
+  .footer{margin:28px 12px 12px;padding:32px 20px 20px;border-radius:24px}
+  .location-layout{gap:12px}
+}
+@media(max-width:600px){
+  body{font-size:15px}
+  .hero-copy .eyebrow{font-size:10px;letter-spacing:.14em;margin-bottom:14px}
+  .hero h1{font-size:clamp(42px,12vw,52px);line-height:1.02}
+  .hero-copy p{margin-top:14px;font-size:14px}
+  .hero .button-row{flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px 18px;margin-top:20px}
+  .hero .button-row .btn{min-width:0;width:auto}
+  .hero-copy .text-button{font-size:13px}
+  .hero-links a{min-height:32px;padding:0 11px;font-size:11px}
+  .section{padding-top:48px}
+  .section-top h2,.portfolio-section-top h2,.journal-section-heading h2,.section-head h2{font-size:26px}
+  #main>.section>.section-top{align-items:flex-start;text-align:left}
+  .intro-statement h2{font-size:32px}
+  /* Направления, портфолио, журнал и этапы листаются вбок */
+  .category-grid,.portfolio-home .portfolio-grid,.journal-homepage .journal-grid,.process{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:84%;gap:10px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;margin-left:calc(-1 * var(--gutter));margin-right:calc(-1 * var(--gutter));padding:0 var(--gutter) 4px;scroll-padding:0 var(--gutter)}
+  .category-grid::-webkit-scrollbar,.portfolio-home .portfolio-grid::-webkit-scrollbar,.journal-homepage .journal-grid::-webkit-scrollbar,.process::-webkit-scrollbar{display:none}
+  .category-grid>*,.portfolio-home .portfolio-grid>*,.journal-homepage .journal-grid>*,.process>*{scroll-snap-align:start;min-width:0}
+  .category-grid>.choice-card{min-height:470px}
+  .category-grid>.choice-card .choice-copy{padding:96px 18px 18px}
+  .category-grid>.choice-card .choice-copy h3,.category-grid>.choice-card:first-child .choice-copy h3{font-size:24px}
+  .resource-portal h2{font-size:28px}
+  .resource-portal>section{padding:16px 4px 4px}
+  .cta-section{min-height:300px}
+  .cta-section h2{font-size:36px}
+  .footer-top{grid-template-columns:1fr;gap:28px}
+  .footer-top>div:first-child{grid-row:auto}
+  .footer-side{grid-column:auto;grid-template-columns:1fr 1fr;padding-top:14px;border-top:1px solid #33332F;font-size:13px}
+  #footer-categories{padding-top:14px;border-top:1px solid #33332F}
+  .footer-bottom{flex-direction:column;align-items:flex-start;gap:8px;font-size:11px}
+  .catalog-direction-nav{display:flex;flex-wrap:nowrap;width:auto;max-width:none;margin:10px 0 0;padding:4px var(--gutter);border-radius:0;background:transparent;overflow-x:auto;scrollbar-width:none;justify-content:flex-start}
+  .catalog-direction-nav::-webkit-scrollbar{display:none}
+  .catalog-direction-nav a,.catalog-direction-nav a:first-child,.catalog-direction-nav a:nth-child(4),.catalog-direction-nav a:nth-child(-n+3){flex:0 0 auto;min-height:38px;padding:6px 14px;border:0;border-radius:999px;background:#F4F3F0;font-size:13px;white-space:nowrap}
+  .catalog-direction-nav a[aria-current]{background:#1B1B19;color:#fff}
+  .catalog-direction-nav a span{display:none}
+  .selection-heading{padding:32px 18px;border-radius:24px}
+  .selection-heading h1,.partition-hub>.selection-heading h1{font-size:clamp(30px,9vw,40px);line-height:1.05}
+  .partition-entry-grid{gap:8px}
+  .partition-entry-card{padding:8px;border-radius:18px}
+  .partition-entry-photo{border-radius:12px}
+  .partition-entry-heading{padding:10px 4px 0}
+  .partition-entry-heading h2{font-size:15px;letter-spacing:-.02em}
+  .partition-entry-heading>span{width:30px;height:30px;border-radius:9px;font-size:13px}
+  .partition-entry-card>p{padding:2px 4px 2px;font-size:12px;line-height:1.35}
+  .partition-directory .partition-system-subcards a,.partition-directory .partition-system-subcards a:hover{grid-template-columns:64px minmax(0,1fr);gap:12px}
+  .partition-subcard-photo{width:64px;height:64px}
+  .partition-hub .partition-find,.partition-find{padding:20px 16px;border-radius:20px}
+  .selected-specs{grid-template-columns:1fr 1fr}
+  .config-form{padding:20px 16px}
+  .leaf-details h1,.selected-product .leaf-details h1,.deep-leaf .leaf-details h1{font-size:32px}
+  .manufacturing-hero h1{font-size:38px}
+  .portfolio-heading h1,.portfolio-project-heading h1,.journal-heading h1,.journal-article-heading h1,.location-page .selection-heading h1{font-size:36px}
+  .directory-group{border-radius:20px}
+  .branch-chapter{border-radius:20px}
+  dialog.menu-dialog{border-radius:0}
+}
+@media(prefers-reduced-motion:reduce){
+  .choice-card:hover .choice-photo .interior-image,.resource-portal:hover img,.partition-entry-card:hover .partition-entry-photo img,.portfolio-card:hover .portfolio-card-visual>img,.journal-card:hover .journal-card-image>img{transform:none}
+}
+
+/* Портфолио на главной: плитки с подписью поверх фото */
+.portfolio-home .portfolio-card{position:relative;display:grid;overflow:hidden;isolation:isolate;border-radius:24px;color:#fff}
+.portfolio-home .portfolio-card>*{grid-area:1 / 1}
+.portfolio-home .portfolio-card-visual{aspect-ratio:1 / 1.05;border-radius:24px}
+.portfolio-home .portfolio-card-visual::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,rgba(18,18,16,.66) 0%,rgba(18,18,16,0) 55%)}
+.portfolio-home .portfolio-card-copy{position:relative;z-index:1;align-self:end;padding:22px 76px 22px 22px;pointer-events:none}
+.portfolio-home .portfolio-card h3{margin:0 0 12px;font-size:clamp(22px,2vw,28px);color:#fff}
+.portfolio-home .portfolio-card-copy>p{display:inline-flex;align-items:center;min-height:34px;padding:0 14px;border-radius:999px;background:#fff;color:#1B1B19;font-size:13px;font-weight:600}
+.portfolio-home .portfolio-card-arrow{z-index:2;background:#fff;color:#1B1B19}
+.portfolio-home .portfolio-card-badges{z-index:2}
+
+/* Заголовки портфолио и журнала на главной в размер витрины */
+.portfolio-section-top h2,.journal-section-heading h2{font-size:clamp(32px,3.1vw,44px)!important;letter-spacing:-.03em;line-height:1.1}
+.editorial{padding-bottom:clamp(24px,3vw,40px)}
+.partition-filter-form :is(select,input:not([type=hidden])){width:100%;max-width:none}
+.selected-product .selected-specs>div,.leaf-details .selected-specs>div{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border:0;border-radius:16px;background:#F4F3F0;font-size:14px}
+.directory-group .choice-card,.directory-group .choice-card:not(:has(.choice-photo)){background:#fff}
+.directory-group .choice-card:hover{background:#fff;box-shadow:0 12px 30px rgba(18,18,16,.07)}

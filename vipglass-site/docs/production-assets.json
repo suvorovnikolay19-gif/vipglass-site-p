@@ -1,0 +1,510 @@
+{
+  "created": "2026-10-16",
+  "generated": true,
+  "usage": "Illustrations of materials, processes and fittings; not photographs of VIP Glass facilities or exact supplier SKUs",
+  "manifests": [
+    {
+      "file": "hardware-canopy-correction.json",
+      "data": {
+        "source": "/workspace/scratch/e030de584a13/generated_images/exec-5bf228e5-c640-43c7-aa34-9108279323db.png",
+        "prompt": "Use case: precise-object-edit. Edit ONLY the color of the reflected patch along the thick front glass edge, especially its bottom-right end, in this existing hardware product photograph. Remove all green, olive, yellow-green, cyan and blue color from the GLASS EDGE and its reflections, replacing those colored edge reflections with strictly neutral white/silver/gray equivalents of the same luminance and contrast. The glass must look colorless optically neutral CrystalVision low-iron glass. Keep EVERYTHING else unchanged: exact image composition, perspective, framing, square size, all mechanical geometry, rod, clevis joints, wall anchor, fasteners, top fixing cap, black gasket, wall texture and warm beige wall color, shadows, glass shape/thickness/position and transparency, natural sunlight. Do not add or remove any object. Do not change glass edge geometry. Do not monochrome the whole image: preserve warm beige background. No text/logos.",
+        "generator": "built-in image_gen.imagegen",
+        "visualInspection": "Inspected corrected image inline: localized green reflection removed; glass edge now neutral white/silver/gray; canopy rod, anchors, gasket and glass geometry preserved."
+      }
+    },
+    {
+      "file": "hardware-images.json",
+      "data": {
+        "generator": "built-in image_gen.imagegen",
+        "date": "2026-10-16",
+        "count": 9,
+        "usage": "VIPGlass brand-neutral illustrative hardware types for glass structures; not standalone SKUs",
+        "assets": [
+          {
+            "name": "hardware-hinge",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass hardware catalogue photo, square 1254 by 1254 pixels. Brand-neutral illustrative hardware TYPE, not an exact branded SKU. Photorealistic high-end product photograph, physically believable machined metal, simple clear composition, readable hardware shape at thumbnail size. Warm neutral limestone or warm-gray tabletop where applicable, warm off-white wall, soft lateral studio daylight, restrained shadow. Tight editorial product crop, hardware large and in sharp focus. All glass must be ultra-clear CrystalVision-style low-iron optically neutral glass with colorless white-to-gray edges, absolutely NO green/cyan/turquoise/blue glass edge or cast. No green ambient background. Brushed or polished steel may be neutral gray, hardware intentionally black or champagne gold where specified. NO text, numbers, logos, watermarks, prices, branding, people, hands, diagrams, exploded views, collages, presentation borders, factory clutter. Keep mechanical geometry coherent and realistic, use a few simple large recognizable parts.\nSubject: Two representative compact wall-to-glass shower door hinges, one polished chrome and one satin black, mounted at different heights on the left edge of one clear vertical shower glass panel against a warm off-white wall. Tight angled closeup of this simple demonstrator joint, with both hinge leaves, real pivot barrel, squared clamping plates and small credible fasteners visible. The chrome hinge is higher and black hinge lower, an intentional finish sample display. Glass visibly clamped between protective gaskets, wall-side plates attach flush to the wall. No other bathroom equipment.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-bbb0dd93-00e6-4ca9-9e36-356de7b801c7.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/hardware-hinge.png",
+            "visualInspection": "Inspected actual generated image inline: distinct readable hardware type, simple coherent mounted or sample arrangement, no brand, text, prices or people.",
+            "colorInspection": "Neutral warm set; readable metal or transparent PVC material.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "hardware-handle",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass hardware catalogue photo, square 1254 by 1254 pixels. Brand-neutral illustrative hardware TYPE, not an exact branded SKU. Photorealistic high-end product photograph, physically believable machined metal, simple clear composition, readable hardware shape at thumbnail size. Warm neutral limestone or warm-gray tabletop where applicable, warm off-white wall, soft lateral studio daylight, restrained shadow. Tight editorial product crop, hardware large and in sharp focus. All glass must be ultra-clear CrystalVision-style low-iron optically neutral glass with colorless white-to-gray edges, absolutely NO green/cyan/turquoise/blue glass edge or cast. No green ambient background. Brushed or polished steel may be neutral gray, hardware intentionally black or champagne gold where specified. NO text, numbers, logos, watermarks, prices, branding, people, hands, diagrams, exploded views, collages, presentation borders, factory clutter. Keep mechanical geometry coherent and realistic, use a few simple large recognizable parts.\nSubject: A small curated set of shower/glass-door handles, containing three distinct examples: a compact polished-chrome round double-sided glass knob, a satin-black vertical U-shaped pull handle, and a brushed-champagne-gold vertical U-shaped pull handle. Each mounted naturally through its own simple clear glass sample panel on a warm neutral product photography set. Crop close so handle forms dominate; show mounting posts and tactile finishes, the glass remains transparent and unobtrusive. The U pulls have two mounting legs, the knob has a short stem and rounded gripping head. No screws floating in air.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-c5a38fb2-0407-4807-947b-7c5398486c54.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/hardware-handle.png",
+            "visualInspection": "Inspected actual generated image inline: distinct readable hardware type, simple coherent mounted or sample arrangement, no brand, text, prices or people.",
+            "colorInspection": "Clear glass with slight cool-gray/cyan edge highlights despite neutral-glass prompting.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "hardware-clamp",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass hardware catalogue photo, square 1254 by 1254 pixels. Brand-neutral illustrative hardware TYPE, not an exact branded SKU. Photorealistic high-end product photograph, physically believable machined metal, simple clear composition, readable hardware shape at thumbnail size. Warm neutral limestone or warm-gray tabletop where applicable, warm off-white wall, soft lateral studio daylight, restrained shadow. Tight editorial product crop, hardware large and in sharp focus. All glass must be ultra-clear CrystalVision-style low-iron optically neutral glass with colorless white-to-gray edges, absolutely NO green/cyan/turquoise/blue glass edge or cast. No green ambient background. Brushed or polished steel may be neutral gray, hardware intentionally black or champagne gold where specified. NO text, numbers, logos, watermarks, prices, branding, people, hands, diagrams, exploded views, collages, presentation borders, factory clutter. Keep mechanical geometry coherent and realistic, use a few simple large recognizable parts.\nSubject: Close product photograph of two clear glass panels meeting at a believable 90 degree corner next to a warm off-white wall. Show a polished neutral-stainless-steel compact 90-degree wall-to-glass clamp attaching one panel to the wall, and a separate compact glass-to-glass right-angle connector joining the two panels. Hardware mounted, not loose or exploded. Square machined clamping plates, thin dark protective gaskets, small flush fasteners. Simple transparent corner geometry with only these two hardware examples, no distracting fittings.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-6768fa3f-0242-403b-9f61-7fd64cadeeca.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/hardware-clamp.png",
+            "visualInspection": "Inspected actual generated image inline: distinct readable hardware type, simple coherent mounted or sample arrangement, no brand, text, prices or people.",
+            "colorInspection": "Neutral warm set; readable metal or transparent PVC material.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "hardware-slider",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass hardware catalogue photo, square 1254 by 1254 pixels. Brand-neutral illustrative hardware TYPE, not an exact branded SKU. Photorealistic high-end product photograph, physically believable machined metal, simple clear composition, readable hardware shape at thumbnail size. Warm neutral limestone or warm-gray tabletop where applicable, warm off-white wall, soft lateral studio daylight, restrained shadow. Tight editorial product crop, hardware large and in sharp focus. All glass must be ultra-clear CrystalVision-style low-iron optically neutral glass with colorless white-to-gray edges, absolutely NO green/cyan/turquoise/blue glass edge or cast. No green ambient background. Brushed or polished steel may be neutral gray, hardware intentionally black or champagne gold where specified. NO text, numbers, logos, watermarks, prices, branding, people, hands, diagrams, exploded views, collages, presentation borders, factory clutter. Keep mechanical geometry coherent and realistic, use a few simple large recognizable parts.\nSubject: Tight photograph of a mounted top sliding-glass-door mechanism: one polished stainless cylindrical round horizontal track in front of a warm off-white wall, two compact steel roller carriage hangers riding visibly on the rail, secured to the top portion of one ultra-clear glass sliding door below. Realistic load-bearing relationship: rollers above and around round rail, hanger plates descend onto the glass with gaskets and round fasteners. Only the upper door region in frame. Precision polished metal, coherent rail supports, simple understandable mechanism, not an exploded assembly.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-67a6357e-0f59-49ff-b557-da01aba14ec5.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/hardware-slider.png",
+            "visualInspection": "Inspected actual generated image inline: distinct readable hardware type, simple coherent mounted or sample arrangement, no brand, text, prices or people.",
+            "colorInspection": "Clear glass with slight cool-gray/cyan edge highlights despite neutral-glass prompting.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "hardware-profile",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass hardware catalogue photo, square 1254 by 1254 pixels. Brand-neutral illustrative hardware TYPE, not an exact branded SKU. Photorealistic high-end product photograph, physically believable machined metal, simple clear composition, readable hardware shape at thumbnail size. Warm neutral limestone or warm-gray tabletop where applicable, warm off-white wall, soft lateral studio daylight, restrained shadow. Tight editorial product crop, hardware large and in sharp focus. All glass must be ultra-clear CrystalVision-style low-iron optically neutral glass with colorless white-to-gray edges, absolutely NO green/cyan/turquoise/blue glass edge or cast. No green ambient background. Brushed or polished steel may be neutral gray, hardware intentionally black or champagne gold where specified. NO text, numbers, logos, watermarks, prices, branding, people, hands, diagrams, exploded views, collages, presentation borders, factory clutter. Keep mechanical geometry coherent and realistic, use a few simple large recognizable parts.\nSubject: Three short aluminum U-channel mounting profiles resting diagonally on a warm greige stone tabletop in a neatly spaced group. One satin natural aluminum, one matte black anodized, one brushed champagne gold. Front cut ends face the camera and clearly reveal an accurate simple U-shaped cross section: parallel vertical walls and one flat bottom web with uniform realistic extrusion thickness, open channel, no impossible closed loops or random holes. Approximately 15 cm sample lengths, crisp clean cut ends, realistic finish, product macro photography. No glass needed.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-4882de5d-bc14-4c55-9fde-b504d9b182df.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/hardware-profile.png",
+            "visualInspection": "Inspected actual generated image inline: distinct readable hardware type, simple coherent mounted or sample arrangement, no brand, text, prices or people.",
+            "colorInspection": "Neutral warm set; readable metal or transparent PVC material.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "hardware-standoff",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass hardware catalogue photo, square 1254 by 1254 pixels. Brand-neutral illustrative hardware TYPE, not an exact branded SKU. Photorealistic high-end product photograph, physically believable machined metal, simple clear composition, readable hardware shape at thumbnail size. Warm neutral limestone or warm-gray tabletop where applicable, warm off-white wall, soft lateral studio daylight, restrained shadow. Tight editorial product crop, hardware large and in sharp focus. All glass must be ultra-clear CrystalVision-style low-iron optically neutral glass with colorless white-to-gray edges, absolutely NO green/cyan/turquoise/blue glass edge or cast. No green ambient background. Brushed or polished steel may be neutral gray, hardware intentionally black or champagne gold where specified. NO text, numbers, logos, watermarks, prices, branding, people, hands, diagrams, exploded views, collages, presentation borders, factory clutter. Keep mechanical geometry coherent and realistic, use a few simple large recognizable parts.\nSubject: Closeup of two circular brushed stainless-steel point-fixing standoff mounts at two heights through a single clear vertical glass panel, with warm off-white wall behind. Show round front metal caps, thin believable black protective rubber gaskets directly against glass, central screw cover and cylindrical spacer barrels extending rearward to the wall. Angled view reveals the small gap between wall and glass and physical support. Two identical compact round mounts, beautifully machined, realistic flush contact and clean installation.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-26c6d747-a112-4632-97ee-0ed50f940270.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/hardware-standoff.png",
+            "visualInspection": "Inspected actual generated image inline: distinct readable hardware type, simple coherent mounted or sample arrangement, no brand, text, prices or people.",
+            "colorInspection": "Clear glass with slight cool-gray/cyan edge highlights despite neutral-glass prompting.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "hardware-handrail",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass hardware catalogue photo, square 1254 by 1254 pixels. Brand-neutral illustrative hardware TYPE, not an exact branded SKU. Photorealistic high-end product photograph, physically believable machined metal, simple clear composition, readable hardware shape at thumbnail size. Warm neutral limestone or warm-gray tabletop where applicable, warm off-white wall, soft lateral studio daylight, restrained shadow. Tight editorial product crop, hardware large and in sharp focus. All glass must be ultra-clear CrystalVision-style low-iron optically neutral glass with colorless white-to-gray edges, absolutely NO green/cyan/turquoise/blue glass edge or cast. No green ambient background. Brushed or polished steel may be neutral gray, hardware intentionally black or champagne gold where specified. NO text, numbers, logos, watermarks, prices, branding, people, hands, diagrams, exploded views, collages, presentation borders, factory clutter. Keep mechanical geometry coherent and realistic, use a few simple large recognizable parts.\nSubject: Architectural hardware macro photograph of a brushed stainless-steel round tubular top handrail running horizontally above a single ultra-clear glass balustrade panel. One compact stainless glass clamp and short bracket visibly and credibly connects the rail to the glass, with protective gasket contacting glass. Show a small simple installed segment only, a warm neutral wall behind and soft light. Cylindrical rail, precise bracket, readable single glass attachment, no elaborate staircase or multiple railing systems.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-65423f13-75da-4812-9d14-4317ec8cf78e.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/hardware-handrail.png",
+            "visualInspection": "Inspected actual generated image inline: distinct readable hardware type, simple coherent mounted or sample arrangement, no brand, text, prices or people.",
+            "colorInspection": "Neutral warm set; readable metal or transparent PVC material.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "hardware-seal",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass hardware catalogue photo, square 1254 by 1254 pixels. Brand-neutral illustrative hardware TYPE, not an exact branded SKU. Photorealistic high-end product photograph, physically believable machined metal, simple clear composition, readable hardware shape at thumbnail size. Warm neutral limestone or warm-gray tabletop where applicable, warm off-white wall, soft lateral studio daylight, restrained shadow. Tight editorial product crop, hardware large and in sharp focus. All glass must be ultra-clear CrystalVision-style low-iron optically neutral glass with colorless white-to-gray edges, absolutely NO green/cyan/turquoise/blue glass edge or cast. No green ambient background. Brushed or polished steel may be neutral gray, hardware intentionally black or champagne gold where specified. NO text, numbers, logos, watermarks, prices, branding, people, hands, diagrams, exploded views, collages, presentation borders, factory clutter. Keep mechanical geometry coherent and realistic, use a few simple large recognizable parts.\nSubject: Macro product photograph of three separate short transparent flexible PVC shower-door seal extrusion samples arranged on a warm-gray matte tabletop. Their cut cross-sections face camera and are clearly readable: one U-shaped glass edge grip with a thin straight wiping fin, one U-shaped glass edge grip with a small hollow soft round bulb, one U-shaped glass edge grip with a thin downward double sweep fin. All colorless transparent flexible PVC with natural frosted-white translucent cut edges; absolutely no green or blue. Realistic thin walls and hollow channels, subtle flex, 10 cm lengths, not solid rigid metal profiles. No labels or lettering.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-c63c71a2-1168-4176-ba2a-b3c8fcc41b7e.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/hardware-seal.png",
+            "visualInspection": "Inspected actual generated image inline: distinct readable hardware type, simple coherent mounted or sample arrangement, no brand, text, prices or people.",
+            "colorInspection": "Neutral warm set; readable metal or transparent PVC material.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "hardware-canopy",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass hardware catalogue photo, square 1254 by 1254 pixels. Brand-neutral illustrative hardware TYPE, not an exact branded SKU. Photorealistic high-end product photograph, physically believable machined metal, simple clear composition, readable hardware shape at thumbnail size. Warm neutral limestone or warm-gray tabletop where applicable, warm off-white wall, soft lateral studio daylight, restrained shadow. Tight editorial product crop, hardware large and in sharp focus. All glass must be ultra-clear CrystalVision-style low-iron optically neutral glass with colorless white-to-gray edges, absolutely NO green/cyan/turquoise/blue glass edge or cast. No green ambient background. Brushed or polished steel may be neutral gray, hardware intentionally black or champagne gold where specified. NO text, numbers, logos, watermarks, prices, branding, people, hands, diagrams, exploded views, collages, presentation borders, factory clutter. Keep mechanical geometry coherent and realistic, use a few simple large recognizable parts.\nSubject: Tight installed architectural glass-canopy hardware closeup at a simple warm off-white exterior wall. A single brushed stainless steel diagonal tension support rod runs from a compact wall anchor at upper left down to a credible round articulated point-fixing joint through one horizontal ultra-clear glass canopy panel at lower right. Show threaded rod end, compact clevis pin connection, round stainless top cap and protective gasket contacting glass, with coherent mechanical load path and believable intersections. Crop to a short simple hardware section and one glass corner, not an entire building. Clear neutral glass edges, soft natural daylight.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-5bf228e5-c640-43c7-aa34-9108279323db.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/hardware-canopy.png",
+            "visualInspection": "Inspected actual generated image inline: distinct readable hardware type, simple coherent mounted or sample arrangement, no brand, text, prices or people.",
+            "colorInspection": "Inspected corrected image inline: localized green reflection removed; glass edge now neutral white/silver/gray; canopy rod, anchors, gasket and glass geometry preserved.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "One built-in image_gen targeted color correction to remove local green glass-edge reflection; no geometric changes requested.",
+            "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-6e9eb5d5-5cf2-4e19-a0da-6e46cd9910e5.png",
+            "correctionPrompt": "Use case: precise-object-edit. Edit ONLY the color of the reflected patch along the thick front glass edge, especially its bottom-right end, in this existing hardware product photograph. Remove all green, olive, yellow-green, cyan and blue color from the GLASS EDGE and its reflections, replacing those colored edge reflections with strictly neutral white/silver/gray equivalents of the same luminance and contrast. The glass must look colorless optically neutral CrystalVision low-iron glass. Keep EVERYTHING else unchanged: exact image composition, perspective, framing, square size, all mechanical geometry, rod, clevis joints, wall anchor, fasteners, top fixing cap, black gasket, wall texture and warm beige wall color, shadows, glass shape/thickness/position and transparency, natural sunlight. Do not add or remove any object. Do not change glass edge geometry. Do not monochrome the whole image: preserve warm beige background. No text/logos."
+          }
+        ]
+      }
+    },
+    {
+      "file": "manifestprocess-images.json",
+      "data": {
+        "generator": "built-in image_gen.imagegen",
+        "illustrative": true,
+        "notActualVIPGlassFactoryPhotography": true,
+        "count": 9,
+        "assets": [
+          {
+            "basename": "production-workbench",
+            "prompt": "Use case: product-mockup. Asset type: illustrative editorial photograph for premium architectural glass production services website. Photorealistic professional material photography, sophisticated clean anonymous workshop, matte warm gray work surfaces, stainless steel details, charcoal backgrounds. Soft large-window daylight, gently warm neutral balance, precise real optical reflections, restrained luxury. ALL transparent glass is CrystalVision low-iron optically clear glass: absolutely COLORLESS faces and COLORLESS edges, no green, cyan, teal, blue or aqua tint. No people, hands, faces, logos, words, numbers, serial labels, watermarks or readable markings. No invented factory branding. Single coherent photograph, never collage, never diagram. Landscape composition 16:9. Wide hero editorial photo at a low oblique angle across a pristine large workshop bench. Several perfectly clear glass panels lie on protective charcoal felt, their polished edges caught by soft light; one foreground panel has a clean circular drilled hole. A small understated metal measuring square and glass cutting tool sit to the side. An airy anonymous workshop fades into warm gray soft focus. Main glass details occupy lower central and right area, restrained uncluttered composition, credible industrial scale, no showroom interior, no heavy blue lighting.",
+            "path": "/workspace/scratch/e030de584a13/production-images/production-workbench.png",
+            "sourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-3387f721-e722-4c9a-92fc-424dfa04f9a5.png",
+            "initialSourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-fbe283c9-0fa2-4c6f-b38c-cce2a0009e07.png",
+            "colorCorrectionPrompt": "Use case: lighting-weather. Exact image edit, preserve photograph, geometry, perspective, crop, focus, all objects and workshop setting unchanged. Correct ONLY the color cast of EVERY glass item throughout this image: every transparent glass sheet, panel, rack and every polished glass edge in foreground AND background must be perfectly neutral, low-iron CrystalVision, absolutely colorless with neutral white/gray optical reflections. Remove all green, blue, aqua, teal and cyan tint from glass and glass reflections, including out-of-focus standing glass sheets in the background. Background rack glass must be neutral transparent gray, not colored. Retain the warm neutral gray and charcoal palette and gentle warm daylight throughout the image. Do not remove glass, change shapes or add anything. No text or logos. Output same dimensions and composition.",
+            "inspection": "Visually inspected displayed generated image for subject, profile, geometry, absence of people/logos/text, and neutral low-iron clear glass.",
+            "width": 1672,
+            "height": 941,
+            "format": "PNG",
+            "bytes": 2241136,
+            "sha256": "71f15bf810f85ef7d444ede70ed1d2ea50351160fb2f1ca59c7fc77df40bc840"
+          },
+          {
+            "basename": "service-cutting",
+            "prompt": "Use case: product-mockup. Asset type: illustrative editorial photograph for premium architectural glass production services website. Photorealistic professional material photography, sophisticated clean anonymous workshop, matte warm gray work surfaces, stainless steel details, charcoal backgrounds. Soft large-window daylight, gently warm neutral balance, precise real optical reflections, restrained luxury. ALL transparent glass is CrystalVision low-iron optically clear glass: absolutely COLORLESS faces and COLORLESS edges, no green, cyan, teal, blue or aqua tint. No people, hands, faces, logos, words, numbers, serial labels, watermarks or readable markings. No invented factory branding. Single coherent photograph, never collage, never diagram. Square 1:1 image, approximately 1254 pixels square. Close-up photo of a real compact CNC glass cutting head with tiny scoring wheel contacting the surface of one flat absolutely clear glass sheet on a dark charcoal felt cutting table. Show the fine straight score line and precise contact point. The glass sheet stays fully intact and flat. Focus on cutting head and sheet, shallow depth of field. This is scoring glass, not grinding: absolutely no sparks, fire, saw blade, flying fragments, smoke or broken glass.",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-cutting.png",
+            "sourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-984198a5-f698-4503-9f8f-9d29e0495666.png",
+            "inspection": "Visually inspected displayed generated image for subject, profile, geometry, absence of people/logos/text, and neutral low-iron clear glass.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 2030792,
+            "sha256": "3aded58bc8e9cf946c073f8e88cd71510b1bf044817fe2ff672ec5171b95974e"
+          },
+          {
+            "basename": "service-edge",
+            "prompt": "Use case: product-mockup. Asset type: illustrative editorial photograph for premium architectural glass production services website. Photorealistic professional material photography, sophisticated clean anonymous workshop, matte warm gray work surfaces, stainless steel details, charcoal backgrounds. Soft large-window daylight, gently warm neutral balance, precise real optical reflections, restrained luxury. ALL transparent glass is CrystalVision low-iron optically clear glass: absolutely COLORLESS faces and COLORLESS edges, no green, cyan, teal, blue or aqua tint. No people, hands, faces, logos, words, numbers, serial labels, watermarks or readable markings. No invented factory branding. Single coherent photograph, never collage, never diagram. Square 1:1 image, approximately 1254 pixels square. Extreme material macro photograph of the long narrow FLAT POLISHED EDGE of one 10mm thick perfectly clear architectural glass sheet on charcoal felt. A straight rectangular edge face with very tiny clean safety arrises at its two corners; not a wide bevel and not rounded bullnose. Edge rises diagonally from lower left toward upper right with crisp neutral white reflections, transparent body visible above and gray background softly visible through it. The edge profile is unmistakable, pristine and absolutely colorless.",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-edge.png",
+            "sourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-ecdd048b-dd78-44b4-a526-ca8c3aa58069.png",
+            "inspection": "Visually inspected displayed generated image for subject, profile, geometry, absence of people/logos/text, and neutral low-iron clear glass.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 2085508,
+            "sha256": "50c21198c56f6663f8f55a930ce472d090dfeb1ffd6148a8c75b7c1ebfd6f288"
+          },
+          {
+            "basename": "service-bevel",
+            "prompt": "Use case: product-mockup. Asset type: illustrative editorial photograph for premium architectural glass production services website. Photorealistic professional material photography, sophisticated clean anonymous workshop, matte warm gray work surfaces, stainless steel details, charcoal backgrounds. Soft large-window daylight, gently warm neutral balance, precise real optical reflections, restrained luxury. ALL transparent glass is CrystalVision low-iron optically clear glass: absolutely COLORLESS faces and COLORLESS edges, no green, cyan, teal, blue or aqua tint. No people, hands, faces, logos, words, numbers, serial labels, watermarks or readable markings. No invented factory branding. Single coherent photograph, never collage, never diagram. Square 1:1 image, approximately 1254 pixels square. Editorial macro of a frameless rectangular SILVER MIRROR lying at a gentle angle on a warm gray workshop surface. Its 25mm wide polished bevel runs along two visible sides and joins in a precise miter-like glass corner. Show a broad sloped shiny beveled band catching bright neutral light, visibly much broader than an ordinary polished edge. The mirror's central face reflects a soft gray-white ceiling gradient; silver mirror, clear low-iron base glass, absolutely no green tint. One small un-beveled flat edge sample can sit distant and unfocused for subtle contrast. No frame.",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-bevel.png",
+            "sourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-667ce660-4764-4620-8f20-cbf259a71087.png",
+            "initialSourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-1088798a-0207-4467-925e-0f3dd83d0a4d.png",
+            "colorCorrectionPrompt": "Use case: lighting-weather. Exact image edit, preserve photograph, geometry, perspective, crop, focus, all objects and workshop setting unchanged. Correct ONLY the color cast of EVERY glass item throughout this image: every transparent glass sheet, panel, rack and every polished glass edge in foreground AND background must be perfectly neutral, low-iron CrystalVision, absolutely colorless with neutral white/gray optical reflections. Remove all green, blue, aqua, teal and cyan tint from glass and glass reflections, including out-of-focus standing glass sheets in the background. Background rack glass must be neutral transparent gray, not colored. Retain the warm neutral gray and charcoal palette and gentle warm daylight throughout the image. Do not remove glass, change shapes or add anything. No text or logos. Output same dimensions and composition.",
+            "inspection": "Visually inspected displayed generated image for subject, profile, geometry, absence of people/logos/text, and neutral low-iron clear glass.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1972775,
+            "sha256": "01a869291e79c6d561666a90999978d9710715de73fe973f6495ca35463b7e8a"
+          },
+          {
+            "basename": "service-drilling",
+            "prompt": "Use case: product-mockup. Asset type: illustrative editorial photograph for premium architectural glass production services website. Photorealistic professional material photography, sophisticated clean anonymous workshop, matte warm gray work surfaces, stainless steel details, charcoal backgrounds. Soft large-window daylight, gently warm neutral balance, precise real optical reflections, restrained luxury. ALL transparent glass is CrystalVision low-iron optically clear glass: absolutely COLORLESS faces and COLORLESS edges, no green, cyan, teal, blue or aqua tint. No people, hands, faces, logos, words, numbers, serial labels, watermarks or readable markings. No invented factory branding. Single coherent photograph, never collage, never diagram. Square 1:1 image, approximately 1254 pixels square. Oblique overhead close-up of one completed absolutely colorless clear rectangular glass panel on a charcoal protective workbench. It has one clean round drilled through-hole away from the edge and a separate precisely machined rounded U-shaped notch opening from a nearby outer edge. Both cut edges polished smooth with readable thickness and tiny safety arrises. Clean light lines illuminate the circle and U cutout against the dark support below. Finished result only, no operating tools or machinery, no cracks or chips.",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-drilling.png",
+            "sourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-ebcdc544-7247-4471-87d5-22a7df24242d.png",
+            "inspection": "Visually inspected displayed generated image for subject, profile, geometry, absence of people/logos/text, and neutral low-iron clear glass.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 2430211,
+            "sha256": "33aa0006b8515dacaadab2efb216a4df6d6e9282f65e52d513313b6f40236361"
+          },
+          {
+            "basename": "service-lamination",
+            "prompt": "Use case: product-mockup. Asset type: illustrative editorial photograph for premium architectural glass production services website. Photorealistic professional material photography, sophisticated clean anonymous workshop, matte warm gray work surfaces, stainless steel details, charcoal backgrounds. Soft large-window daylight, gently warm neutral balance, precise real optical reflections, restrained luxury. ALL transparent glass is CrystalVision low-iron optically clear glass: absolutely COLORLESS faces and COLORLESS edges, no green, cyan, teal, blue or aqua tint. No people, hands, faces, logos, words, numbers, serial labels, watermarks or readable markings. No invented factory branding. Single coherent photograph, never collage, never diagram. Square 1:1 image, approximately 1254 pixels square. True photorealistic macro side view of one finished clear laminated glass sample resting on warm gray matte surface. Two solid absolutely colorless transparent glass sheets bonded together by one extremely thin neutral transparent interlayer. Close-up at a front corner makes the three-layer structure legible as a subtle hairline between two equal thickness glass plies. The layers are touching and fully bonded, zero air gaps. Soft bright edge highlights and shadow make the lamination readable. Not exploded, no labels, no colored film, no plastic protruding, no heavy stack of many layers.",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-lamination.png",
+            "sourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-7431a753-be95-44ff-a200-489fcc1bd41b.png",
+            "inspection": "Visually inspected displayed generated image for subject, profile, geometry, absence of people/logos/text, and neutral low-iron clear glass.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1894823,
+            "sha256": "fb997cfb0e0b087a55d21e537e606e19de2de03ae852eb6ef6fe6d8dd5067598"
+          },
+          {
+            "basename": "service-tempering",
+            "prompt": "Use case: product-mockup. Asset type: illustrative editorial photograph for premium architectural glass production services website. Photorealistic professional material photography, sophisticated clean anonymous workshop, matte warm gray work surfaces, stainless steel details, charcoal backgrounds. Soft large-window daylight, gently warm neutral balance, precise real optical reflections, restrained luxury. ALL transparent glass is CrystalVision low-iron optically clear glass: absolutely COLORLESS faces and COLORLESS edges, no green, cyan, teal, blue or aqua tint. No people, hands, faces, logos, words, numbers, serial labels, watermarks or readable markings. No invented factory branding. Single coherent photograph, never collage, never diagram. Square 1:1 image, approximately 1254 pixels square. Anonymous clean industrial photograph of one single flat completely transparent colorless glass panel resting evenly on parallel ceramic roller conveyor in front of the closed opening of a thermal treatment machine. Low oblique view along rollers: foreground glass edges clean and visible, warm gray/stainless enclosure softly blurred behind, restrained soft warm ambient light in the background. Credible tidy production setting. No flame, glowing glass, broken glass, safety stamp, numbers or text; do not show a person. Glass lies flat and unwarped.",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-tempering.png",
+            "sourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-42970d8b-6ee8-4189-8820-c5788e7fceda.png",
+            "initialSourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-1438f61b-5a7a-4f59-847c-f1302024c55f.png",
+            "colorCorrectionPrompt": "Use case: lighting-weather. Exact image edit, preserve photograph, geometry, perspective, crop, focus, all objects and workshop setting unchanged. Correct ONLY the color cast of EVERY glass item throughout this image: every transparent glass sheet, panel, rack and every polished glass edge in foreground AND background must be perfectly neutral, low-iron CrystalVision, absolutely colorless with neutral white/gray optical reflections. Remove all green, blue, aqua, teal and cyan tint from glass and glass reflections, including out-of-focus standing glass sheets in the background. Background rack glass must be neutral transparent gray, not colored. Retain the warm neutral gray and charcoal palette and gentle warm daylight throughout the image. Do not remove glass, change shapes or add anything. No text or logos. Output same dimensions and composition.",
+            "inspection": "Visually inspected displayed generated image for subject, profile, geometry, absence of people/logos/text, and neutral low-iron clear glass.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1830528,
+            "sha256": "37e9119d7d5cfa8903666c91bcc4fe99b1d437eeb72384470196c24829ee66b3"
+          },
+          {
+            "basename": "service-bending",
+            "prompt": "Use case: product-mockup. Asset type: illustrative editorial photograph for premium architectural glass production services website. Photorealistic professional material photography, sophisticated clean anonymous workshop, matte warm gray work surfaces, stainless steel details, charcoal backgrounds. Soft large-window daylight, gently warm neutral balance, precise real optical reflections, restrained luxury. ALL transparent glass is CrystalVision low-iron optically clear glass: absolutely COLORLESS faces and COLORLESS edges, no green, cyan, teal, blue or aqua tint. No people, hands, faces, logos, words, numbers, serial labels, watermarks or readable markings. No invented factory branding. Single coherent photograph, never collage, never diagram. Square 1:1 image, approximately 1254 pixels square. Sculptural product photograph of one smoothly cylindrically curved absolutely colorless clear glass panel standing securely on a simple charcoal plinth in an anonymous clean workshop. The panel is a segment of a vertical cylinder: constant radius, straight vertical side edges, matching clean smooth arcs at top and bottom, approximately 90-degree curve. Three-quarter camera reveals its clear accurate curvature and thickness through restrained neutral white highlights. Warm gray softly blurred industrial background. No warped corners, no twisting, no wavy surface, no green or blue edges.",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-bending.png",
+            "sourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-832dab12-6f13-417b-a346-6b950bbfa8dc.png",
+            "initialSourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-d36d2ad8-b5e4-4d3c-931e-28155e1301ec.png",
+            "colorCorrectionPrompt": "Use case: lighting-weather. Exact image edit, preserve photograph, geometry, perspective, crop, focus, all objects and workshop setting unchanged. Correct ONLY the color cast of EVERY glass item throughout this image: every transparent glass sheet, panel, rack and every polished glass edge in foreground AND background must be perfectly neutral, low-iron CrystalVision, absolutely colorless with neutral white/gray optical reflections. Remove all green, blue, aqua, teal and cyan tint from glass and glass reflections, including out-of-focus standing glass sheets in the background. Background rack glass must be neutral transparent gray, not colored. Retain the warm neutral gray and charcoal palette and gentle warm daylight throughout the image. Do not remove glass, change shapes or add anything. No text or logos. Output same dimensions and composition.",
+            "inspection": "Visually inspected displayed generated image for subject, profile, geometry, absence of people/logos/text, and neutral low-iron clear glass.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1917430,
+            "sha256": "b078f49c1d6f34603b0d0cc52d2a9d1770caf2246ed6522af743c3133636c323"
+          },
+          {
+            "basename": "service-bonding",
+            "prompt": "Use case: product-mockup. Asset type: illustrative editorial photograph for premium architectural glass production services website. Photorealistic professional material photography, sophisticated clean anonymous workshop, matte warm gray work surfaces, stainless steel details, charcoal backgrounds. Soft large-window daylight, gently warm neutral balance, precise real optical reflections, restrained luxury. ALL transparent glass is CrystalVision low-iron optically clear glass: absolutely COLORLESS faces and COLORLESS edges, no green, cyan, teal, blue or aqua tint. No people, hands, faces, logos, words, numbers, serial labels, watermarks or readable markings. No invented factory branding. Single coherent photograph, never collage, never diagram. Square 1:1 image, approximately 1254 pixels square. Precise editorial product close-up of a small premium transparent glass display cube with an open top, made of four straight absolutely colorless low-iron glass side panels UV-bonded to each other and to a flat glass base. Three-quarter view on a matte warm gray workbench. Focus on one immaculate right-angle vertical corner seam: a subtle clean transparent adhesive bond, no opaque bead, no fittings. Geometrically accurate cube, very clear glass and neutral white edge highlights. Background anonymous workshop softly out of focus. No green/cyan edge tint, no clamps, no people.",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-bonding.png",
+            "sourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-dacaeb62-f4c9-4a22-b0ac-a015a118ab13.png",
+            "initialSourcePath": "/workspace/scratch/e030de584a13/generated_images/exec-d1444a08-744a-46e8-960b-b638e07b653c.png",
+            "colorCorrectionPrompt": "Use case: lighting-weather. Exact image edit, preserve photograph, geometry, perspective, crop, focus, all objects and workshop setting unchanged. Correct ONLY the color cast of EVERY glass item throughout this image: every transparent glass sheet, panel, rack and every polished glass edge in foreground AND background must be perfectly neutral, low-iron CrystalVision, absolutely colorless with neutral white/gray optical reflections. Remove all green, blue, aqua, teal and cyan tint from glass and glass reflections, including out-of-focus standing glass sheets in the background. Background rack glass must be neutral transparent gray, not colored. Retain the warm neutral gray and charcoal palette and gentle warm daylight throughout the image. Do not remove glass, change shapes or add anything. No text or logos. Output same dimensions and composition.",
+            "inspection": "Visually inspected displayed generated image for subject, profile, geometry, absence of people/logos/text, and neutral low-iron clear glass.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1894235,
+            "sha256": "d481bdd631fa04eaadfc608c5f096aabe0d9fb0a1a77e328c2ef5b537c77b75e"
+          }
+        ]
+      }
+    },
+    {
+      "file": "material-images-a.json",
+      "data": {
+        "generator": "built-in image_gen.imagegen",
+        "date": "2026-10-16",
+        "count": 9,
+        "usage": "VIPGlass materials catalogue",
+        "assets": [
+          {
+            "name": "material-clear",
+            "prompt": "Use case: product-mockup. Asset type: premium VIPGlass materials catalogue photo, one square image approximately 1254 by 1254 pixels. Photorealistic high-end architectural glass sample photography. A restrained warm greige limestone plinth, warm off-white seamless studio background, soft lateral daylight from upper left, subtle grounded shadows, immaculate tangible glass. Large sample filling about 70 percent of frame, clean three-quarter view at a slightly elevated angle. CrystalVision ultra-clear glass base must be optically neutral: NO green, cyan, turquoise, or blue edges or reflections. Naturally colorless clear edges for clear glass, only deliberate bronze or neutral-gray tint for tinted variants. NO text, typography, labels, logos, watermark, hands, people, diagrams, collage, borders. Preserve physical transparency and real reflections; no CGI look.\nSubject: A single large optically neutral clear rectangular glass sheet standing at a slight slant on the stone plinth. Polished absolutely colorless edges, very subtle reflections reveal the outline, the plinth and backdrop remain clearly visible through it. Show fine thickness and immaculate clarity without any blue or green cast.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-5fc47915-5405-4b2a-96a0-69f1fc70cc1a.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/material-clear.png",
+            "visualInspection": "Inspected actual generated image inline. Material identity, large readable sample, transparent or translucent behavior, premium warm stone setting, no text or people confirmed.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "material-tinted",
+            "prompt": "Use case: product-mockup. Asset type: premium VIPGlass materials catalogue photo, one square image approximately 1254 by 1254 pixels. Photorealistic high-end architectural glass sample photography. A restrained warm greige limestone plinth, warm off-white seamless studio background, soft lateral daylight from upper left, subtle grounded shadows, immaculate tangible glass. Large sample filling about 70 percent of frame, clean three-quarter view at a slightly elevated angle. CrystalVision ultra-clear glass base must be optically neutral: NO green, cyan, turquoise, or blue edges or reflections. Naturally colorless clear edges for clear glass, only deliberate bronze or neutral-gray tint for tinted variants. NO text, typography, labels, logos, watermark, hands, people, diagrams, collage, borders. Preserve physical transparency and real reflections; no CGI look.\nSubject: Three tall overlapping transparent glass samples arranged as a compact fan on the stone plinth: warm bronze, medium neutral gray, and dark smoke gray. All three transmit the backdrop visibly; overlapping zones darken naturally. They must be obviously tinted transparent glass, never opaque metal or painted panels. Polished edges, restrained tonal separation.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-2b272e5f-d46f-4c1c-99c4-93e2ad6cd397.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/material-tinted.png",
+            "visualInspection": "Inspected actual generated image inline. Material identity, large readable sample, transparent or translucent behavior, premium warm stone setting, no text or people confirmed.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "material-bronze",
+            "prompt": "Use case: product-mockup. Asset type: premium VIPGlass materials catalogue photo, one square image approximately 1254 by 1254 pixels. Photorealistic high-end architectural glass sample photography. A restrained warm greige limestone plinth, warm off-white seamless studio background, soft lateral daylight from upper left, subtle grounded shadows, immaculate tangible glass. Large sample filling about 70 percent of frame, clean three-quarter view at a slightly elevated angle. CrystalVision ultra-clear glass base must be optically neutral: NO green, cyan, turquoise, or blue edges or reflections. Naturally colorless clear edges for clear glass, only deliberate bronze or neutral-gray tint for tinted variants. NO text, typography, labels, logos, watermark, hands, people, diagrams, collage, borders. Preserve physical transparency and real reflections; no CGI look.\nSubject: One large single rectangular transparent bronze-tinted glass sample standing at a slight slant on the stone plinth. Warm restrained medium bronze, clearly visible background transmitted through glass with a warm tint and gentle bronze shadow. Polished edges and realistic glass thickness. It must not look opaque, mirrorlike, metallic, or orange plastic.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-e7dea77f-4147-4711-9834-79e1e12e2a5f.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/material-bronze.png",
+            "visualInspection": "Inspected actual generated image inline. Material identity, large readable sample, transparent or translucent behavior, premium warm stone setting, no text or people confirmed.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "material-graphite",
+            "prompt": "Use case: product-mockup. Asset type: premium VIPGlass materials catalogue photo, one square image approximately 1254 by 1254 pixels. Photorealistic high-end architectural glass sample photography. A restrained warm greige limestone plinth, warm off-white seamless studio background, soft lateral daylight from upper left, subtle grounded shadows, immaculate tangible glass. Large sample filling about 70 percent of frame, clean three-quarter view at a slightly elevated angle. CrystalVision ultra-clear glass base must be optically neutral: NO green, cyan, turquoise, or blue edges or reflections. Naturally colorless clear edges for clear glass, only deliberate bronze or neutral-gray tint for tinted variants. NO text, typography, labels, logos, watermark, hands, people, diagrams, collage, borders. Preserve physical transparency and real reflections; no CGI look.\nSubject: One large single rectangular transparent neutral gray graphite-tinted glass sample standing at a slight slant on the stone plinth. Restrained medium graphite gray with visibly transmitted background and gray transparent shadow. Polished glass edge, no green or blue cast. It must not look opaque, mirrorlike, metallic, or solid black.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-603da1fe-f48b-4cfc-8a37-da9c9e0b844e.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/material-graphite.png",
+            "visualInspection": "Inspected actual generated image inline. Material identity, large readable sample, transparent or translucent behavior, premium warm stone setting, no text or people confirmed.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "material-satin",
+            "prompt": "Use case: product-mockup. Asset type: premium VIPGlass materials catalogue photo, one square image approximately 1254 by 1254 pixels. Photorealistic high-end architectural glass sample photography. A restrained warm greige limestone plinth, warm off-white seamless studio background, soft lateral daylight from upper left, subtle grounded shadows, immaculate tangible glass. Large sample filling about 70 percent of frame, clean three-quarter view at a slightly elevated angle. CrystalVision ultra-clear glass base must be optically neutral: NO green, cyan, turquoise, or blue edges or reflections. Naturally colorless clear edges for clear glass, only deliberate bronze or neutral-gray tint for tinted variants. NO text, typography, labels, logos, watermark, hands, people, diagrams, collage, borders. Preserve physical transparency and real reflections; no CGI look.\nSubject: One large rectangular translucent white acid-etched satin glass sample upright at a slight slant on the stone plinth, luminous matte frosted surface with fine velvety texture and a polished colorless thin edge. A small warm-neutral stone block immediately behind the glass appears softly diffused through its middle, illustrating translucency without opaque white paint. No tint.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-de33fb87-1aeb-456d-8faa-b29b6e17f406.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/material-satin.png",
+            "visualInspection": "Inspected actual generated image inline. Material identity, large readable sample, transparent or translucent behavior, premium warm stone setting, no text or people confirmed.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "material-satin-bronze",
+            "prompt": "Use case: product-mockup. Asset type: premium VIPGlass materials catalogue photo, one square image approximately 1254 by 1254 pixels. Photorealistic high-end architectural glass sample photography. A restrained warm greige limestone plinth, warm off-white seamless studio background, soft lateral daylight from upper left, subtle grounded shadows, immaculate tangible glass. Large sample filling about 70 percent of frame, clean three-quarter view at a slightly elevated angle. CrystalVision ultra-clear glass base must be optically neutral: NO green, cyan, turquoise, or blue edges or reflections. Naturally colorless clear edges for clear glass, only deliberate bronze or neutral-gray tint for tinted variants. NO text, typography, labels, logos, watermark, hands, people, diagrams, collage, borders. Preserve physical transparency and real reflections; no CGI look.\nSubject: One large rectangular translucent bronze acid-etched satin glass sample standing at a slight slant on the stone plinth. Warm muted bronze matte frosted surface, glowing softly with transmitted daylight. The plinth behind the sample is subtly diffused through it. A glass edge and realistic thickness clearly communicate frosted glass, absolutely not bronze metal or opaque painted panel.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-47ce6744-8911-4878-824b-3f9e1a560558.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/material-satin-bronze.png",
+            "visualInspection": "Inspected actual generated image inline. Material identity, large readable sample, transparent or translucent behavior, premium warm stone setting, no text or people confirmed.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "material-fluted",
+            "prompt": "Use case: product-mockup. Asset type: premium VIPGlass materials catalogue photo, one square image approximately 1254 by 1254 pixels. Photorealistic high-end architectural glass sample photography. A restrained warm greige limestone plinth, warm off-white seamless studio background, soft lateral daylight from upper left, subtle grounded shadows, immaculate tangible glass. Large sample filling about 70 percent of frame, clean three-quarter view at a slightly elevated angle. CrystalVision ultra-clear glass base must be optically neutral: NO green, cyan, turquoise, or blue edges or reflections. Naturally colorless clear edges for clear glass, only deliberate bronze or neutral-gray tint for tinted variants. NO text, typography, labels, logos, watermark, hands, people, diagrams, collage, borders. Preserve physical transparency and real reflections; no CGI look.\nSubject: One large rectangular colorless fluted architectural glass sample standing upright on the stone plinth. Tight regular vertical convex Moru-style ribs running continuously from top to bottom. Close enough to see the tactile polished ridges and bright colorless refractions; backdrop and plinth are vertically distorted through the glass. Crisp vertical rhythm, slight three-quarter perspective, optically neutral no green or blue.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-df5a60ae-b5a1-4f6d-baad-0afc3095642d.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/material-fluted.png",
+            "visualInspection": "Inspected actual generated image inline. Material identity, large readable sample, transparent or translucent behavior, premium warm stone setting, no text or people confirmed.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "material-fluted-bronze",
+            "prompt": "Use case: product-mockup. Asset type: premium VIPGlass materials catalogue photo, one square image approximately 1254 by 1254 pixels. Photorealistic high-end architectural glass sample photography. A restrained warm greige limestone plinth, warm off-white seamless studio background, soft lateral daylight from upper left, subtle grounded shadows, immaculate tangible glass. Large sample filling about 70 percent of frame, clean three-quarter view at a slightly elevated angle. CrystalVision ultra-clear glass base must be optically neutral: NO green, cyan, turquoise, or blue edges or reflections. Naturally colorless clear edges for clear glass, only deliberate bronze or neutral-gray tint for tinted variants. NO text, typography, labels, logos, watermark, hands, people, diagrams, collage, borders. Preserve physical transparency and real reflections; no CGI look.\nSubject: One large rectangular bronze-tinted fluted architectural glass sample standing upright on the stone plinth. Tight regular vertical convex Moru-style ribs continuously from top to bottom. Restrained intentional medium warm bronze tint, transmissive with vertically distorted backdrop and plinth. Show tactile polished glass ridges and bronze refractions with slight three-quarter perspective, clearly transparent ribbed glass, not metal.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-7ef7ba0c-8b05-4b60-a700-f6aad5d005c8.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/material-fluted-bronze.png",
+            "visualInspection": "Inspected actual generated image inline. Material identity, large readable sample, transparent or translucent behavior, premium warm stone setting, no text or people confirmed.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          },
+          {
+            "name": "material-patterned",
+            "prompt": "Use case: product-mockup. Asset type: premium VIPGlass materials catalogue photo, one square image approximately 1254 by 1254 pixels. Photorealistic high-end architectural glass sample photography. A restrained warm greige limestone plinth, warm off-white seamless studio background, soft lateral daylight from upper left, subtle grounded shadows, immaculate tangible glass. Large sample filling about 70 percent of frame, clean three-quarter view at a slightly elevated angle. CrystalVision ultra-clear glass base must be optically neutral: NO green, cyan, turquoise, or blue edges or reflections. Naturally colorless clear edges for clear glass, only deliberate bronze or neutral-gray tint for tinted variants. NO text, typography, labels, logos, watermark, hands, people, diagrams, collage, borders. Preserve physical transparency and real reflections; no CGI look.\nSubject: One large single rectangular colorless textured architectural glass sample on the stone plinth, close product photography with macro-level surface detail. Deep irregular organic fine pebble texture, densely distributed rounded uneven reliefs like rippled hammered glass, NOT regular stripes or checkerboard. Warm off-white backdrop transmitted and strongly diffused through colorless patterned glass. Soft shadows make the fine surface legible. Polished colorless perimeter, absolutely no green or blue cast.",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-c2098975-0adf-4018-a36e-2c0f17ee38c4.png",
+            "output": "/workspace/scratch/e030de584a13/production-images/material-patterned.png",
+            "visualInspection": "Inspected actual generated image inline. Material identity, large readable sample, transparent or translucent behavior, premium warm stone setting, no text or people confirmed.",
+            "provenance": "AI-generated via built-in image_gen.imagegen, one independent call for this asset.",
+            "transformations": "None; original PNG copied unchanged."
+          }
+        ]
+      }
+    },
+    {
+      "file": "material-images-b.json",
+      "data": {
+        "title": "VIPGlass material and process result images — batch B",
+        "count": 10,
+        "provenance": "AI-generated original catalogue visualizations using the built-in image_gen tool, one call per asset, no external source imagery.",
+        "images": [
+          {
+            "id": "material-painted",
+            "filename": "material-painted.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/material-painted.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-7c02f62a-ad40-45f4-9087-5813cbeec272.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. Three opaque glossy back-painted glass swatches arranged together: warm white, deep black, and warm taupe. The solid opaque color sits behind a smooth glass face; the front surface catches fine glossy directional highlights and narrow bright edge reflections, clearly glass rather than plastic. No translucency.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-7c02f62a-ad40-45f4-9087-5813cbeec272.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1938341
+          },
+          {
+            "id": "material-mirror",
+            "filename": "material-mirror.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/material-mirror.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-5b320149-2b4b-496c-a9d5-b37f86252062.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. Three upright architectural mirror samples, arranged together on a stone plinth: neutral silver mirror, warm bronze mirror, and smoke graphite mirror. Each convincingly reflects soft interior architecture such as a blurred neutral window and warm wall planes. Mirrors are reflective opaque surfaces, never empty clear glass. Elegant different but subtle reflected tones.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-5b320149-2b4b-496c-a9d5-b37f86252062.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1740320
+          },
+          {
+            "id": "material-antique",
+            "filename": "material-antique.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/material-antique.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-9bc70ad8-d4a2-4dd9-a120-9b4b7b684af1.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. One close-up of a warm antique mirror sample leaning on a greige plinth. Warm silver bronze mirror patina with fine mottled aged silvering and irregular smoky speckles, subtle recognizable soft interior reflection through the patina, elegant authentic antiqued mirror material. A polished thin edge is visible. No rusted solid metal look.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-9bc70ad8-d4a2-4dd9-a120-9b4b7b684af1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 2660762
+          },
+          {
+            "id": "material-triplex-textile",
+            "filename": "material-triplex-textile.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/material-triplex-textile.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-42867a54-901d-4fd4-9c62-d47a8e5b894b.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. One premium laminated clear glass sample with a fine natural sand-colored linen textile interlayer sealed neatly between two clear glass panes. The delicate weave is visible across the broad face, and the laminated layers at the polished edge are visibly distinct. The glass is almost colorless with neutral edge highlights. Fine fabric embedded INSIDE the glass, no loose fabric.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-42867a54-901d-4fd4-9c62-d47a8e5b894b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 2749681
+          },
+          {
+            "id": "material-triplex-mesh",
+            "filename": "material-triplex-mesh.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/material-triplex-mesh.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-2ca273b6-ed35-4b5d-bea5-e2b9269b8832.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. One laminated crystal-clear glass sample containing an extremely fine decorative brass metal mesh interlayer. Tiny warm brass woven grid is sealed inside two clear panes. Broad sample face shows the exquisite small weave; a foreground edge clearly shows sandwich layers and clear glass thickness. Refined warm brass, absolutely no steel reinforcement appearance. Embedded mesh only, no loose mesh.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-2ca273b6-ed35-4b5d-bea5-e2b9269b8832.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 2616128
+          },
+          {
+            "id": "material-marble-print",
+            "filename": "material-marble-print.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/material-marble-print.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-1753bca0-6d7f-4fba-a3d1-c435abf9d9e1.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. One opaque decorative GLASS panel with cream and light gray marble PRINT behind its perfectly flat glossy glass face. Subtle flowing gray marble veining across the cream print; a broad clean glossy highlight across the polished surface and an exposed thin polished neutral glass edge make it visibly printed glass rather than a thick stone slab. Modern rectangular glass sample on a greige plinth. No real marble slab.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-1753bca0-6d7f-4fba-a3d1-c435abf9d9e1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1886279
+          },
+          {
+            "id": "material-smart",
+            "filename": "material-smart.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/material-smart.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-21c18b74-44ff-4a96-ac58-040aeb4db9bc.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. Two adjacent matching rectangular PDLC smart-glass samples in small discreet brushed stainless steel supports on one real stone display plinth. One sample is switched to opaque even milky white frost, the second sample is transparent with a very subtle neutral gray base and allows the actual softly lit background through. Same dimensions and material thickness; two actual physical adjacent objects within a single studio photograph. No split screen, no before-after graphic, no labels, no wiring diagram.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-21c18b74-44ff-4a96-ac58-040aeb4db9bc.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1797586
+          },
+          {
+            "id": "material-wired",
+            "filename": "material-wired.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/material-wired.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-67a10f74-1a0e-47c8-bb79-e9306af5c7dd.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. One clear architectural WIRED glass sample with a fine orthogonal steel-wire safety reinforcement grid visibly embedded within the glass. Straight moderately spaced square grid of neutral silver-gray steel wire, precise intersections, more substantial and wider-spaced than decorative brass textile mesh. Colorless clear low-iron glass, polished edge visible, no green tint, no brass or copper. A single sheet on a clean stone plinth.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-67a10f74-1a0e-47c8-bb79-e9306af5c7dd.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1901410
+          },
+          {
+            "id": "service-sandblast",
+            "filename": "service-sandblast.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-sandblast.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-8171db0e-2a6f-417e-a71c-efabc3e8e62a.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. A clear low-iron glass panel resting upright on a clean craft bench, showing a finished selective sandblasting treatment. The transparent glass carries a precisely bounded partially frosted horizontal geometric band and a simple round matte frosted motif, with a visibly fine velvety satin texture. Plenty of remaining perfectly transparent areas catch soft edge light. This is actual matte glass frosting, no printed white ink, no tools or hands.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-8171db0e-2a6f-417e-a71c-efabc3e8e62a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1974605
+          },
+          {
+            "id": "service-engraving",
+            "filename": "service-engraving.png",
+            "path": "/workspace/scratch/e030de584a13/production-images/service-engraving.png",
+            "source": "/workspace/scratch/e030de584a13/generated_images/exec-f3c2817c-34d2-43c2-ba8f-ed6ae8f51bba.png",
+            "prompt": "Use case: product-mockup. Asset type: premium architectural glass catalogue photo for VIPGlass. A real, tactile, precise studio material sample photograph, square 1:1 about 1254 pixels. Minimal warm greige stone plinth or clean off-white worktop, softly lit off-white background, directional soft window light with controlled reflections, quiet premium architectural aesthetic. Clear glass is perfectly colorless low-iron CrystalVision glass: no green, cyan or teal edges or cast. Crisp polished edges, believable thickness, physically plausible reflections and refraction, refined photographic detail. Full sample fits in frame with restrained breathing room, close three-quarter view. No people, no writing, no labels, no logos, no watermarks, no schematic, no collage. One clear or silver mirror architectural panel showing finished diamond-cut glass engraving: elegant intersecting geometric fine V-groove lines forming a restrained angular pattern across part of the panel. Engraved grooves have tangible depth, crisp narrow bevels and tiny reflected highlights inside the cuts. Premium close-up oblique view, polished glass thickness at the edge. No ink, no printing, no chalk lines, no text.",
+            "tool": "built-in image_gen.imagegen",
+            "mode": "generate",
+            "transparent_background": false,
+            "review": "Inspected actual generated output: correct requested subject and material; coherent warm greige studio aesthetic; clear neutral glass edges; no text or logo. Accepted first generation.",
+            "output_hint": "Generated images are saved to /workspace/scratch/e030de584a13/generated_images as /workspace/scratch/e030de584a13/generated_images/exec-f3c2817c-34d2-43c2-ba8f-ed6ae8f51bba.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+            "width": 1254,
+            "height": 1254,
+            "format": "PNG",
+            "bytes": 1953810
+          }
+        ]
+      }
+    }
+  ]
+}

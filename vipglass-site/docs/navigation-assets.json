@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Distinct navigation photography for major product families. Some detailed variants use a shared family reference and large parameter cards instead of repeated image tiles.",
+  "assets": [
+    {
+      "source": "nav-construction.json",
+      "data": [
+        {
+          "id": "shower-open",
+          "prompt": "Use case: product-mockup. Asset type: realistic architectural photograph for premium glass catalog. Square composition, about 1024x1024. Straight architectural lines, believable materials and hardware, natural soft daylight, calm contemporary architecture. CRITICAL: ALL glass is optically colorless premium Crystal Vision glass. It has absolute neutral silver-white thin edge highlights, no green, cyan, teal or blue tinted glass edges and no green tinted glass faces. No people, no labels, no logos, no watermark, no lettering. ONE fixed frameless clear glass panel separating a walk-in shower from a limestone bathroom. Show the open walk-through entrance clearly beside the single fixed panel. No glass door, no hinges, no handle, no extra panels, no enclosure. Neutral limestone floor and wall, understated shower fitting behind the panel, highly legible glazing.",
+          "method": "built-in image_gen",
+          "png": "/workspace/scratch/e030de584a13/nav-images/shower-open.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/shower-open.webp",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-136a484c-4467-4bd5-a0d1-5d3b1a7c8f9c.png",
+          "validation": "Visually inspected: intended construction present; optically clear glass with neutral highlights; no text, logos or people."
+        },
+        {
+          "id": "bath-glazing",
+          "prompt": "Use case: product-mockup. Asset type: realistic architectural photograph for premium glass catalog. Square composition, about 1024x1024. Straight architectural lines, believable materials and hardware, natural soft daylight, calm contemporary architecture. CRITICAL: ALL glass is optically colorless premium Crystal Vision glass. It has absolute neutral silver-white thin edge highlights, no green, cyan, teal or blue tinted glass edges and no green tinted glass faces. No people, no labels, no logos, no watermark, no lettering. A clear floor-to-ceiling glass partition including exactly one hinged clear glass door, separating a dry warm timber sauna room from a neutral tiled spa corridor. View from the corridor with calm dry timber benches visible beyond the colorless glazing, warm timber walls. Plausible discreet silver hinges and small handle, the door shown slightly ajar so it is unmistakable. No shower fittings, no bathtub, no water.",
+          "method": "built-in image_gen",
+          "png": "/workspace/scratch/e030de584a13/nav-images/bath-glazing.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/bath-glazing.webp",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-51ee1aab-f2c3-4ca3-bc86-3ce87fee8680.png",
+          "validation": "Visually inspected: intended construction present; optically clear glass with neutral highlights; no text, logos or people."
+        },
+        {
+          "id": "glass-steps",
+          "prompt": "Use case: product-mockup. Asset type: realistic architectural photograph for premium glass catalog. Square composition, about 1024x1024. Straight architectural lines, believable materials and hardware, natural soft daylight, calm contemporary architecture. CRITICAL: ALL glass is optically colorless premium Crystal Vision glass. It has absolute neutral silver-white thin edge highlights, no green, cyan, teal or blue tinted glass edges and no green tinted glass faces. No people, no labels, no logos, no watermark, no lettering. Close architectural view of a short run of several thick transparent colorless GLASS STAIR TREADS supported by a neat dark metal staircase structure. The actual horizontal stair steps are visibly transparent clear glass slabs, not wood, stone or metal. Glass vertical edges are neutral silver-white and colorless, no green/cyan/teal tint. Light neutral plaster architecture, detailed subtle glass reflections and believable metal brackets. No text or load claims.",
+          "method": "built-in image_gen",
+          "png": "/workspace/scratch/e030de584a13/nav-images/glass-steps.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/glass-steps.webp",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-22cbc04c-a227-4fe0-b97d-81ea9e41be01.png",
+          "validation": "Visually inspected: intended construction present; optically clear glass with neutral highlights; no text, logos or people."
+        },
+        {
+          "id": "canopy-profile",
+          "prompt": "Use case: product-mockup. Asset type: realistic architectural photograph for premium glass catalog. Square composition, about 1024x1024. Straight architectural lines, believable materials and hardware, natural soft daylight, calm contemporary architecture. CRITICAL: ALL glass is optically colorless premium Crystal Vision glass. It has absolute neutral silver-white thin edge highlights, no green, cyan, teal or blue tinted glass edges and no green tinted glass faces. No people, no labels, no logos, no watermark, no lettering. Modern stone house entrance, centered single rectangular transparent colorless glass canopy projecting over the doorway. The canopy is held ONLY at the wall by a continuous compact silver wall-clamping channel. One glass sheet with an obvious horizontal projecting rectangular shape, clean empty space beneath and above. No suspension rods, no cables, no diagonal supports, no posts, no metal framework, no brackets projecting below the glass. Realistic conceptual architectural photograph, pale limestone entrance, neutral silver-white edges.",
+          "method": "built-in image_gen",
+          "png": "/workspace/scratch/e030de584a13/nav-images/canopy-profile.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/canopy-profile.webp",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-7249e629-3867-43d5-ae77-551e9b73860d.png",
+          "validation": "Visually inspected: intended construction present; optically clear glass with neutral highlights; no text, logos or people."
+        },
+        {
+          "id": "railing-outdoor",
+          "prompt": "Use case: product-mockup. Asset type: realistic architectural photograph for premium glass catalog. Square composition, about 1024x1024. Straight architectural lines, believable materials and hardware, natural soft daylight, calm contemporary architecture. CRITICAL: ALL glass is optically colorless premium Crystal Vision glass. It has absolute neutral silver-white thin edge highlights, no green, cyan, teal or blue tinted glass edges and no green tinted glass faces. No people, no labels, no logos, no watermark, no lettering. Contemporary terrace edge with transparent frameless glass railing fixed into a slim continuous silver base profile on pale stone paving and a discreet thin metallic top handrail. Pale stone modern house, restrained landscape beyond. The glass itself stays completely colorless with neutral silver-white edges even where vegetation can be seen through it; avoid green color cast on glass. Realistic architectural view clearly showing multiple clean glass panels, the base profile and top handrail.",
+          "method": "built-in image_gen",
+          "png": "/workspace/scratch/e030de584a13/nav-images/railing-outdoor.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/railing-outdoor.webp",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-dfe5e92b-c970-4228-98bc-be83514685ab.png",
+          "validation": "Visually inspected: intended construction present; optically clear glass with neutral highlights; no text, logos or people."
+        }
+      ]
+    },
+    {
+      "source": "nav-frames.json",
+      "data": [
+        {
+          "id": "mirror-metal-rect",
+          "prompt": "Use case: product-mockup. Asset type: premium mirror catalog website category photo. Photorealistic interior product photography, simple clean square composition, mirror prominent and fully visible from the front with modest breathing room. Soft natural daylight, neutral warm cream, stone and walnut interior, high quality restrained styling. Crystal Vision colorless mirror: neutral silver highlights and perfectly colorless edges; absolutely no green or cyan glass or colored glass tint. No people, no text, no logos, no watermark. A tall vertical rectangular mirror with a narrow matte graphite metal frame, mounted above a low pale stone console against warm cream plaster. Rectangular shape with crisp straight corners, slim dark metal frame clearly visible. Calm contemporary room.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-34e299c0-1a45-433b-84fe-dabb7aed49c1.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-metal-rect.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-metal-rect.webp",
+          "webp_quality": 82,
+          "max_edge": 1254,
+          "inspection": "Passed: distinct category, neutral cream/walnut, colorless mirror edges, no people/text/logos/watermark.",
+          "width": 1254,
+          "height": 1254,
+          "webp_bytes": 133262
+        },
+        {
+          "id": "mirror-aluminium-oval",
+          "prompt": "Use case: product-mockup. Asset type: premium mirror catalog website category photo. Photorealistic interior product photography, simple clean square composition, mirror prominent and fully visible from the front with modest breathing room. Soft natural daylight, neutral warm cream, stone and walnut interior, high quality restrained styling. Crystal Vision colorless mirror: neutral silver highlights and perfectly colorless edges; absolutely no green or cyan glass or colored glass tint. No people, no text, no logos, no watermark. A large vertical oval mirror with a slim brushed SILVER aluminum frame mounted on warm cream plaster wall above a minimalist vanity. The oval outline and silver brushed aluminum material must be clearly recognizable, neutral metallic silver and no dark frame. Calm contemporary room.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-62b52a32-7bb5-46d6-a3c5-00d31576909c.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-aluminium-oval.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-aluminium-oval.webp",
+          "webp_quality": 82,
+          "max_edge": 1254,
+          "inspection": "Passed: distinct category, neutral cream/walnut, colorless mirror edges, no people/text/logos/watermark.",
+          "width": 1254,
+          "height": 1254,
+          "webp_bytes": 123674
+        },
+        {
+          "id": "mirror-baguette",
+          "prompt": "Use case: product-mockup. Asset type: premium mirror catalog website category photo. Photorealistic interior product photography, simple clean square composition, mirror prominent and fully visible from the front with modest breathing room. Soft natural daylight, neutral warm cream, stone and walnut interior, high quality restrained styling. Crystal Vision colorless mirror: neutral silver highlights and perfectly colorless edges; absolutely no green or cyan glass or colored glass tint. No people, no text, no logos, no watermark. A vertical rectangular mirror in a clearly recognizable detailed warm-gold carved ornamental baguette frame, decorative carved scroll and leaf relief visible around all four sides. Calm contemporary cream and walnut room, understated stone console, avoiding gaudy decor. The ornate gold frame is the category-defining feature.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-3e75c8b1-0e8f-4470-b31c-dbc9b6b26bf1.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-baguette.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-baguette.webp",
+          "webp_quality": 82,
+          "max_edge": 1254,
+          "inspection": "Passed: distinct category, neutral cream/walnut, colorless mirror edges, no people/text/logos/watermark.",
+          "width": 1254,
+          "height": 1254,
+          "webp_bytes": 158934
+        },
+        {
+          "id": "mirror-soft-frame",
+          "prompt": "Use case: product-mockup. Asset type: premium mirror catalog website category photo. Photorealistic interior product photography, simple clean square composition, mirror prominent and fully visible from the front with modest breathing room. Soft natural daylight, neutral warm cream, stone and walnut interior, high quality restrained styling. Crystal Vision colorless mirror: neutral silver highlights and perfectly colorless edges; absolutely no green or cyan glass or colored glass tint. No people, no text, no logos, no watermark. A tall rectangular mirror with a thick softly padded warm taupe leather upholstered frame, clearly visible rounded cushioning and subtle stitched seams around its border, in an elegant cream and walnut dressing room. The soft padded leather material is the category-defining feature. NO lightbulbs or integrated lights.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-bd8306b8-f766-422f-9f8f-154e53945b64.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-soft-frame.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-soft-frame.webp",
+          "webp_quality": 82,
+          "max_edge": 1254,
+          "inspection": "Passed: distinct category, neutral cream/walnut, colorless mirror edges, no people/text/logos/watermark.",
+          "width": 1254,
+          "height": 1254,
+          "webp_bytes": 128824
+        },
+        {
+          "id": "mirror-freeform",
+          "prompt": "Use case: product-mockup. Asset type: premium mirror catalog website category photo. Photorealistic interior product photography, simple clean square composition, mirror prominent and fully visible from the front with modest breathing room. Soft natural daylight, neutral warm cream, stone and walnut interior, high quality restrained styling. Crystal Vision colorless mirror: neutral silver highlights and perfectly colorless edges; absolutely no green or cyan glass or colored glass tint. No people, no text, no logos, no watermark. A large frameless silver mirror with an organic asymmetrical wavy irregular outline mounted on a warm cream wall above a restrained walnut console. The outline is distinctively undulating with several softly flowing bulges and concave curves, asymmetrical designer shape, not an oval or circle. NO lighting or illuminated rim.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-670a658a-6ae2-40a9-8d26-b2ba8c50b0b7.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-freeform.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-freeform.webp",
+          "webp_quality": 82,
+          "max_edge": 1254,
+          "inspection": "Passed: distinct category, neutral cream/walnut, colorless mirror edges, no people/text/logos/watermark.",
+          "width": 1254,
+          "height": 1254,
+          "webp_bytes": 86614
+        }
+      ]
+    },
+    {
+      "source": "nav-functions.json",
+      "data": [
+        {
+          "id": "mirror-pivot",
+          "description": "Tall oval silver mirror mounted with clearly visible top and bottom pivot joints on a slim brushed silver vertical swivel pole. Pole runs floor to ceiling with visible mounting, mirror can rotate about the pole, photographed at slight three-quarter angle to show pivot mechanism. Set beside a low warm gray stone console in minimalist neutral dressing room. Mirror oval is intact, realistic upright swivel feature.",
+          "prompt": "Use case: product-mockup. Asset type: square 1024x1024 luxury glass and mirror website navigation category photograph. Photorealistic professional interior product photography, calm high-end neutral limestone/ivory/warm gray palette, visible real material texture and realistic reflections. The product is prominent, centered and entirely within frame, suitable to read at thumbnail size. ALL glass must be absolutely colorless extra-clear Crystal Vision; silver-white edge highlights; NO green, cyan, turquoise or teal edges or color cast. No people, logos, watermarks, signage, collage or text. Primary request: Tall oval silver mirror mounted with clearly visible top and bottom pivot joints on a slim brushed silver vertical swivel pole. Pole runs floor to ceiling with visible mounting, mirror can rotate about the pole, photographed at slight three-quarter angle to show pivot mechanism. Set beside a low warm gray stone console in minimalist neutral dressing room. Mirror oval is intact, realistic upright swivel feature.",
+          "mode": "built-in image_gen",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-36004898-4290-44be-b68b-3d3f931aacc5.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-pivot.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-pivot.webp"
+        },
+        {
+          "id": "mirror-smart",
+          "description": "A large rectangular silver mirror in a calm light stone bathroom above a minimal single basin. A small understated illuminated white smart interface in its lower right mirror area displays 08:24 and a tiny generic sun icon with 21°, leaving most of mirror reflective. No brand, no other text, no light frame or bulbs. The very subtle display must clearly distinguish it as a smart mirror.",
+          "prompt": "Use case: product-mockup. Asset type: square 1024x1024 luxury glass and mirror website navigation category photograph. Photorealistic professional interior product photography, calm high-end neutral limestone/ivory/warm gray palette, visible real material texture and realistic reflections. The product is prominent, centered and entirely within frame, suitable to read at thumbnail size. ALL glass must be absolutely colorless extra-clear Crystal Vision; silver-white edge highlights; NO green, cyan, turquoise or teal edges or color cast. No people, logos, watermarks, signage, collage or text. Primary request: A large rectangular silver mirror in a calm light stone bathroom above a minimal single basin. A small understated illuminated white smart interface in its lower right mirror area displays 08:24 and a tiny generic sun icon with 21°, leaving most of mirror reflective. No brand, no other text, no light frame or bulbs. The very subtle display must clearly distinguish it as a smart mirror.",
+          "mode": "built-in image_gen",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-911f1ea6-1498-4c09-ab1b-c583cc9f225d.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-smart.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-smart.webp"
+        },
+        {
+          "id": "mirror-front-light",
+          "description": "A large circular silver mirror above a limestone basin. A crisp frosted white LED ring is inset ON THE FRONT MIRROR SURFACE, several centimeters inward from the circular outer edge, clearly visible as a luminous white band. Mirror mounting nearly flush to wall: wall behind mirror has NO halo and NO rear lighting. Show the whole circular product and basin edge with quiet limestone wall.",
+          "prompt": "Use case: product-mockup. Asset type: square 1024x1024 luxury glass and mirror website navigation category photograph. Photorealistic professional interior product photography, calm high-end neutral limestone/ivory/warm gray palette, visible real material texture and realistic reflections. The product is prominent, centered and entirely within frame, suitable to read at thumbnail size. ALL glass must be absolutely colorless extra-clear Crystal Vision; silver-white edge highlights; NO green, cyan, turquoise or teal edges or color cast. No people, logos, watermarks, signage, collage or text. Primary request: A large circular silver mirror above a limestone basin. A crisp frosted white LED ring is inset ON THE FRONT MIRROR SURFACE, several centimeters inward from the circular outer edge, clearly visible as a luminous white band. Mirror mounting nearly flush to wall: wall behind mirror has NO halo and NO rear lighting. Show the whole circular product and basin edge with quiet limestone wall.",
+          "mode": "built-in image_gen",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-0f5ef084-79e6-4ec8-97b1-e0b9727cf303.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-front-light.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-front-light.webp"
+        },
+        {
+          "id": "mirror-combined-light",
+          "description": "A large rectangular mirror with gently rounded corners above an ivory bathroom vanity. It has BOTH a clearly luminous white frosted FRONT inset rectangular perimeter band inside its mirror face AND a separate subtle warm-white BACKLIGHT HALO illuminating the wall all around its outer edge. Both lighting mechanisms must be visibly distinct, mirror face remains silver reflective between band and edge. Quiet warm stone bathroom and minimal basin.",
+          "prompt": "Use case: product-mockup. Asset type: square 1024x1024 luxury glass and mirror website navigation category photograph. Photorealistic professional interior product photography, calm high-end neutral limestone/ivory/warm gray palette, visible real material texture and realistic reflections. The product is prominent, centered and entirely within frame, suitable to read at thumbnail size. ALL glass must be absolutely colorless extra-clear Crystal Vision; silver-white edge highlights; NO green, cyan, turquoise or teal edges or color cast. No people, logos, watermarks, signage, collage or text. Primary request: A large rectangular mirror with gently rounded corners above an ivory bathroom vanity. It has BOTH a clearly luminous white frosted FRONT inset rectangular perimeter band inside its mirror face AND a separate subtle warm-white BACKLIGHT HALO illuminating the wall all around its outer edge. Both lighting mechanisms must be visibly distinct, mirror face remains silver reflective between band and edge. Quiet warm stone bathroom and minimal basin.",
+          "mode": "built-in image_gen",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-81311855-930f-4222-817f-8c887f01d63e.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-combined-light.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-combined-light.webp",
+          "correction_prompt": "Use case: precise-object-edit. Edit only the reflection background inside the mirror: remove the shower enclosure glass pane and its vertical dark/green edges, remove reflected showerhead as well, replace those removed objects with continuous pale beige stone wall matching adjacent reflected wall. Keep the large rectangular mirror geometry, luminous FRONT inset perimeter band, warm BACKLIGHT HALO, silver-white colorless outer mirror edges, basin, vanity, plants, composition, exact neutral color tones and photographic quality unchanged. This image must have no green/cyan/teal edges on any glass. No people, no text, no logos."
+        },
+        {
+          "id": "mirror-dressing",
+          "description": "An elegant minimal dressing table with a large upright rectangular silver mirror surrounded by evenly spaced round warm-white incandescent-style vanity bulbs along both vertical sides and top. All bulbs visibly mounted on the slim ivory frame, luxurious clean grooming/makeup vanity, stone tabletop, taupe stool partially visible below, no cosmetics clutter. Bulbs distinguish dressing-room mirror from LED-band bathroom mirror.",
+          "prompt": "Use case: product-mockup. Asset type: square 1024x1024 luxury glass and mirror website navigation category photograph. Photorealistic professional interior product photography, calm high-end neutral limestone/ivory/warm gray palette, visible real material texture and realistic reflections. The product is prominent, centered and entirely within frame, suitable to read at thumbnail size. ALL glass must be absolutely colorless extra-clear Crystal Vision; silver-white edge highlights; NO green, cyan, turquoise or teal edges or color cast. No people, logos, watermarks, signage, collage or text. Primary request: An elegant minimal dressing table with a large upright rectangular silver mirror surrounded by evenly spaced round warm-white incandescent-style vanity bulbs along both vertical sides and top. All bulbs visibly mounted on the slim ivory frame, luxurious clean grooming/makeup vanity, stone tabletop, taupe stool partially visible below, no cosmetics clutter. Bulbs distinguish dressing-room mirror from LED-band bathroom mirror.",
+          "mode": "built-in image_gen",
+          "source_png": "/workspace/scratch/e030de584a13/generated_images/exec-173e6602-40ad-47c1-b5f5-bc8f7c19dd65.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-dressing.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-dressing.webp"
+        }
+      ]
+    },
+    {
+      "source": "nav-shapes.json",
+      "data": [
+        {
+          "id": "mirror-frameless-round",
+          "prompt": "Use case: product-mockup. Asset type: premium VIP Glass website catalogue navigation image, a single photorealistic architectural product photograph. Landscape 3:2 composition. Neutral premium cream plaster, pale oak, pale stone interior. Restrained natural daylight, realistic reflection geometry and materials. Main product must be obvious at thumbnail size, beautifully composed and fully visible. All transparent glazing is completely colorless optical-clear Crystal Vision low-iron glass with clean white/silver highlights, absolutely no green, cyan, teal or turquoise glass tint or edges. Mirror faces are true neutral silver with accurate reflection of the interior. No people, lettering, text, logo, watermark, elaborate decorative clutter, colored lighting or black borders. Primary request: a large perfectly circular frameless silver mirror wall-mounted above a simple pale stone console. The mirror has an extremely fine polished silver edge and nothing encircling it. Warm white plaster wall and a subtle reflected window and cream room, photorealistic natural soft light. Absolutely no frame, no backlight, no LED lighting, no halo, no artificial illuminated edge. A clear attractive close architectural view with the whole circular mirror visible and dominant.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-971e97fc-157d-4f85-a72d-f2c228c80fb9.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-frameless-round.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-frameless-round.webp",
+          "max_dimension": 1254,
+          "webp_quality": 82,
+          "inspected": true
+        },
+        {
+          "id": "mirror-frameless-rect",
+          "prompt": "Use case: product-mockup. Asset type: premium VIP Glass website catalogue navigation image, a single photorealistic architectural product photograph. Landscape 3:2 composition. Neutral premium cream plaster, pale oak, pale stone interior. Restrained natural daylight, realistic reflection geometry and materials. Main product must be obvious at thumbnail size, beautifully composed and fully visible. All transparent glazing is completely colorless optical-clear Crystal Vision low-iron glass with clean white/silver highlights, absolutely no green, cyan, teal or turquoise glass tint or edges. Mirror faces are true neutral silver with accurate reflection of the interior. No people, lettering, text, logo, watermark, elaborate decorative clutter, colored lighting or black borders. Primary request: a tall vertical rectangular frameless silver mirror mounted on a cream plaster wall in a tasteful pale oak dressing room. All four square corners and entire mirror visible, fine polished silver edge only, reflection shows a believable cream wall, oak wardrobe and natural daylight. Absolutely no frame, no backlight, no LED, no illuminated perimeter. The tall mirror is the main object, accurate straight verticals, simple uncluttered architectural product photograph.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-caddfa51-c39c-47d9-91d8-5bd670917832.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-frameless-rect.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-frameless-rect.webp",
+          "max_dimension": 1254,
+          "webp_quality": 82,
+          "inspected": true
+        },
+        {
+          "id": "mirror-ceiling",
+          "prompt": "Use case: product-mockup. Asset type: premium VIP Glass website catalogue navigation image, a single photorealistic architectural product photograph. Landscape 3:2 composition. Neutral premium cream plaster, pale oak, pale stone interior. Restrained natural daylight, realistic reflection geometry and materials. Main product must be obvious at thumbnail size, beautifully composed and fully visible. All transparent glazing is completely colorless optical-clear Crystal Vision low-iron glass with clean white/silver highlights, absolutely no green, cyan, teal or turquoise glass tint or edges. Mirror faces are true neutral silver with accurate reflection of the interior. No people, lettering, text, logo, watermark, elaborate decorative clutter, colored lighting or black borders. Primary request: a tasteful contemporary cream lounge with a mirrored ceiling panel composition. Camera at seated eye level angled upward sufficiently that the overhead mirror surface occupies the upper half of the picture and is unmistakably a ceiling. Flat rectangular neutral silver mirror panels on one planar ceiling, discreet narrow straight silver seams. Mirror ceiling accurately reflects the cream sofa, oak accents and a single tasteful sculptural pendant light hanging from it. Physically coherent room, normal gravity and coherent reflection, no bizarre geometry, no impossible repeated fixtures, no curved funhouse distortions. Show enough walls and furniture below to establish the mirrored ceiling.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-47d8a17e-86b4-42b1-b20b-bfe74acb66ba.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-ceiling.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-ceiling.webp",
+          "max_dimension": 1254,
+          "webp_quality": 82,
+          "inspected": true
+        },
+        {
+          "id": "mirror-door",
+          "prompt": "Use case: product-mockup. Asset type: premium VIP Glass website catalogue navigation image, a single photorealistic architectural product photograph. Landscape 3:2 composition. Neutral premium cream plaster, pale oak, pale stone interior. Restrained natural daylight, realistic reflection geometry and materials. Main product must be obvious at thumbnail size, beautifully composed and fully visible. All transparent glazing is completely colorless optical-clear Crystal Vision low-iron glass with clean white/silver highlights, absolutely no green, cyan, teal or turquoise glass tint or edges. Mirror faces are true neutral silver with accurate reflection of the interior. No people, lettering, text, logo, watermark, elaborate decorative clutter, colored lighting or black borders. Primary request: a floor-to-ceiling mirrored closet hinged door in a refined neutral dressing room. The one main tall flat mirror door is slightly open at about 12 degrees, revealing a narrow dark-neutral gap and pale oak closet interior along the side. Discreet slim silver metal handle and two subtle hinges make the doorway clear. Realistic reflective silver surface with accurate room reflection, cream wall, pale oak floor and wardrobe. Entire door from floor to top visible. Absolutely no colored glass edges, no lighting strips, no ornamental frame.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-9b183066-692c-4954-99d6-95025823bccf.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-door.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-door.webp",
+          "max_dimension": 1254,
+          "webp_quality": 82,
+          "inspected": true
+        },
+        {
+          "id": "mirror-panel-geometric",
+          "prompt": "Use case: product-mockup. Asset type: premium VIP Glass website catalogue navigation image, a single photorealistic architectural product photograph. Landscape 3:2 composition. Neutral premium cream plaster, pale oak, pale stone interior. Restrained natural daylight, realistic reflection geometry and materials. Main product must be obvious at thumbnail size, beautifully composed and fully visible. All transparent glazing is completely colorless optical-clear Crystal Vision low-iron glass with clean white/silver highlights, absolutely no green, cyan, teal or turquoise glass tint or edges. Mirror faces are true neutral silver with accurate reflection of the interior. No people, lettering, text, logo, watermark, elaborate decorative clutter, colored lighting or black borders. Primary request: a sculptural wall composition of alternating circular and vertical rectangular silver mirror pieces mounted on a cream plaster wall above a simple pale stone console. An elegant balanced geometric arrangement of six to eight separate flat frameless mirrors with small deliberate gaps, several pure circles and several crisp rectangles, all at the same plane, polished neutral silver edges. Recognizable geometric mirrored wall composition, visually distinct from one large mirror. Realistic interior reflections, coherent subdued warm white room, no frames, no backlighting, no black edging, no text.",
+          "mode": "built-in image_gen",
+          "source": "/workspace/scratch/e030de584a13/generated_images/exec-a6d98455-bb80-4a1a-92b9-502645e985c0.png",
+          "png": "/workspace/scratch/e030de584a13/nav-images/mirror-panel-geometric.png",
+          "webp": "/workspace/scratch/e030de584a13/nav-images/mirror-panel-geometric.webp",
+          "max_dimension": 1254,
+          "webp_quality": 82,
+          "inspected": true
+        }
+      ]
+    }
+  ]
+}

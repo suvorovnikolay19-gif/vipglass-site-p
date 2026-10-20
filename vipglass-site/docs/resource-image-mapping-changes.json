@@ -1,0 +1,1725 @@
+{
+  "created": "2026-10-16",
+  "scope": "Resource and hardware image mapping; generated illustrations, not actual branded product photos",
+  "nodeCount": 319,
+  "changedMappings": 85,
+  "changes": [
+    {
+      "path": "/production/production-cutting/production-cutting-shaped-types/production-cutting-rounded",
+      "id": "production-cutting-rounded",
+      "title": "Контуры со скруглёнными углами",
+      "previousKey": "service-cutting",
+      "key": "service-rounded-corner",
+      "src": "./assets/production/service-rounded-corner.webp",
+      "thumbnail": "./assets/production/service-rounded-corner-480.webp",
+      "alt": "Закруглённый угол стеклянной детали — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/production/production-cnc/production-cnc-contour",
+      "id": "production-cnc-contour",
+      "title": "Обработка сложного контура",
+      "previousKey": "service-drilling",
+      "key": "service-cutting",
+      "src": "./assets/production/service-cutting.webp",
+      "thumbnail": "./assets/production/service-cutting-480.webp",
+      "alt": "Рабочая головка станка над листом стекла — визуализация",
+      "kind": "process",
+      "caption": "Визуализация станочной обработки; конкретные операции задаёт цифровой чертёж.",
+      "limitation": "Визуализация станочной обработки; конкретные операции задаёт цифровой чертёж."
+    },
+    {
+      "path": "/production/production-cnc/production-cnc-combined",
+      "id": "production-cnc-combined",
+      "title": "Комплексная подготовка детали",
+      "previousKey": "service-drilling",
+      "key": "service-cutting",
+      "src": "./assets/production/service-cutting.webp",
+      "thumbnail": "./assets/production/service-cutting-480.webp",
+      "alt": "Рабочая головка станка над листом стекла — визуализация",
+      "kind": "process",
+      "caption": "Визуализация станочной обработки; конкретные операции задаёт цифровой чертёж.",
+      "limitation": "Визуализация станочной обработки; конкретные операции задаёт цифровой чертёж."
+    },
+    {
+      "path": "/production/production-cnc",
+      "id": "production-cnc",
+      "title": "Обработка по цифровому чертежу",
+      "previousKey": "service-drilling",
+      "key": "service-cutting",
+      "src": "./assets/production/service-cutting.webp",
+      "thumbnail": "./assets/production/service-cutting-480.webp",
+      "alt": "Рабочая головка станка над листом стекла — визуализация",
+      "kind": "process",
+      "caption": "Визуализация станочной обработки; конкретные операции задаёт цифровой чертёж.",
+      "limitation": "Визуализация станочной обработки; конкретные операции задаёт цифровой чертёж."
+    },
+    {
+      "path": "/production/production-rounding",
+      "id": "production-rounding",
+      "title": "Закругление углов",
+      "previousKey": "service-cutting",
+      "key": "service-rounded-corner",
+      "src": "./assets/production/service-rounded-corner.webp",
+      "thumbnail": "./assets/production/service-rounded-corner-480.webp",
+      "alt": "Закруглённый угол стеклянной детали — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/production/production-arrising/production-edge-arrising",
+      "id": "production-edge-arrising",
+      "title": "Притупление острых граней",
+      "previousKey": "service-edge",
+      "key": "service-grinding",
+      "src": "./assets/production/service-grinding.webp",
+      "thumbnail": "./assets/production/service-grinding-480.webp",
+      "alt": "Прямая матовая шлифованная кромка стекла — визуализация",
+      "kind": "detail",
+      "caption": "Показан образец шлифованной кромки; узкое притупление рёбер согласуется отдельно.",
+      "limitation": "Показан образец шлифованной кромки; узкое притупление рёбер согласуется отдельно."
+    },
+    {
+      "path": "/production/production-arrising",
+      "id": "production-arrising",
+      "title": "Притупление острых рёбер",
+      "previousKey": "service-edge",
+      "key": "service-grinding",
+      "src": "./assets/production/service-grinding.webp",
+      "thumbnail": "./assets/production/service-grinding-480.webp",
+      "alt": "Прямая матовая шлифованная кромка стекла — визуализация",
+      "kind": "detail",
+      "caption": "Показан образец шлифованной кромки; узкое притупление рёбер согласуется отдельно.",
+      "limitation": "Показан образец шлифованной кромки; узкое притупление рёбер согласуется отдельно."
+    },
+    {
+      "path": "/production/production-sandblast/production-sandblast-full",
+      "id": "production-sandblast-full",
+      "title": "Сплошное матирование",
+      "previousKey": "service-sandblast",
+      "key": "material-satin",
+      "src": "./assets/production/material-satin.webp",
+      "thumbnail": "./assets/production/material-satin-480.webp",
+      "alt": "Бесцветный матовый образец стекла с рассеянной видимостью — визуализация",
+      "kind": "sample",
+      "caption": "Пример равномерной матовой поверхности. Способ обработки согласуем для выбранной детали.",
+      "limitation": "Пример равномерной матовой поверхности. Способ обработки согласуем для выбранной детали."
+    },
+    {
+      "path": "/production/production-mirror-light/production-sandblast-mirror-light",
+      "id": "production-sandblast-mirror-light",
+      "title": "Световая зона по индивидуальному контуру",
+      "previousKey": "service-sandblast",
+      "key": "mirror-front-light",
+      "src": "./assets/interiors/mirror-front-light.webp",
+      "thumbnail": "./assets/interiors/mirror-front-light-480.webp",
+      "alt": "Зеркало с видимой фронтальной световой зоной — визуализация",
+      "kind": "interior",
+      "caption": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно.",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-mirror-light/production-mirror-light-perimeter",
+      "id": "production-mirror-light-perimeter",
+      "title": "Световая полоса по периметру",
+      "previousKey": "service-sandblast",
+      "key": "mirror-front-light",
+      "src": "./assets/interiors/mirror-front-light.webp",
+      "thumbnail": "./assets/interiors/mirror-front-light-480.webp",
+      "alt": "Зеркало с видимой фронтальной световой зоной — визуализация",
+      "kind": "interior",
+      "caption": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно.",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-mirror-light/production-mirror-light-segments",
+      "id": "production-mirror-light-segments",
+      "title": "Отдельные световые полосы",
+      "previousKey": "service-sandblast",
+      "key": "mirror-front-light",
+      "src": "./assets/interiors/mirror-front-light.webp",
+      "thumbnail": "./assets/interiors/mirror-front-light-480.webp",
+      "alt": "Зеркало с видимой фронтальной световой зоной — визуализация",
+      "kind": "interior",
+      "caption": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно.",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-mirror-light/production-mirror-light-graphics",
+      "id": "production-mirror-light-graphics",
+      "title": "Световой рисунок на зеркале",
+      "previousKey": "service-sandblast",
+      "key": "mirror-front-light",
+      "src": "./assets/interiors/mirror-front-light.webp",
+      "thumbnail": "./assets/interiors/mirror-front-light-480.webp",
+      "alt": "Зеркало с видимой фронтальной световой зоной — визуализация",
+      "kind": "interior",
+      "caption": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно.",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-mirror-light",
+      "id": "production-mirror-light",
+      "title": "Световые зоны на зеркале",
+      "previousKey": "service-sandblast",
+      "key": "mirror-front-light",
+      "src": "./assets/interiors/mirror-front-light.webp",
+      "thumbnail": "./assets/interiors/mirror-front-light-480.webp",
+      "alt": "Зеркало с видимой фронтальной световой зоной — визуализация",
+      "kind": "interior",
+      "caption": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно.",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-laser-engraving/production-engraving-laser",
+      "id": "production-engraving-laser",
+      "title": "Лазерная гравировка по макету",
+      "previousKey": "service-engraving",
+      "key": "service-laser-matting",
+      "src": "./assets/production/service-laser-matting.webp",
+      "thumbnail": "./assets/production/service-laser-matting-480.webp",
+      "alt": "Прозрачный стеклянный образец с матовым растровым рисунком папоротника — визуализация",
+      "kind": "sample",
+      "caption": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету.",
+      "limitation": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету."
+    },
+    {
+      "path": "/production/production-laser-engraving/production-laser-lettering",
+      "id": "production-laser-lettering",
+      "title": "Гравировка надписей и маркировки",
+      "previousKey": "service-engraving",
+      "key": "service-laser-matting",
+      "src": "./assets/production/service-laser-matting.webp",
+      "thumbnail": "./assets/production/service-laser-matting-480.webp",
+      "alt": "Прозрачный стеклянный образец с матовым растровым рисунком папоротника — визуализация",
+      "kind": "sample",
+      "caption": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету.",
+      "limitation": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету."
+    },
+    {
+      "path": "/production/production-laser-engraving/production-laser-image",
+      "id": "production-laser-image",
+      "title": "Гравировка растрового изображения",
+      "previousKey": "service-engraving",
+      "key": "service-laser-matting",
+      "src": "./assets/production/service-laser-matting.webp",
+      "thumbnail": "./assets/production/service-laser-matting-480.webp",
+      "alt": "Прозрачный стеклянный образец с матовым растровым рисунком папоротника — визуализация",
+      "kind": "sample",
+      "caption": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету.",
+      "limitation": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету."
+    },
+    {
+      "path": "/production/production-laser-engraving",
+      "id": "production-laser-engraving",
+      "title": "Лазерная гравировка",
+      "previousKey": "service-engraving",
+      "key": "service-laser-matting",
+      "src": "./assets/production/service-laser-matting.webp",
+      "thumbnail": "./assets/production/service-laser-matting-480.webp",
+      "alt": "Прозрачный стеклянный образец с матовым растровым рисунком папоротника — визуализация",
+      "kind": "sample",
+      "caption": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету.",
+      "limitation": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету."
+    },
+    {
+      "path": "/production/production-uv-printing/production-printing-uv",
+      "id": "production-printing-uv",
+      "title": "УФ-печать по индивидуальному макету",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-uv-printing/production-printing-uv-photo",
+      "id": "production-printing-uv-photo",
+      "title": "УФ-фотопечать",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-uv-printing/production-printing-uv-graphics",
+      "id": "production-printing-uv-graphics",
+      "title": "Печать графики и орнамента",
+      "previousKey": "material-marble-print",
+      "key": "material-screenprint",
+      "src": "./assets/production/material-screenprint.webp",
+      "thumbnail": "./assets/production/material-screenprint-480.webp",
+      "alt": "Прозрачный стеклянный образец с рядами печатных чёрных точек — визуализация",
+      "kind": "sample",
+      "caption": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету.",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/production/production-uv-printing",
+      "id": "production-uv-printing",
+      "title": "УФ-печать на стекле",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-ceramic-printing/production-printing-ceramic",
+      "id": "production-printing-ceramic",
+      "title": "Цифровая керамическая печать",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-ceramic-printing",
+      "id": "production-ceramic-printing",
+      "title": "Цифровая керамическая печать",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-screen-printing/production-printing-screen",
+      "id": "production-printing-screen",
+      "title": "Шелкография",
+      "previousKey": "material-painted",
+      "key": "material-screenprint",
+      "src": "./assets/production/material-screenprint.webp",
+      "thumbnail": "./assets/production/material-screenprint-480.webp",
+      "alt": "Прозрачный стеклянный образец с рядами печатных чёрных точек — визуализация",
+      "kind": "sample",
+      "caption": "Визуализация образца. Оттенок и фактуру согласуем по материалу.",
+      "limitation": ""
+    },
+    {
+      "path": "/production/production-screen-printing",
+      "id": "production-screen-printing",
+      "title": "Шелкография",
+      "previousKey": "material-painted",
+      "key": "material-screenprint",
+      "src": "./assets/production/material-screenprint.webp",
+      "thumbnail": "./assets/production/material-screenprint-480.webp",
+      "alt": "Прозрачный стеклянный образец с рядами печатных чёрных точек — визуализация",
+      "kind": "sample",
+      "caption": "Визуализация образца. Оттенок и фактуру согласуем по материалу.",
+      "limitation": ""
+    },
+    {
+      "path": "/production/production-films/production-film-matte",
+      "id": "production-film-matte",
+      "title": "Матовая декоративная плёнка",
+      "previousKey": "service-sandblast",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/production/production-films/production-film-tinted",
+      "id": "production-film-tinted",
+      "title": "Тонирующая декоративная плёнка",
+      "previousKey": "material-tinted",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/production/production-films/production-film-graphics",
+      "id": "production-film-graphics",
+      "title": "Цветная графика из плёнки",
+      "previousKey": "material-painted",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/production/production-films/production-film-mirror-backing",
+      "id": "production-film-mirror-backing",
+      "title": "Плёнка на тыльную сторону зеркала",
+      "previousKey": "service-sandblast",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показана зеркальная основа; плёнка на тыльной стороне на этом изображении не видна.",
+      "limitation": "Показана зеркальная основа; плёнка на тыльной стороне на этом изображении не видна."
+    },
+    {
+      "path": "/production/production-films",
+      "id": "production-films",
+      "title": "Нанесение плёнок",
+      "previousKey": "material-tinted",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/matte/matte-satin/matte-satin-graphite",
+      "id": "matte-satin-graphite",
+      "title": "Сатин графит",
+      "previousKey": "material-satin",
+      "key": "material-satin-graphite",
+      "src": "./assets/production/material-satin-graphite.webp",
+      "thumbnail": "./assets/production/material-satin-graphite-480.webp",
+      "alt": "Серый сатинированный образец стекла — визуализация",
+      "kind": "sample",
+      "caption": "Визуализация образца. Оттенок и фактуру согласуем по материалу.",
+      "limitation": ""
+    },
+    {
+      "path": "/materials/matte/matte-satin/matte-satin-dark",
+      "id": "matte-satin-dark",
+      "title": "Тёмный сатин",
+      "previousKey": "material-satin",
+      "key": "material-satin-graphite",
+      "src": "./assets/production/material-satin-graphite.webp",
+      "thumbnail": "./assets/production/material-satin-graphite-480.webp",
+      "alt": "Серый сатинированный образец стекла — визуализация",
+      "kind": "sample",
+      "caption": "Показан серый сатин; глубину тёмного оттенка выбираем по образцу.",
+      "limitation": "Показан серый сатин; глубину тёмного оттенка выбираем по образцу."
+    },
+    {
+      "path": "/materials/matte/matte-sandblasted/matte-sandblasted-full/matte-full-crystalvision",
+      "id": "matte-full-crystalvision",
+      "title": "Матированное CrystalVision",
+      "previousKey": "service-sandblast",
+      "key": "material-satin",
+      "src": "./assets/production/material-satin.webp",
+      "thumbnail": "./assets/production/material-satin-480.webp",
+      "alt": "Бесцветный матовый образец стекла с рассеянной видимостью — визуализация",
+      "kind": "sample",
+      "caption": "Пример равномерной матовой поверхности. Способ обработки согласуем для выбранной детали.",
+      "limitation": "Пример равномерной матовой поверхности. Способ обработки согласуем для выбранной детали."
+    },
+    {
+      "path": "/materials/matte/matte-sandblasted/matte-sandblasted-full/matte-full-graphite",
+      "id": "matte-full-graphite",
+      "title": "Матированное стекло графит",
+      "previousKey": "material-satin",
+      "key": "material-satin-graphite",
+      "src": "./assets/production/material-satin-graphite.webp",
+      "thumbnail": "./assets/production/material-satin-graphite-480.webp",
+      "alt": "Серый сатинированный образец стекла — визуализация",
+      "kind": "sample",
+      "caption": "Визуализация образца. Оттенок и фактуру согласуем по материалу.",
+      "limitation": ""
+    },
+    {
+      "path": "/materials/matte/matte-sandblasted/matte-sandblasted-full",
+      "id": "matte-sandblasted-full",
+      "title": "Сплошное матирование",
+      "previousKey": "service-sandblast",
+      "key": "material-satin",
+      "src": "./assets/production/material-satin.webp",
+      "thumbnail": "./assets/production/material-satin-480.webp",
+      "alt": "Бесцветный матовый образец стекла с рассеянной видимостью — визуализация",
+      "kind": "sample",
+      "caption": "Пример равномерной матовой поверхности. Способ обработки согласуем для выбранной детали.",
+      "limitation": "Пример равномерной матовой поверхности. Способ обработки согласуем для выбранной детали."
+    },
+    {
+      "path": "/materials/textured/textured-fluted/textured-fluted-graphite",
+      "id": "textured-fluted-graphite",
+      "title": "Рифлёное графит",
+      "previousKey": "material-fluted",
+      "key": "material-fluted-graphite",
+      "src": "./assets/production/material-fluted-graphite.webp",
+      "thumbnail": "./assets/production/material-fluted-graphite-480.webp",
+      "alt": "Серый образец стекла с вертикальным рифлением — визуализация",
+      "kind": "sample",
+      "caption": "Визуализация образца. Оттенок и фактуру согласуем по материалу.",
+      "limitation": ""
+    },
+    {
+      "path": "/materials/painted/painted-matte",
+      "id": "painted-matte",
+      "title": "Матовое окрашенное",
+      "previousKey": "material-painted",
+      "key": "material-painted-matte",
+      "src": "./assets/production/material-painted-matte.webp",
+      "thumbnail": "./assets/production/material-painted-matte-480.webp",
+      "alt": "Матовый окрашенный образец стекла — визуализация",
+      "kind": "sample",
+      "caption": "Визуализация образца. Оттенок и фактуру согласуем по материалу.",
+      "limitation": ""
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted/mirrors-matted-silver",
+      "id": "mirrors-matted-silver",
+      "title": "Матовый рисунок на зеркале серебро",
+      "previousKey": "service-sandblast",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted/mirrors-matted-crystalvision",
+      "id": "mirrors-matted-crystalvision",
+      "title": "Матовый рисунок на зеркале CrystalVision",
+      "previousKey": "service-sandblast",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted/mirrors-matted-bronze",
+      "id": "mirrors-matted-bronze",
+      "title": "Матовый рисунок на зеркале бронза",
+      "previousKey": "service-sandblast",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted/mirrors-matted-graphite",
+      "id": "mirrors-matted-graphite",
+      "title": "Матовый рисунок на зеркале графит",
+      "previousKey": "service-sandblast",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted",
+      "id": "mirrors-matted",
+      "title": "Зеркало с матовым рисунком",
+      "previousKey": "service-sandblast",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved/mirrors-engraved-silver",
+      "id": "mirrors-engraved-silver",
+      "title": "Гравировка на зеркале серебро",
+      "previousKey": "service-engraving",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved/mirrors-engraved-crystalvision",
+      "id": "mirrors-engraved-crystalvision",
+      "title": "Гравировка на зеркале CrystalVision",
+      "previousKey": "service-engraving",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved/mirrors-engraved-bronze",
+      "id": "mirrors-engraved-bronze",
+      "title": "Гравировка на зеркале бронза",
+      "previousKey": "service-engraving",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved/mirrors-engraved-graphite",
+      "id": "mirrors-engraved-graphite",
+      "title": "Гравировка на зеркале графит",
+      "previousKey": "service-engraving",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved",
+      "id": "mirrors-engraved",
+      "title": "Зеркало с гравировкой",
+      "previousKey": "service-engraving",
+      "key": "material-mirror",
+      "src": "./assets/production/material-mirror.webp",
+      "thumbnail": "./assets/production/material-mirror-480.webp",
+      "alt": "Зеркальные образцы нейтрального, бронзового и серого оттенков — визуализация",
+      "kind": "sample",
+      "caption": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены.",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/tempered/tempered-satin/tempered-satin-graphite",
+      "id": "tempered-satin-graphite",
+      "title": "Закалённый сатин графит",
+      "previousKey": "material-satin",
+      "key": "material-satin-graphite",
+      "src": "./assets/production/material-satin-graphite.webp",
+      "thumbnail": "./assets/production/material-satin-graphite-480.webp",
+      "alt": "Серый сатинированный образец стекла — визуализация",
+      "kind": "sample",
+      "caption": "Визуализация образца. Оттенок и фактуру согласуем по материалу.",
+      "limitation": ""
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-photo/printed-photo-photograph",
+      "id": "printed-photo-photograph",
+      "title": "Фотография на стекле",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-photo/printed-photo-illustration",
+      "id": "printed-photo-illustration",
+      "title": "Иллюстрация на стекле",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-photo",
+      "id": "printed-photo",
+      "title": "Фотографии и иллюстрации",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-graphics/printed-graphics-pattern",
+      "id": "printed-graphics-pattern",
+      "title": "Графический рисунок",
+      "previousKey": "material-clear",
+      "key": "material-screenprint",
+      "src": "./assets/production/material-screenprint.webp",
+      "thumbnail": "./assets/production/material-screenprint-480.webp",
+      "alt": "Прозрачный стеклянный образец с рядами печатных чёрных точек — визуализация",
+      "kind": "sample",
+      "caption": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету.",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-graphics/printed-graphics-logo",
+      "id": "printed-graphics-logo",
+      "title": "Логотип на стекле",
+      "previousKey": "material-clear",
+      "key": "material-screenprint",
+      "src": "./assets/production/material-screenprint.webp",
+      "thumbnail": "./assets/production/material-screenprint-480.webp",
+      "alt": "Прозрачный стеклянный образец с рядами печатных чёрных точек — визуализация",
+      "kind": "sample",
+      "caption": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету.",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-graphics/printed-graphics-lettering",
+      "id": "printed-graphics-lettering",
+      "title": "Надписи на стекле",
+      "previousKey": "material-clear",
+      "key": "material-screenprint",
+      "src": "./assets/production/material-screenprint.webp",
+      "thumbnail": "./assets/production/material-screenprint-480.webp",
+      "alt": "Прозрачный стеклянный образец с рядами печатных чёрных точек — визуализация",
+      "kind": "sample",
+      "caption": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету.",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-graphics",
+      "id": "printed-graphics",
+      "title": "Графика и логотипы",
+      "previousKey": "material-clear",
+      "key": "material-screenprint",
+      "src": "./assets/production/material-screenprint.webp",
+      "thumbnail": "./assets/production/material-screenprint-480.webp",
+      "alt": "Прозрачный стеклянный образец с рядами печатных чёрных точек — визуализация",
+      "kind": "sample",
+      "caption": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету.",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/materials/printed/printed-artwork",
+      "id": "printed-artwork",
+      "title": "Изображения и графика",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/printed/printed-surfaces/printed-gradient",
+      "id": "printed-gradient",
+      "title": "Градиент и переходы",
+      "previousKey": "material-satin",
+      "key": "material-screenprint",
+      "src": "./assets/production/material-screenprint.webp",
+      "thumbnail": "./assets/production/material-screenprint-480.webp",
+      "alt": "Прозрачный стеклянный образец с рядами печатных чёрных точек — визуализация",
+      "kind": "sample",
+      "caption": "Пример печатного рисунка; индивидуальный градиент на изображении не представлен.",
+      "limitation": "Пример печатного рисунка; индивидуальный градиент на изображении не представлен."
+    },
+    {
+      "path": "/materials/printed",
+      "id": "printed",
+      "title": "Стекло с печатью",
+      "previousKey": "material-marble-print",
+      "key": "material-printed-photo",
+      "src": "./assets/production/material-printed-photo.webp",
+      "thumbnail": "./assets/production/material-printed-photo-480.webp",
+      "alt": "Образец стекла с фотографическим горным пейзажем — визуализация",
+      "kind": "sample",
+      "caption": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно.",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-matte/films-matte-full",
+      "id": "films-matte-full",
+      "title": "Сплошная матовая плёнка",
+      "previousKey": "material-satin",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-matte/films-matte-zones",
+      "id": "films-matte-zones",
+      "title": "Матовые зоны из плёнки",
+      "previousKey": "material-satin",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-matte",
+      "id": "films-matte",
+      "title": "Матовая плёнка",
+      "previousKey": "material-satin",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-tinted",
+      "id": "films-tinted",
+      "title": "Тонирующая плёнка",
+      "previousKey": "material-tinted",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-decorative/films-decorative-colour",
+      "id": "films-decorative-colour",
+      "title": "Цветная декоративная плёнка",
+      "previousKey": "material-patterned",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-decorative/films-decorative-pattern",
+      "id": "films-decorative-pattern",
+      "title": "Узорчатая декоративная плёнка",
+      "previousKey": "material-patterned",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-decorative/films-decorative-graphics",
+      "id": "films-decorative-graphics",
+      "title": "Графика из плёнки",
+      "previousKey": "material-patterned",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-decorative",
+      "id": "films-decorative",
+      "title": "Декоративная плёнка",
+      "previousKey": "material-patterned",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance",
+      "id": "films-appearance",
+      "title": "Внешний вид",
+      "previousKey": "material-satin",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-retention/films-retention-glass",
+      "id": "films-retention-glass",
+      "title": "Защитная плёнка для стекла",
+      "previousKey": "material-clear",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-retention",
+      "id": "films-retention",
+      "title": "Защитная плёнка",
+      "previousKey": "material-clear",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films",
+      "id": "films",
+      "title": "Стекло с плёнкой",
+      "previousKey": "material-satin",
+      "key": "material-film-application",
+      "src": "./assets/production/material-film-application.webp",
+      "thumbnail": "./assets/production/material-film-application-480.webp",
+      "alt": "Нанесение плёнки на стеклянную поверхность — визуализация",
+      "kind": "process",
+      "caption": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно.",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/special/special-optical/special-reflective",
+      "id": "special-reflective",
+      "title": "Светоотражающее стекло",
+      "previousKey": "material-mirror",
+      "key": "material-clear",
+      "src": "./assets/production/material-clear.webp",
+      "thumbnail": "./assets/production/material-clear-480.webp",
+      "alt": "Бесцветный прозрачный образец стекла — визуализация",
+      "kind": "sample",
+      "caption": "Показана светопропускающая основа; специальное отражающее покрытие подбирается по образцу.",
+      "limitation": "Показана светопропускающая основа; специальное отражающее покрытие подбирается по образцу."
+    },
+    {
+      "path": "/hardware/item/shower-support-bar",
+      "id": "shower-support-bar",
+      "title": "Стабилизационная штанга",
+      "previousKey": "hardware-clamp",
+      "key": "hardware-shower-stabilizer",
+      "src": "./assets/production/hardware-shower-stabilizer.webp",
+      "thumbnail": "./assets/production/hardware-shower-stabilizer-480.webp",
+      "alt": "Стабилизационная штанга с креплением стеклянной панели — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/item/mirror-frame-profile",
+      "id": "mirror-frame-profile",
+      "title": "Профиль для обрамления зеркала",
+      "previousKey": "hardware-profile",
+      "key": "mirror-brass-round",
+      "src": "./assets/interiors/mirror-brass-round.webp",
+      "thumbnail": "./assets/interiors/mirror-brass-round-480.webp",
+      "alt": "Круглое зеркало в металлической раме тёплого оттенка — визуализация",
+      "kind": "interior",
+      "caption": "Показана рама в готовом зеркале; сечение профиля выбирается отдельно.",
+      "limitation": "Показана рама в готовом зеркале; сечение профиля выбирается отдельно."
+    },
+    {
+      "path": "/hardware/item/mirror-light-profile",
+      "id": "mirror-light-profile",
+      "title": "Профиль для подсветки зеркала",
+      "previousKey": "hardware-profile",
+      "key": "hardware-led-profile",
+      "src": "./assets/production/hardware-led-profile.webp",
+      "thumbnail": "./assets/production/hardware-led-profile-480.webp",
+      "alt": "Профиль подсветки с LED-лентой и рассеивателем — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/item/round-mirror-frame",
+      "id": "round-mirror-frame",
+      "title": "Круглая рама для зеркала с подсветкой",
+      "previousKey": "hardware-profile",
+      "key": "hardware-round-mirror-frame",
+      "src": "./assets/production/hardware-round-mirror-frame.webp",
+      "thumbnail": "./assets/production/hardware-round-mirror-frame-480.webp",
+      "alt": "Круглая металлическая рама для зеркала — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/item/floor-glass-clamp",
+      "id": "floor-glass-clamp",
+      "title": "Напольный стеклодержатель",
+      "previousKey": "hardware-clamp",
+      "key": "hardware-floor-clamp",
+      "src": "./assets/production/hardware-floor-clamp.webp",
+      "thumbnail": "./assets/production/hardware-floor-clamp-480.webp",
+      "alt": "Стеклодержатель с опорой на пол — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/item/wood-glass-handrail",
+      "id": "wood-glass-handrail",
+      "title": "Деревянный поручень на стекло",
+      "previousKey": "hardware-handrail",
+      "key": "hardware-wood-handrail",
+      "src": "./assets/production/hardware-wood-handrail.webp",
+      "thumbnail": "./assets/production/hardware-wood-handrail-480.webp",
+      "alt": "Деревянный поручень и его соединение со стеклом — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/showers/support-bar",
+      "id": "showers-support-bar",
+      "title": "Стабилизационные штанги",
+      "previousKey": "hardware-clamp",
+      "key": "hardware-shower-stabilizer",
+      "src": "./assets/production/hardware-shower-stabilizer.webp",
+      "thumbnail": "./assets/production/hardware-shower-stabilizer-480.webp",
+      "alt": "Стабилизационная штанга с креплением стеклянной панели — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/showers/holder",
+      "id": "showers-holder",
+      "title": "Стеклодержатели",
+      "previousKey": "hardware-clamp",
+      "key": "hardware-floor-clamp",
+      "src": "./assets/production/hardware-floor-clamp.webp",
+      "thumbnail": "./assets/production/hardware-floor-clamp-480.webp",
+      "alt": "Стеклодержатель с опорой на пол — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/partitions/holder",
+      "id": "partitions-holder",
+      "title": "Стеклодержатели",
+      "previousKey": "hardware-clamp",
+      "key": "hardware-floor-clamp",
+      "src": "./assets/production/hardware-floor-clamp.webp",
+      "thumbnail": "./assets/production/hardware-floor-clamp-480.webp",
+      "alt": "Стеклодержатель с опорой на пол — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/stairs/holder",
+      "id": "stairs-holder",
+      "title": "Стеклодержатели",
+      "previousKey": "hardware-clamp",
+      "key": "hardware-floor-clamp",
+      "src": "./assets/production/hardware-floor-clamp.webp",
+      "thumbnail": "./assets/production/hardware-floor-clamp-480.webp",
+      "alt": "Стеклодержатель с опорой на пол — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/stairs/handrail",
+      "id": "stairs-handrail",
+      "title": "Поручни",
+      "previousKey": "hardware-handrail",
+      "key": "hardware-wood-handrail",
+      "src": "./assets/production/hardware-wood-handrail.webp",
+      "thumbnail": "./assets/production/hardware-wood-handrail-480.webp",
+      "alt": "Деревянный поручень и его соединение со стеклом — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/mirrors/frame-profile",
+      "id": "mirrors-frame-profile",
+      "title": "Профили для рам",
+      "previousKey": "hardware-profile",
+      "key": "mirror-brass-round",
+      "src": "./assets/interiors/mirror-brass-round.webp",
+      "thumbnail": "./assets/interiors/mirror-brass-round-480.webp",
+      "alt": "Круглое зеркало в металлической раме тёплого оттенка — визуализация",
+      "kind": "interior",
+      "caption": "Показана рама в готовом зеркале; сечение профиля выбирается отдельно.",
+      "limitation": "Показана рама в готовом зеркале; сечение профиля выбирается отдельно."
+    },
+    {
+      "path": "/hardware/mirrors/lighting-profile",
+      "id": "mirrors-lighting-profile",
+      "title": "Профили подсветки",
+      "previousKey": "hardware-profile",
+      "key": "hardware-led-profile",
+      "src": "./assets/production/hardware-led-profile.webp",
+      "thumbnail": "./assets/production/hardware-led-profile-480.webp",
+      "alt": "Профиль подсветки с LED-лентой и рассеивателем — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    },
+    {
+      "path": "/hardware/mirrors/frame",
+      "id": "mirrors-frame",
+      "title": "Рамы для зеркал",
+      "previousKey": "hardware-profile",
+      "key": "hardware-round-mirror-frame",
+      "src": "./assets/production/hardware-round-mirror-frame.webp",
+      "thumbnail": "./assets/production/hardware-round-mirror-frame-480.webp",
+      "alt": "Круглая металлическая рама для зеркала — визуализация",
+      "kind": "detail",
+      "caption": "Визуализация узла или обработки. Размеры и исполнение согласуются отдельно.",
+      "limitation": ""
+    }
+  ],
+  "limitations": [
+    {
+      "path": "/production/production-cnc/production-cnc-contour",
+      "key": "service-cutting",
+      "limitation": "Визуализация станочной обработки; конкретные операции задаёт цифровой чертёж."
+    },
+    {
+      "path": "/production/production-cnc/production-cnc-combined",
+      "key": "service-cutting",
+      "limitation": "Визуализация станочной обработки; конкретные операции задаёт цифровой чертёж."
+    },
+    {
+      "path": "/production/production-cnc",
+      "key": "service-cutting",
+      "limitation": "Визуализация станочной обработки; конкретные операции задаёт цифровой чертёж."
+    },
+    {
+      "path": "/production/production-arrising/production-edge-arrising",
+      "key": "service-grinding",
+      "limitation": "Показан образец шлифованной кромки; узкое притупление рёбер согласуется отдельно."
+    },
+    {
+      "path": "/production/production-arrising",
+      "key": "service-grinding",
+      "limitation": "Показан образец шлифованной кромки; узкое притупление рёбер согласуется отдельно."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths/production-bevel-straight-5",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths/production-bevel-straight-10",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths/production-bevel-straight-15",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths/production-bevel-straight-20",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths/production-bevel-straight-25",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths/production-bevel-straight-30",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths/production-bevel-straight-35",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths/production-bevel-straight-40",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths/production-bevel-straight",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-straight-widths",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths/production-bevel-curved-5",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths/production-bevel-curved-10",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths/production-bevel-curved-15",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths/production-bevel-curved-20",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths/production-bevel-curved-25",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths/production-bevel-curved-30",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths/production-bevel-curved-35",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths/production-bevel-curved-40",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths/production-bevel-curved",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel/production-bevel-curved-widths",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-bevel",
+      "key": "service-bevel",
+      "limitation": "Пример прямолинейного фацета. Выбранные ширина и контур задаются чертежом, а не масштабом изображения."
+    },
+    {
+      "path": "/production/production-lamination/production-lamination-base/production-lamination-tinted",
+      "key": "service-lamination",
+      "limitation": "Пример многослойной кромки. Выбранный оттенок, прослойка или изображение на этом образце не показаны."
+    },
+    {
+      "path": "/production/production-lamination/production-lamination-colour/production-lamination-matte",
+      "key": "service-lamination",
+      "limitation": "Пример многослойной кромки. Выбранный оттенок, прослойка или изображение на этом образце не показаны."
+    },
+    {
+      "path": "/production/production-lamination/production-lamination-colour/production-lamination-coloured",
+      "key": "service-lamination",
+      "limitation": "Пример многослойной кромки. Выбранный оттенок, прослойка или изображение на этом образце не показаны."
+    },
+    {
+      "path": "/production/production-lamination/production-lamination-decor/production-lamination-image",
+      "key": "service-lamination",
+      "limitation": "Пример многослойной кромки. Выбранный оттенок, прослойка или изображение на этом образце не показаны."
+    },
+    {
+      "path": "/production/production-sandblast/production-sandblast-full",
+      "key": "material-satin",
+      "limitation": "Пример равномерной матовой поверхности. Способ обработки согласуем для выбранной детали."
+    },
+    {
+      "path": "/production/production-mirror-light/production-sandblast-mirror-light",
+      "key": "mirror-front-light",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-mirror-light/production-mirror-light-perimeter",
+      "key": "mirror-front-light",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-mirror-light/production-mirror-light-segments",
+      "key": "mirror-front-light",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-mirror-light/production-mirror-light-graphics",
+      "key": "mirror-front-light",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-mirror-light",
+      "key": "mirror-front-light",
+      "limitation": "Пример световой зоны в готовом зеркале. Рисунок и технология подготовки согласуются отдельно."
+    },
+    {
+      "path": "/production/production-laser-engraving/production-engraving-laser",
+      "key": "service-laser-matting",
+      "limitation": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету."
+    },
+    {
+      "path": "/production/production-laser-engraving/production-laser-lettering",
+      "key": "service-laser-matting",
+      "limitation": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету."
+    },
+    {
+      "path": "/production/production-laser-engraving/production-laser-image",
+      "key": "service-laser-matting",
+      "limitation": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету."
+    },
+    {
+      "path": "/production/production-laser-engraving",
+      "key": "service-laser-matting",
+      "limitation": "Пример матового растрового рисунка. Ваше изображение или надпись выполняются по согласованному макету."
+    },
+    {
+      "path": "/production/production-uv-printing/production-printing-uv",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-uv-printing/production-printing-uv-photo",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-uv-printing/production-printing-uv-graphics",
+      "key": "material-screenprint",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/production/production-uv-printing",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-ceramic-printing/production-printing-ceramic",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-ceramic-printing",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/production/production-films/production-film-matte",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/production/production-films/production-film-tinted",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/production/production-films/production-film-graphics",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/production/production-films/production-film-mirror-backing",
+      "key": "material-mirror",
+      "limitation": "Показана зеркальная основа; плёнка на тыльной стороне на этом изображении не видна."
+    },
+    {
+      "path": "/production/production-films",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/production/production-bonding/production-bonding-metal",
+      "key": "service-bonding",
+      "limitation": "Пример склейки стеклянных панелей; соединение с металлом на изображении не показано."
+    },
+    {
+      "path": "/materials/matte/matte-satin/matte-satin-dark",
+      "key": "material-satin-graphite",
+      "limitation": "Показан серый сатин; глубину тёмного оттенка выбираем по образцу."
+    },
+    {
+      "path": "/materials/matte/matte-sandblasted/matte-sandblasted-full/matte-full-crystalvision",
+      "key": "material-satin",
+      "limitation": "Пример равномерной матовой поверхности. Способ обработки согласуем для выбранной детали."
+    },
+    {
+      "path": "/materials/matte/matte-sandblasted/matte-sandblasted-full",
+      "key": "material-satin",
+      "limitation": "Пример равномерной матовой поверхности. Способ обработки согласуем для выбранной детали."
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-geometric",
+      "key": "material-patterned",
+      "limitation": "Пример нерегулярного рельефа. Точный рисунок выбранного узора согласуем по образцу."
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-organic",
+      "key": "material-patterned",
+      "limitation": "Пример нерегулярного рельефа. Точный рисунок выбранного узора согласуем по образцу."
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-grain",
+      "key": "material-patterned",
+      "limitation": "Пример нерегулярного рельефа. Точный рисунок выбранного узора согласуем по образцу."
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-bronze",
+      "key": "material-patterned",
+      "limitation": "Показан бесцветный рельефный образец; выбранный бронзовый или золотистый тон согласуется отдельно."
+    },
+    {
+      "path": "/materials/textured/textured-patterned/textured-patterned-gold",
+      "key": "material-patterned",
+      "limitation": "Показан бесцветный рельефный образец; выбранный бронзовый или золотистый тон согласуется отдельно."
+    },
+    {
+      "path": "/materials/textured/textured-patterned",
+      "key": "material-patterned",
+      "limitation": "Пример нерегулярного рельефа. Точный рисунок выбранного узора согласуем по образцу."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted/mirrors-matted-silver",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted/mirrors-matted-crystalvision",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted/mirrors-matted-bronze",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted/mirrors-matted-graphite",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-matted",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved/mirrors-engraved-silver",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved/mirrors-engraved-crystalvision",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved/mirrors-engraved-bronze",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved/mirrors-engraved-graphite",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/mirrors/mirrors-decorative/mirrors-engraved",
+      "key": "material-mirror",
+      "limitation": "Показаны зеркальные основы. Выбранный матовый рисунок или гравировка на этом образце не изображены."
+    },
+    {
+      "path": "/materials/curved/curved-tinted/curved-tinted-bronze",
+      "key": "service-bending",
+      "limitation": "Показана бесцветная гнутая панель; выбранный оттенок и многослойный состав согласуются отдельно."
+    },
+    {
+      "path": "/materials/curved/curved-tinted/curved-tinted-graphite",
+      "key": "service-bending",
+      "limitation": "Показана бесцветная гнутая панель; выбранный оттенок и многослойный состав согласуются отдельно."
+    },
+    {
+      "path": "/materials/curved/curved-tinted",
+      "key": "service-bending",
+      "limitation": "Показана бесцветная гнутая панель; выбранный оттенок и многослойный состав согласуются отдельно."
+    },
+    {
+      "path": "/materials/curved/curved-laminated/curved-laminated-bronze",
+      "key": "service-bending",
+      "limitation": "Показана бесцветная гнутая панель; выбранный оттенок и многослойный состав согласуются отдельно."
+    },
+    {
+      "path": "/materials/curved/curved-laminated/curved-laminated-graphite",
+      "key": "service-bending",
+      "limitation": "Показана бесцветная гнутая панель; выбранный оттенок и многослойный состав согласуются отдельно."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-photo/printed-photo-photograph",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-photo/printed-photo-illustration",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-photo",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-graphics/printed-graphics-pattern",
+      "key": "material-screenprint",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-graphics/printed-graphics-logo",
+      "key": "material-screenprint",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-graphics/printed-graphics-lettering",
+      "key": "material-screenprint",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/materials/printed/printed-artwork/printed-graphics",
+      "key": "material-screenprint",
+      "limitation": "Показан пример печатного рисунка. Логотип, надпись и технологию печати согласуем по вашему макету."
+    },
+    {
+      "path": "/materials/printed/printed-artwork",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/printed/printed-surfaces/printed-gradient",
+      "key": "material-screenprint",
+      "limitation": "Пример печатного рисунка; индивидуальный градиент на изображении не представлен."
+    },
+    {
+      "path": "/materials/printed",
+      "key": "material-printed-photo",
+      "limitation": "Пример изображения на стекле. Сюжет и технологию печати согласуем отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-matte/films-matte-full",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-matte/films-matte-zones",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-matte",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-tinted",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-reflective",
+      "key": "material-mirror",
+      "limitation": "Пример отражающей поверхности. Плёнка и её нанесение на этом изображении не показаны."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-decorative/films-decorative-colour",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-decorative/films-decorative-pattern",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-decorative/films-decorative-graphics",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance/films-decorative",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-appearance",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-retention/films-retention-glass",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films/films-retention/films-retention-mirror",
+      "key": "material-mirror",
+      "limitation": "Показана зеркальная основа; плёнка на тыльной стороне на этом изображении не видна."
+    },
+    {
+      "path": "/materials/films/films-retention",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/films",
+      "key": "material-film-application",
+      "limitation": "Пример нанесения плёнки. Её цвет, рисунок и назначение выбираются отдельно."
+    },
+    {
+      "path": "/materials/special/special-optical/special-reflective",
+      "key": "material-clear",
+      "limitation": "Показана светопропускающая основа; специальное отражающее покрытие подбирается по образцу."
+    },
+    {
+      "path": "/materials/special/special-optical/special-antireflective/special-antireflective-glass",
+      "key": "material-clear",
+      "limitation": "Пример бесцветной основы; оптические свойства специального покрытия изображением не подтверждаются."
+    },
+    {
+      "path": "/materials/special/special-optical/special-antireflective/special-museum-glass",
+      "key": "material-clear",
+      "limitation": "Пример бесцветной основы; оптические свойства специального покрытия изображением не подтверждаются."
+    },
+    {
+      "path": "/materials/special/special-optical/special-antireflective",
+      "key": "material-clear",
+      "limitation": "Пример бесцветной основы; оптические свойства специального покрытия изображением не подтверждаются."
+    },
+    {
+      "path": "/hardware/item/corner-glass-hinge",
+      "key": "hardware-hinge",
+      "limitation": "Пример петли стена — стекло. Геометрию и функцию выбранной петли согласуем отдельно."
+    },
+    {
+      "path": "/hardware/item/inline-glass-hinge",
+      "key": "hardware-hinge",
+      "limitation": "Пример петли стена — стекло. Геометрию и функцию выбранной петли согласуем отдельно."
+    },
+    {
+      "path": "/hardware/item/hydraulic-wall-hinge",
+      "key": "hardware-hinge",
+      "limitation": "Пример петли стена — стекло. Геометрию и функцию выбранной петли согласуем отдельно."
+    },
+    {
+      "path": "/hardware/item/pauli-magnetic-wall-hinge",
+      "key": "hardware-hinge",
+      "limitation": "Иллюстрация типа элемента, не фотография конкретной модели Pauli. Модель и отделку согласуем с конструкцией."
+    },
+    {
+      "path": "/hardware/item/pauli-magnetic-glass-hinge",
+      "key": "hardware-hinge",
+      "limitation": "Иллюстрация типа элемента, не фотография конкретной модели Pauli. Модель и отделку согласуем с конструкцией."
+    },
+    {
+      "path": "/hardware/item/inline-glass-connector",
+      "key": "hardware-clamp",
+      "limitation": "Примеры крепления стекла; прямое соединение двух панелей на изображении не показано."
+    },
+    {
+      "path": "/hardware/item/corner-shower-slider",
+      "key": "hardware-slider",
+      "limitation": "Пример открытой роликовой системы; выбранная схема движения и доводчики на изображении не показаны."
+    },
+    {
+      "path": "/hardware/item/double-shower-slider",
+      "key": "hardware-slider",
+      "limitation": "Пример открытой роликовой системы; выбранная схема движения и доводчики на изображении не показаны."
+    },
+    {
+      "path": "/hardware/item/door-slider-fixed-panel",
+      "key": "hardware-slider",
+      "limitation": "Пример открытой роликовой системы; выбранная схема движения и доводчики на изображении не показаны."
+    },
+    {
+      "path": "/hardware/item/telescopic-door-slider",
+      "key": "hardware-slider",
+      "limitation": "Пример открытой роликовой системы; выбранная схема движения и доводчики на изображении не показаны."
+    },
+    {
+      "path": "/hardware/item/two-part-glass-profile",
+      "key": "hardware-profile",
+      "limitation": "Примеры П-образного профиля; состав двухчастной системы показан в согласуемой спецификации."
+    },
+    {
+      "path": "/hardware/item/mirror-frame-profile",
+      "key": "mirror-brass-round",
+      "limitation": "Показана рама в готовом зеркале; сечение профиля выбирается отдельно."
+    },
+    {
+      "path": "/hardware/item/pauli-standoff",
+      "key": "hardware-standoff",
+      "limitation": "Иллюстрация типа элемента, не фотография конкретной модели Pauli. Модель и отделку согласуем с конструкцией."
+    },
+    {
+      "path": "/hardware/showers/hinge",
+      "key": "hardware-hinge",
+      "limitation": "Пример петли стена — стекло. Геометрию и функцию выбранной петли согласуем отдельно."
+    },
+    {
+      "path": "/hardware/showers/slider",
+      "key": "hardware-slider",
+      "limitation": "Пример открытой роликовой системы; выбранная схема движения и доводчики на изображении не показаны."
+    },
+    {
+      "path": "/hardware/partitions/slider",
+      "key": "hardware-slider",
+      "limitation": "Пример открытой роликовой системы; выбранная схема движения и доводчики на изображении не показаны."
+    },
+    {
+      "path": "/hardware/doors/slider",
+      "key": "hardware-slider",
+      "limitation": "Пример открытой роликовой системы; выбранная схема движения и доводчики на изображении не показаны."
+    },
+    {
+      "path": "/hardware/mirrors/frame-profile",
+      "key": "mirror-brass-round",
+      "limitation": "Показана рама в готовом зеркале; сечение профиля выбирается отдельно."
+    }
+  ]
+}

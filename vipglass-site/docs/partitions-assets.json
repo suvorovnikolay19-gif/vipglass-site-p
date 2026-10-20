@@ -1,0 +1,135 @@
+{
+  "created": "2026-10-16",
+  "generated": true,
+  "generator": "built-in image_gen.imagegen",
+  "usage": "Illustrations of architectural partition types, not photographs of completed VIPGlass projects, exact supplier SKUs, or technical drawings.",
+  "count": 4,
+  "assets": [
+    {
+      "key": "partition-loft",
+      "prompt": "Use case: product-mockup. Asset type: one premium architectural catalogue illustration for glass-partition types, square 1254 by 1254 pixels. Photorealistic sophisticated architectural interior photography, physically coherent real construction, straight verticals, natural perspective, restrained warm neutral palette, soft neutral daylight and careful highlights. Whole installation clearly understandable, simple beautiful composition. This is an illustrative visualization, not a branded or documented real project. ALL clear glass must be ultra-clear optically neutral low-iron CrystalVision: perfectly colorless transmitted view, neutral white/silver/gray edges; absolutely NO green, cyan, teal, turquoise or blue glass, no green edge tint. Use NO green plants, NO outdoor greenery, NO colored objects reflecting in glass. Intentional satin black or silver-gray metal is allowed. NO people, text, letters, signage, labels, logos, brands, watermarks, drawings, arrows, dimensions, collage or UI. High-end architectural photograph, not technical diagram or exaggerated CGI.\nSubject: A premium warm contemporary apartment divided by a full-height LOFT-STYLE GLASS PARTITION with a very slender matte-black metal rectangular grid. Exactly one single hinged glazed door is integrated into the grid at slightly right of center, slightly open about 12 degrees so hinges and a restrained black vertical handle are understandable. Every infill panel in the wall and door is completely clear transparent glass, including the bottom row; NO opaque metal panels, no solid lower kick panels, no timber inserts. Balanced large rectangular glass panes with slender black horizontal and vertical bars, one coherent installed wall from floor to ceiling. Behind glass is a quiet sitting room with ivory sofa, oak floor and warm stone wall; in front, a simple dining area. Neutral furnishings visible through every glass pane establish transparency. Three-quarter architectural camera view from dining side, entire partition and door in frame, calm daylight, thoughtful restrained luxury.",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-3979bb38-68f1-4dcd-b5b6-3171748d61bf.png",
+      "selectedSource": "/workspace/scratch/e030de584a13/generated_images/exec-3979bb38-68f1-4dcd-b5b6-3171748d61bf.png",
+      "full": "/assets/interiors/partition-loft.webp",
+      "thumbnail": "/assets/interiors/partition-loft-480.webp",
+      "fullLocal": "/workspace/scratch/e030de584a13/vipglass-prototype/dist/assets/interiors/partition-loft.webp",
+      "thumbnailLocal": "/workspace/scratch/e030de584a13/vipglass-prototype/dist/assets/interiors/partition-loft-480.webp",
+      "dimensions": {
+        "full": [
+          1254,
+          1254
+        ],
+        "thumbnail": [
+          480,
+          480
+        ]
+      },
+      "encoding": {
+        "format": "WebP",
+        "fullQuality": 82,
+        "thumbnailQuality": 78
+      },
+      "visualInspection": "Original inspected inline: all infill panes are transparent glass including lower panes, slender black grid, one visibly hinged glass door, warm apartment interior. No opaque infill or green glass.",
+      "provenance": "One independent built-in image_gen initial generation for this type; selected source converted to WebP and resized for the thumbnail.",
+      "bytes": {
+        "full": 154550,
+        "thumbnail": 22380
+      }
+    },
+    {
+      "key": "partition-double-blinds",
+      "prompt": "Use case: product-mockup. Asset type: one premium architectural catalogue illustration for glass-partition types, square 1254 by 1254 pixels. Photorealistic sophisticated architectural interior photography, physically coherent real construction, straight verticals, natural perspective, restrained warm neutral palette, soft neutral daylight and careful highlights. Whole installation clearly understandable, simple beautiful composition. This is an illustrative visualization, not a branded or documented real project. ALL clear glass must be ultra-clear optically neutral low-iron CrystalVision: perfectly colorless transmitted view, neutral white/silver/gray edges; absolutely NO green, cyan, teal, turquoise or blue glass, no green edge tint. Use NO green plants, NO outdoor greenery, NO colored objects reflecting in glass. Intentional satin black or silver-gray metal is allowed. NO people, text, letters, signage, labels, logos, brands, watermarks, drawings, arrows, dimensions, collage or UI. High-end architectural photograph, not technical diagram or exaggerated CGI.\nSubject: A premium modern framed OFFICE PARTITION with two separate clear glass skins set within deep slim aluminum perimeter frames, creating an architectural cavity containing VENETIAN BLINDS BETWEEN THE TWO GLASS SHEETS. Show three large adjacent framed bays in one installed office wall, warm ivory office interior, pale oak desk and charcoal chairs. In the nearest LEFT bay, the horizontal warm-silver blind slats are tilted open so the office beyond can be seen between them; in the RIGHT bay they are tilted closed so the bay is softly private. The blind headrail and slats must visibly sit INSIDE the cavity behind the front clear reflective glass, not hanging on the room-facing surface. A near oblique view of one exposed end jamb or return should subtly reveal two distinct glass reflection planes separated by the deep frame and the blinds between them, while remaining a natural interior photograph; NO cutaway or exploded technical diagram. Realistic installed architectural double-skin partition, no claim or depiction of sealed insulating-glass packaging, no stamps. Slender satin-charcoal frame, precise regular slats, neutral clear glass edges, no text.",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-7da7856d-99bb-445d-a899-0d3abb27d4f7.png",
+      "selectedSource": "/workspace/scratch/e030de584a13/generated_images/exec-7da7856d-99bb-445d-a899-0d3abb27d4f7.png",
+      "full": "/assets/interiors/partition-double-blinds.webp",
+      "thumbnail": "/assets/interiors/partition-double-blinds-480.webp",
+      "fullLocal": "/workspace/scratch/e030de584a13/vipglass-prototype/dist/assets/interiors/partition-double-blinds.webp",
+      "thumbnailLocal": "/workspace/scratch/e030de584a13/vipglass-prototype/dist/assets/interiors/partition-double-blinds-480.webp",
+      "dimensions": {
+        "full": [
+          1254,
+          1254
+        ],
+        "thumbnail": [
+          480,
+          480
+        ]
+      },
+      "encoding": {
+        "format": "WebP",
+        "fullQuality": 82,
+        "thumbnailQuality": 78
+      },
+      "visualInspection": "Original inspected inline: office wall with deep framed double-glass construction, visible cavity/paired skins at left return, regular venetian blinds behind front glass, open slats left and closed slats right. Illustrative construction only, no sealed-IGU claim.",
+      "provenance": "One independent built-in image_gen initial generation for this type; selected source converted to WebP and resized for the thumbnail.",
+      "bytes": {
+        "full": 139680,
+        "thumbnail": 25958
+      }
+    },
+    {
+      "key": "partition-smart",
+      "prompt": "Use case: product-mockup. Asset type: one premium architectural catalogue illustration for glass-partition types, square 1254 by 1254 pixels. Photorealistic sophisticated architectural interior photography, physically coherent real construction, straight verticals, natural perspective, restrained warm neutral palette, soft neutral daylight and careful highlights. Whole installation clearly understandable, simple beautiful composition. This is an illustrative visualization, not a branded or documented real project. ALL clear glass must be ultra-clear optically neutral low-iron CrystalVision: perfectly colorless transmitted view, neutral white/silver/gray edges; absolutely NO green, cyan, teal, turquoise or blue glass, no green edge tint. Use NO green plants, NO outdoor greenery, NO colored objects reflecting in glass. Intentional satin black or silver-gray metal is allowed. NO people, text, letters, signage, labels, logos, brands, watermarks, drawings, arrows, dimensions, collage or UI. High-end architectural photograph, not technical diagram or exaggerated CGI.\nSubject: A premium warm contemporary meeting room fronted by a full-height SMART PRIVACY GLASS WALL in its translucent milky-white opaque state. Three broad contiguous smooth milky PDLC glass panels including one full-height rectangular glass swing door with a slim brushed-steel vertical pull handle and subtle hinges. These panels diffuse light and obscure the meeting table/chairs into soft vague silhouettes; they are luminous milk-white translucent glass, not solid painted wall, whiteboard or fabric blinds. Keep the milky surface completely uniform across each panel with realistic faint glass reflections. Immediately adjacent on the RIGHT, in the SAME photographed room, is a clearly separate ordinary transparent glass side window through which a crisp neutral office table and chair can be seen, so the privacy effect is visually distinct without split-screen or before/after layout. Fine dark-charcoal perimeter channels, warm beige floor, oak wall detail, calm soft daylight. Main front-left angled view, whole privacy wall and door identifiable. No UI switches, no graphic lightning symbols, no text, no people. Neutral white-gray glass edges.",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-36b548c0-106a-474e-a150-b4051cdae94e.png",
+      "selectedSource": "/workspace/scratch/e030de584a13/generated_images/exec-36b548c0-106a-474e-a150-b4051cdae94e.png",
+      "full": "/assets/interiors/partition-smart.webp",
+      "thumbnail": "/assets/interiors/partition-smart-480.webp",
+      "fullLocal": "/workspace/scratch/e030de584a13/vipglass-prototype/dist/assets/interiors/partition-smart.webp",
+      "thumbnailLocal": "/workspace/scratch/e030de584a13/vipglass-prototype/dist/assets/interiors/partition-smart-480.webp",
+      "dimensions": {
+        "full": [
+          1254,
+          1254
+        ],
+        "thumbnail": [
+          480,
+          480
+        ]
+      },
+      "encoding": {
+        "format": "WebP",
+        "fullQuality": 82,
+        "thumbnailQuality": 78
+      },
+      "visualInspection": "Original inspected inline: uniform luminous milky privacy glass panels and door with handle/hinges, soft silhouettes behind; adjacent transparent bay shows crisp office furniture. Distinct privacy-state illustration, no UI graphics.",
+      "provenance": "One independent built-in image_gen initial generation for this type; selected source converted to WebP and resized for the thumbnail.",
+      "bytes": {
+        "full": 60402,
+        "thumbnail": 9770
+      }
+    },
+    {
+      "key": "partition-shop",
+      "prompt": "Use case: product-mockup. Asset type: one premium architectural catalogue illustration for glass-partition types, square 1254 by 1254 pixels. Photorealistic sophisticated architectural interior photography, physically coherent real construction, straight verticals, natural perspective, restrained warm neutral palette, soft neutral daylight and careful highlights. Whole installation clearly understandable, simple beautiful composition. This is an illustrative visualization, not a branded or documented real project. ALL clear glass must be ultra-clear optically neutral low-iron CrystalVision: perfectly colorless transmitted view, neutral white/silver/gray edges; absolutely NO green, cyan, teal, turquoise or blue glass, no green edge tint. Use NO green plants, NO outdoor greenery, NO colored objects reflecting in glass. Intentional satin black or silver-gray metal is allowed. NO people, text, letters, signage, labels, logos, brands, watermarks, drawings, arrows, dimensions, collage or UI. High-end architectural photograph, not technical diagram or exaggerated CGI.\nSubject: An ALL-GLASS SHOPFRONT opening onto an INTERNAL shopping-mall corridor, photographed from the mall side at a gentle three-quarter angle. One full-height single glass swing entry door is slightly open inward between broad fixed clear glass side panels. Barely visible slim neutral stainless top/bottom patch fittings, a simple vertical brushed-steel pull handle, small clear panel joints and minimal floor/ceiling channels; no heavy framing. The entire storefront is clear transparent low-iron glass including door and sidelights, showing an elegant small unbranded boutique interior with pale stone display plinths, a few plain ceramic objects and neatly spaced unmarked neutral handbags. The internal mall corridor outside is cream limestone with a warm ivory ceiling, no exterior streetscape or outdoor view. Include floor leading lines and another blank storefront reflection subtly to communicate indoor mall context, but NO readable shop names, logos, signs, sale stickers, price labels, advertisements or people. Premium restrained retail architecture, physically coherent glass panels and door.",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-3424ec3c-9bee-4490-ae9c-6b1286b2ec31.png",
+      "selectedSource": "/workspace/scratch/e030de584a13/generated_images/exec-63b8fb3e-206e-4d7e-a7c0-699e2259e230.png",
+      "full": "/assets/interiors/partition-shop.webp",
+      "thumbnail": "/assets/interiors/partition-shop-480.webp",
+      "fullLocal": "/workspace/scratch/e030de584a13/vipglass-prototype/dist/assets/interiors/partition-shop.webp",
+      "thumbnailLocal": "/workspace/scratch/e030de584a13/vipglass-prototype/dist/assets/interiors/partition-shop-480.webp",
+      "dimensions": {
+        "full": [
+          1254,
+          1254
+        ],
+        "thumbnail": [
+          480,
+          480
+        ]
+      },
+      "encoding": {
+        "format": "WebP",
+        "fullQuality": 82,
+        "thumbnailQuality": 78
+      },
+      "visualInspection": "Original and corrected output inspected inline: all-glass unbranded shopfront inside a mall corridor with open glass entry door, fixed side panels and restrained patch hardware. Targeted edit removed green/cyan exposed-door edge tint while retaining geometry.",
+      "provenance": "One independent built-in image_gen initial generation for this type; selected source converted to WebP and resized for the thumbnail.",
+      "correctionPrompt": "Use case: precise-object-edit. Make ONLY a localized color correction to every glass edge in this existing shopfront photograph, especially the narrow vertical exposed edges of the open central glass entry door. Replace ALL teal, cyan, turquoise, green, olive-green and blue glass-edge tint with strictly neutral white, silver or gray of the same luminance. Clear glass must be colorless low-iron CrystalVision, never green-edged. Keep exact door and panel geometry, reflections, open angle, hardware, handles, fixtures, boutique interior, shelves, bags, stone surfaces, warm cream room color, lighting, crop and composition unchanged. Do not monochrome the whole scene. Do not add or remove anything, no text. Preserve the premium photorealistic internal-mall shopfront image and all edges' fine physical detail.",
+      "correction": "One targeted built-in image_gen color edit neutralized cyan/green glass edges, keeping the geometry and interior.",
+      "bytes": {
+        "full": 85544,
+        "thumbnail": 16850
+      }
+    }
+  ]
+}

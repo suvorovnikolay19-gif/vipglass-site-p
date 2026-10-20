@@ -1,0 +1,95 @@
+{
+  "created": "2026-10-16",
+  "tool": "builtin image_gen.imagegen",
+  "type": "AI-generated catalogue illustrations, not actual VIP Glass projects",
+  "format": {
+    "full": "WebP quality82, native1254 square",
+    "thumbnail": "WebP quality78,480square"
+  },
+  "assets": [
+    {
+      "key": "partition-allglass-telescopic",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-0154a4c2-6d36-4890-bceb-31dfab33e7ea.png",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-0154a4c2-6d36-4890-bceb-31dfab33e7ea.png",
+      "path": "dist/assets/interiors/partition-allglass-telescopic.webp",
+      "thumbnail": "dist/assets/interiors/partition-allglass-telescopic-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square interior catalogue photograph for VIP Glass. A realistic architectural catalogue photograph of a frameless TELESCOPIC sliding interior glass partition in a warm modern apartment between dining and sitting rooms. Three full height low-iron ultra-clear glass sliding panes hang on three distinct parallel brushed nickel ceiling tracks, shown in visibly different staggered partially open positions with clear overlapping vertical glass edges, making telescoping mechanism understandable. Slim flush pulls, no floor obstruction. Camera three quarter angle so track spacing and stagger are evident. This is a dry interior partition, not a shower. Style: photorealistic restrained premium architectural photography, 1254 by 1254 square composition, accurate straight verticals, natural warm daylight, pale beige stone and off-white plaster, restrained walnut accents, uncluttered interior. Glass: absolutely neutral crystal-clear low-iron Crystal Vision appearance, transparent neutral edges, no green, turquoise or cyan cast or thick green edge. No people, text, brands, logos, watermarks, diagrams, arrows or dimension marks. Show construction clearly; do not substitute a line drawing.",
+      "editPrompt": null,
+      "review": "Staggered clear panes and parallel overhead sliding tracks clearly distinguish the telescopic interior arrangement. Non-drawing generated illustration; mechanism is conceptual, not a technical specification.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 141390,
+      "thumbnailBytes": 22184
+    },
+    {
+      "key": "partition-allglass-folding",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-37609f66-970b-414b-b67f-155139ca5bce.png",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-37609f66-970b-414b-b67f-155139ca5bce.png",
+      "path": "dist/assets/interiors/partition-allglass-folding.webp",
+      "thumbnail": "dist/assets/interiors/partition-allglass-folding-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square interior catalogue photograph for VIP Glass. A realistic architectural catalogue photograph of a frameless BOOK-FOLDING interior glass partition between a restrained warm apartment living room and study. Exactly two ultra-clear full-height glass leaves joined by three small glass-to-glass metal patch hinges along their shared vertical seam. The leaves are folded at about forty degrees into a clearly legible shallow V shape. The assembly has a subtle overhead track and a pivot at the outer jamb. Camera three quarter view so the actual V fold and patch hinges are visible. No extra random glass walls. Not a shower. Style: photorealistic restrained premium architectural photography, 1254 by 1254 square composition, accurate straight verticals, natural warm daylight, pale beige stone and off-white plaster, restrained walnut accents, uncluttered interior. Glass: absolutely neutral crystal-clear low-iron Crystal Vision appearance, transparent neutral edges, no green, turquoise or cyan cast or thick green edge. No people, text, brands, logos, watermarks, diagrams, arrows or dimension marks. Show construction clearly; do not substitute a line drawing.",
+      "editPrompt": null,
+      "review": "Two leaves visibly form a V with three glass-to-glass patch hinges; fold readable. Generated concept, not fabrication documentation.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 127444,
+      "thumbnailBytes": 19190
+    },
+    {
+      "key": "partition-allglass-stacking",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-327f6f9c-50f7-484e-af3d-4d117cab8cee.png",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-1447fcab-9c6c-4757-be81-d5cb9c5611fb.png",
+      "path": "dist/assets/interiors/partition-allglass-stacking.webp",
+      "thumbnail": "dist/assets/interiors/partition-allglass-stacking-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square interior catalogue photograph for VIP Glass. A realistic architectural catalogue photograph showing an OPERABLE FRAMELESS GLASS WALL with independent stacking panels in a modern meeting room. On the left an almost fully open wide doorway, and at the right jamb three individual full height ultra-clear glass panels turned ninety degrees and parked tightly side-by-side perpendicular to the original wall line in a short parking bay. A believable overhead aluminium track with curved turn into the parking bay, one pane still on the main track. The arrangement must visibly read as independent parking glass panels, not folding linked panels and not sliding telescopic panels. View toward the open room at an oblique angle with top track visible. Style: photorealistic restrained premium architectural photography, 1254 by 1254 square composition, accurate straight verticals, natural warm daylight, pale beige stone and off-white plaster, restrained walnut accents, uncluttered interior. Glass: absolutely neutral crystal-clear low-iron Crystal Vision appearance, transparent neutral edges, no green, turquoise or cyan cast or thick green edge. No people, text, brands, logos, watermarks, diagrams, arrows or dimension marks. Show construction clearly; do not substitute a line drawing.",
+      "editPrompt": "Precise object material edit of the supplied architectural photograph. Keep the EXACT same room, camera, glass panel count, independent parked stacking panel geometry, track geometry, furniture, exposure and composition. Change ONLY the glass optical coloration: eliminate the cyan/turquoise/green coloration from the group of parked panels at the far right and from every exposed glass edge. These are low-iron Crystal Vision panes with nearly colorless transparent neutral pale-gray edges and warm neutral reflections. Preserve enough thin neutral-gray contours to see each panel, not blue or green contours. No other changes, no text or logos.",
+      "review": "Separate parked panes and turning overhead track distinguish independent stacking from folding. One edit neutralised blue-green glass edge coloration. Generated illustrative parking geometry, not an installation drawing.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 126228,
+      "thumbnailBytes": 22496
+    },
+    {
+      "key": "partition-framed-sliding",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-b321837e-db01-4567-a6c4-ea0bd5a754ac.png",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-b321837e-db01-4567-a6c4-ea0bd5a754ac.png",
+      "path": "dist/assets/interiors/partition-framed-sliding.webp",
+      "thumbnail": "dist/assets/interiors/partition-framed-sliding-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square interior catalogue photograph for VIP Glass. A realistic architectural catalogue photograph of a modern aluminium PROFILE-FRAMED GLASS interior office partition with a sliding entry door. Full-height low-iron transparent glass in slender charcoal aluminium perimeter profiles. The single tall sliding glass door has moved 70cm sideways in front of its adjacent fixed pane, making a clear walk-through gap. Show a real straight overhead sliding track, one restrained vertical handle and the overlap. Tall panes, NO horizontal lattice and NO loft-style grids. Quiet warm office with a walnut desk and linen chairs, no signage. Style: photorealistic restrained premium architectural photography, 1254 by 1254 square composition, accurate straight verticals, natural warm daylight, pale beige stone and off-white plaster, restrained walnut accents, uncluttered interior. Glass: absolutely neutral crystal-clear low-iron Crystal Vision appearance, transparent neutral edges, no green, turquoise or cyan cast or thick green edge. No people, text, brands, logos, watermarks, diagrams, arrows or dimension marks. Show construction clearly; do not substitute a line drawing.",
+      "editPrompt": null,
+      "review": "Slender perimeter aluminium framing, one open gap and offset sliding door; no loft grid. Generated conceptual interior.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 93530,
+      "thumbnailBytes": 16350
+    },
+    {
+      "key": "partition-framed-double-clear",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-79836211-2914-4e01-b0ab-173654da6be9.png",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-79836211-2914-4e01-b0ab-173654da6be9.png",
+      "path": "dist/assets/interiors/partition-framed-double-clear.webp",
+      "thumbnail": "dist/assets/interiors/partition-framed-double-clear-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square interior catalogue photograph for VIP Glass. A realistic architectural catalogue photograph closely showing an interior aluminium PROFILE OFFICE PARTITION WITH TWO DISTINCT CLEAR GLASS SKINS. Two separate parallel full-height low-iron glass sheets stand about twelve centimeters apart in a substantial warm-silver office profile, so they form two rows of room-divider glass, not a thin sealed window unit. Frame one side at an oblique angle with an OPEN END JAMB visible in foreground, clearly showing two separate glass planes and the deep air cavity. Both glass skins entirely transparent with warm office visible beyond. No blinds, no film, no opaque panels, no sealed insulated glass spacer. Wide enough to see a meeting room and understand a wall, not a sample. Style: photorealistic restrained premium architectural photography, 1254 by 1254 square composition, accurate straight verticals, natural warm daylight, pale beige stone and off-white plaster, restrained walnut accents, uncluttered interior. Glass: absolutely neutral crystal-clear low-iron Crystal Vision appearance, transparent neutral edges, no green, turquoise or cyan cast or thick green edge. No people, text, brands, logos, watermarks, diagrams, arrows or dimension marks. Show construction clearly; do not substitute a line drawing.",
+      "editPrompt": null,
+      "review": "Two separate full-height glass planes and deep profile cavity legible at end jamb, no blinds or sealed spacer. Generated illustration of dual-row glazing, not a real project or verified frame system.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 122520,
+      "thumbnailBytes": 21710
+    },
+    {
+      "key": "partition-smart-segmented",
+      "source": "/workspace/scratch/e030de584a13/generated_images/exec-b162bf86-ff75-4107-9270-35da77a0eaf1.png",
+      "originalSource": "/workspace/scratch/e030de584a13/generated_images/exec-b162bf86-ff75-4107-9270-35da77a0eaf1.png",
+      "path": "dist/assets/interiors/partition-smart-segmented.webp",
+      "thumbnail": "dist/assets/interiors/partition-smart-segmented-480.webp",
+      "prompt": "Use case: product-mockup. Asset type: square interior catalogue photograph for VIP Glass. A realistic architectural catalogue photograph of an INTEGRAL SEGMENTED SMART GLASS wall in a refined modern meeting room. The main wall is one broad full-height seamless clear laminated glass panel with very slim perimeter mountings. A single wide horizontal band across the middle, from seated eye level to standing shoulder level, is switched to a soft translucent milky-white privacy state, obscuring people-height view. Upper third and lower third of the SAME contiguous glass panel remain crystal transparent, clearly revealing the same table/chairs continuing behind. The milky band is integral electrically switchable privacy interlayer inside laminated glass, not stickers, not separate panels and not blinds. No visible horizontal mechanical bars, slats or mullions anywhere across the panel. Show subtle straight boundaries between clear and matte areas, no labels, no interface, no lighting glow. Style: photorealistic restrained premium architectural photography, 1254 by 1254 square composition, accurate straight verticals, natural warm daylight, pale beige stone and off-white plaster, restrained walnut accents, uncluttered interior. Glass: absolutely neutral crystal-clear low-iron Crystal Vision appearance, transparent neutral edges, no green, turquoise or cyan cast or thick green edge. No people, text, brands, logos, watermarks, diagrams, arrows or dimension marks. Show construction clearly; do not substitute a line drawing.",
+      "editPrompt": null,
+      "review": "One continuous glass surface shows a single broad matte band with upper/lower zones transparent. Illustrates selective privacy states; does not verify any supplier's segmentation limits or product specifications.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 105858,
+      "thumbnailBytes": 16356
+    }
+  ]
+}
